@@ -254,7 +254,7 @@
   "knob_PropGaugeSelector": "Prop Gauge Selector",
   "knob_FDI1SetKnob": "FDI1 Set Knob",
   "knob_FDI2SetKnob": "FDI2 Set Knob",
-  "knob_DCDCConvATM": "DC-DC Convert ATM",
+  "knob_DCDCConvATM": "DCDCConvATM",
   "knob_SecondaryO2ShutoffL": "Secondary O2 Shutoff Left",
   "knob_SecondaryO2ShutoffR": "Secondary O2 Shutoff Right",
   "knob_EncoderBit1": "Encoder Bit 1",
