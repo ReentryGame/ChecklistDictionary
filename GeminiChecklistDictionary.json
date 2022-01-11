@@ -1,356 +1,2613 @@
 {
-  "switch_FUSECoaxCntl": "[LHP] FUSE Coax Cntl",
-  "switch_SquibBoostInsert": "[LHP] Squib Boost Insert",
-  "switch_SquibRetroPWR": "[LHP] Squib Retro PWR",
-  "switch_SquibRetroJett": "[LHP] Squib Retro Jett",
-  "switch_SquibLanding": "[LHP] Squib Landing",
-  "switch_SquibRetro1": "[LHP] Squib Retro 1",
-  "switch_SquibRetro2": "[LHP] Squib Retro 2",
-  "switch_SquibRetro3": "[LHP] Squib Retro 3",
-  "switch_SquibRetro4": "[LHP] Squib Retro 4",
-  "switch_MainBattery1": "[RHP] Main Battery 1",
-  "switch_MainBattery2": "[RHP] Main Battery 2",
-  "switch_MainBattery3": "[RHP] Main Battery 3",
-  "switch_MainBattery4": "[RHP] Main Battery 4",
-  "switch_SquibBattery1": "[RHP] Squib Battery 1",
-  "switch_SquibBattery2": "[RHP] Squib Battery 2",
-  "switch_SquibBattery3": "[RHP] Squib Battery 3",
-  "switch_LightsBrightness": "Lights Brightness",
-  "switch_LightsTest": "Lights Test",
-  "switch_FuelCell1PurgeO2": "[PMP] Fuel Cell 1 Purge O2",
-  "switch_FuelCell1PWR": "[PMP] Fuel Cell 1 PWR",
-  "switch_FuelCell2PurgeO2": "[PMP] Fuel Cell 2 Purge O2",
-  "switch_FuelCell2PWR": "[PMP] Fuel Cell 2 PWR",
-  "switch_FuelCell1A": "[PMP] Fuel Cell 1A",
-  "switch_FuelCell1B": "[PMP] Fuel Cell 1B",
-  "switch_FuelCell1C": "[PMP] Fuel Cell 1C",
-  "switch_FuelCell2A": "[PMP] Fuel Cell 2A",
-  "switch_FuelCell2B": "[PMP] Fuel Cell 2B",
-  "switch_FuelCell2C": "[PMP] Fuel Cell 2C",
-  "switch_BusTie1": "[RHP] Bus Tie 1",
-  "switch_BusTie2": "[RHP] Bus Tie 2",
-  "switch_ControllerPWROAMS": "[LC] Controller PWR OAMS",
-  "switch_ControllerPWRRCSA": "[LC] Controller PWR RCS A",
-  "switch_ControllerPWRRCSB": "[LC] Controller PW RCS B",
-  "switch_ACPowerSource": "[RHP] AC Power Source",
-  "switch_MDIUPower": "[PMP] MDIU Power",
-  "switch_AuxTapePWR": "[PMP] Aux Tape PWR",
-  "switch_ComputerPower": "[LC] Computer Power",
-  "switch_HorizonScannerSelect": "[] HorizonScannerSelect",
-  "switch_HorizonScannerHeater": "[] HorizonScannerHeater",
-  "switch_SuitFan": "[MC] Suit Fan",
-  "switch_FUSESuitFan1": "[OHP] FUSE Suit Fan 1",
-  "switch_FUSESuitFan2": "[OHP] FUSE Suit Fan 2",
-  "switch_O2HighRate": "[MC] O2 High Rate",
-  "switch_CoolPriPumpA": "[MC] Cool Pri Pump A",
-  "switch_CoolPriPumpB": "[MC] Cool Pri Pump B",
-  "switch_CoolSecPumpA": "[MC] Cool Sec Pump A",
-  "switch_CoolSecPumpB": "[MC] Cool Sec Pump B",
-  "switch_RadiatorFlow": "[MC] Radiator Flow",
-  "switch_EvaporatorHeat": "[MC] Evaporator Heat",
-  "switch_EvaporatprMaxFlow": "[MC] Evap Max Flow",
-  "switch_EventTimerStart": "[MC] Event Timer Start",
-  "switch_EventTimerDirection": "[MC] Event Timer Direction",
-  "switch_ElapsedTimeStarter": "[MC] Elapsed Time Starter",
-  "switch_CryoHeaterO2": "[MC] Cryo Heater O2",
-  "switch_CryoHeaterH2": "[MC] Cryo Heater H2",
-  "switch_OAMReg": "[] OAMReg",
-  "switch_PropMotoOAMS": "[LC] Prop Moto Valve OAMS",
-  "switch_PropMotRCSA": "[LC] Prop Moto Valve RCS A",
-  "switch_PropMotRCSB": "[LC] Prop Moto Valve RCS B",
-  "switch_FUSEDCDCConv": "[OHP] FUSE DC-DC Conv",
-  "switch_LightsCabin": "[OHP] Lights Cabin",
-  "switch_LightsFDI": "[OHP] Lights FDI",
-  "switch_CTRLights": "[OHP] CTR Lights",
-  "switch_FUSEAudioAndUHFTR1": "[LHP] FUSE Audio & UHF T/R 1",
-  "switch_FUSEAudioAndUHFTR2": "[LHP] FUSE Audio & UHF T/R 2",
-  "switch_FUSEUHFRelay": "[LHP] FUSE UHF Relay",
-  "switch_FUSEToneVox": "[LHP] FUSE Tone Vox",
-  "switch_FUSETV": "[LHP] FUSE TV",
-  "switch_FUSEHFTR": "[LHP] FUSE HF T/R",
-  "switch_FUSEAntCntl": "[LHP] FUSE Ant Cntl",
-  "switch_FUSEWhipAntHF": "[LHP] FUSE Whip Ant HF",
-  "switch_FUSEWhipAntUHF": "[LHP] FUSE Whip Ant UHF",
-  "switch_FUSEWhipAntDiplex": "[LHP] FUSE Whip Ant Diplex",
-  "switch_FUSEElectTimer": "[LHP] FUSE Elect Timer",
-  "switch_FUSEEventTimer": "[LHP] FUSE Event Timer",
-  "switch_FUSEBoostCutoff1": "[LHP] FUSE Boost Cutoff 1",
-  "switch_FUSEBoostCutoff2": "[LHP] FUSE Boost Cutoff 2",
-  "switch_FUSERetroAuto": "[LHP] FUSE Retro Auto",
-  "switch_FUSERetroMan": "[LHP] FUSE Retro Man",
-  "switch_FUSETr256": "[LHP] FUSE TR256",
-  "switch_FUSEECSIndLts": "[LHP] FUSE ECS Ind Lts",
-  "switch_FUSEIndLtTest": "[LHP] FUSE Ind Lt Test",
-  "switch_FUSESeqLightsPWR": "[LHP] FUSE Seq Lights PWR",
-  "switch_FUSESeqLightsCntl": "[LHP] FUSE Seq Lights Cntl",
-  "switch_FUSEParaCntl": "[LHP] FUSE Para Cntl",
-  "switch_FUSEAttIncCntlRetro": "[LHP] FUSE Att Inc Cntl Retro",
-  "switch_FUSEAttIndCntlLdg": "[LHP] FUSE Att Ind Cntl Ldg",
-  "switch_FUSEBoostInsertCntl1": "[LHP] FUSE Boost Insert Cntl 1",
-  "switch_FUSEBoostInsertCntl2": "[LHP] FUSE Boost Insert Cntl 2",
-  "switch_FUSERetroSeqCntl1": "[LHP] FUSE Retro Seq Cntl 1",
-  "switch_FUSERetroSeqCntl2": "[LHP] FUSE Retro Seq Cntl 2",
-  "switch_FUSELandingSecCntl1": "[LHP] FUSE Landing Sec Cntl 1",
-  "switch_FUSELandingSecCntl2": "[LHP] FUSE Landing Sec Cntl 12",
-  "switch_FDI1Controller": "[LHP] FDI1 Controller",
-  "switch_GuidanceSwitch": "[LHP] Guidance Switch",
-  "switch_FUSEBeaconsC": "[OHP] FUSE Beacons C",
-  "switch_FUSEBeaconsResc": "[OHP] FUSE Beacons Resc",
-  "switch_FUSEBeaconsAcq": "[OHP] FUSE Beacons Acq",
-  "switch_FUSEAUXRecp": "[OHP] FUSE AUX Recp",
-  "switch_FUSECryQty": "[OHP] FUSE Cry Qty",
-  "switch_FUSECoolPumpSecB": "[OHP] FUSE Cool Pump Sec B",
-  "switch_FUSECoolPumpSecA": "[OHP] FUSE Cool Pump Sec A",
-  "switch_FUSECoolPumpPriB": "[OHP] FUSE Cool Pump Pri B",
-  "switch_FUSECoolPumpPriA": "[OHP] FUSE Cool Pump Pri A",
-  "switch_FUSETMAC": "[OHP] FUSE T/M AC",
-  "switch_FUSEXmtrsDT": "[OHP] FUSE XMTRS DT",
-  "switch_FUSEXmtrsRT": "[OHP] FUSE XMTRS RT",
-  "switch_FUSEXmtrsStbyPWR": "[OHP] FUSE XMTRS Stby PWR",
-  "switch_FUSEXmtrsStbyCntl": "[OHP] FUSE XMTRS Stby Cntl",
-  "switch_FUSEPriO2Htrs": "[OHP] FUSE Pri O2 Htrs",
-  "switch_FUSEH2OHtrs": "[OHP] FUSE H2O Htrs",
-  "switch_FUSEClkLt": "[OHP] FUSE Clk Lt",
-  "switch_FUSEOAMSHtrs": "[OHP] FUSE OAMS Htrs",
-  "switch_FUSEEvapThr": "[OHP] FUSE Evap HTR",
-  "switch_FUSECoolVlvsSec": "[OHP] FUSE Cool Vlvs Sec",
-  "switch_FUSECoolVlvsPri": "[OHP] FUSE Cool Vlvs Pri",
-  "switch_FUSEO2RateCntl": "[OHP] FUSE O2 Rate Cntl",
-  "switch_ACMEBiasPWR": "[OHP] ACME Bias PWR",
-  "switch_RollJetsSelector": "[OHP] Roll Jets Selector",
-  "switch_FUSEACMECntl1": "[OHP] FUSE ACME Cntl 1",
-  "switch_FUSEACMECntl2": "[OHP] FUSE ACME Cntl 2",
-  "switch_FUSEOAMSCntlProp": "[OHP] FUSE OAMS Cntl Prop",
-  "switch_FUSEOAMSCntlReg1": "[OHP] FUSE OAMS Cntl Reg 1",
-  "switch_FUSEOAMSCntlReg2": "[OHP] FUSE OAMS Cntl Reg 2",
-  "switch_FUSERCSSquibs1": "[OHP] FUSE RCS Squibs 1",
-  "switch_FUSERCSSquibs2": "[OHP] FUSE RCS Squibs 2",
-  "switch_OAMSResvSwitch": "[OHP] OAMS Resv Switch",
-  "switch_FUSEManThru9": "[OHP] FUSE Maneuver Thrusters 9",
-  "switch_FUSEManThru10": "[OHP] FUSE Maneuver Thrusters 10",
-  "switch_FUSEManThru11": "[OHP] FUSE Maneuver Thrusters 11",
-  "switch_FUSEManThru12": "[OHP] FUSE Maneuver Thrusters 12",
-  "switch_FUSEManThru13": "[OHP] FUSE Maneuver Thrusters 13",
-  "switch_FUSEManThru14": "[OHP] FUSE Maneuver Thrusters 14",
-  "switch_FUSEManThru15": "[OHP] FUSE Maneuver Thrusters 15",
-  "switch_FUSEManThru16": "[OHP] FUSE Maneuver Thrusters 16",
-  "switch_AttitiudeDriversSwitch": "[OHP] Attitiude Drivers Switch",
-  "switch_FUSEAttThrust1": "[OHP] FUSE Att Thrust 1",
-  "switch_FUSEAttThrust2": "[OHP] FUSE Att Thrust 2",
-  "switch_FUSEAttThrust3": "[OHP] FUSE Att Thrust 3",
-  "switch_FUSEAttThrust4": "[OHP] FUSE Att Thrust 4",
-  "switch_FUSEAttThrust5": "[OHP] FUSE Att Thrust 5",
-  "switch_FUSEAttThrust6": "[OHP] FUSE Att Thrust 6",
-  "switch_FUSEAttThrust7": "[OHP] FUSE Att Thrust 7",
-  "switch_FUSEAttThrust8": "[OHP] FUSE Att Thrust 8",
-  "switch_ACMELogicYawSelector": "[OHP] ACME Logic Yaw Selector",
-  "switch_ACMELogicPitchSelector": "[OHP] ACME Logic Pitch Selector",
-  "switch_ACMELogicRollSelector": "[OHP] ACME Logic Roll Selector",
-  "switch_FUSERCSAPitch": "[OHP] FUSE RCS A Pitch",
-  "switch_FUSERCSAYawL": "[OHP] FUSE RCS A Yaw L",
-  "switch_FUSERCSAYawR": "[OHP] FUSE RCS A Yaw R",
-  "switch_FUSERCSBPitch": "[OHP] FUSE RCS B Pitch",
-  "switch_FUSERCSBYawL": "[OHP] FUSE RCS B Yaw L",
-  "switch_FUSERCSBYawR": "[OHP] FUSE RCS B Yaw R",
-  "switch_FUSEAUXTape": "[RHP] FUSE AUX Tape",
-  "switch_FUSESEOInst": "[RHP] FUSE SEQ Inst",
-  "switch_FUSECalib": "[RHP] FUSE Calib",
-  "switch_FUSEBioMedInst": "[RHP] FUSE Bio Med Inst",
-  "switch_FUSEDCSPWR": "[RHP] FUSE DCS PWR",
-  "switch_FUSEFCO2H2Reg": "[RHP] FUSE CRYO/O2&H2 Reg",
-  "switch_FUSEFCO2H2HTR": "[RHP] FUSE CRYO/O2&H2 HTR",
-  "switch_AGENAPWR": "[RHP] AGENA PWR",
-  "switch_AGENASquib1": "[RHP] AGENA Squib 1",
-  "switch_AGENASquib2": "[RHP] AGENA Squib 2",
-  "switch_AGENACntl": "[RHP] AGENA Cntl",
-  "switch_FUSERadarPWR": "[RHP] FUSE Radar PWR",
-  "switch_FUSEACMEInv": "[RHP] FUSE ACME Inv",
-  "switch_FUSERCSHTRSA": "[RHP] FUSE RCS HTRS A",
-  "switch_FUSERCSHTRSB": "[RHP] FUSE RCS HTRS B",
-  "switch_FUSETapeRecorderPWR": "[RHP] FUSE Tape RCDR PWR",
-  "switch_FUSETapeRecorderCNTL": "[RHP] FUSE Tape RCDR CNTL",
-  "switch_FUSEFuelCellCntl1": "[RHP] FUSE Fuel Cell Cntl 1",
-  "switch_FUSEFuelCellCntl2": "[RHP] FUSE Fuel Cell Cntl 2",
-  "switch_FUSEFCdP": "[RHP] FUSE FC/P",
-  "switch_AGENAEncoder": "[RHP] AGENA ENCDR",
-  "switch_AGENAExtrLts": "[RHP] AGENA Ext Lts",
-  "switch_FDI2Switch": "[RHP] FDI2 Switch",
-  "switch_FUSEBioMedRcdr1": "[RHP] FUSE Bio Med Rcdr 1",
-  "switch_FUSEBioMedRcdr2": "[RHP] FUSE Bio Med Rcdr 2",
-  "switch_FUSERCSHtr": "[RHP] FUSE RCS Htr",
-  "switch_AGENAIndexEvaBars": "[RHP] AGENA Index Eva Bars",
-  "switch_AGENAEngineARM": "[RHP] AGENA Engine ARM",
-  "switch_AGENABusArm": "[RHP] AGENA Bus Arm",
-  "switch_RadarLockOn": "[LC] RadarLockOn?",
-  "switch_TDAUndock": "[MC] TDA Undock",
-  "switch_RateGyroPitch": "[LC] Rate Gyro Pitch",
-  "switch_RateGyroYaw": "[LC] Rate Gyro Yaw",
-  "switch_RateGyroRoll": "[LC] Rate Gyro Roll",
-  "switch_UHFRadioSelect": "[MC] UHF Radio Select",
-  "switch_HFAntennaSelect": "[MC] HF Antenna Select",
-  "switch_RadioSilence": "[MC] Radio Silence",
-  "switch_RadioKeying": "[MC] Radio Keying",
-  "switch_RadioRecord": "[MC] Radio Record",
-  "switch_BeaconResc": "[MC] Beacon Resc",
-  "switch_BeaconSBand": "[MC] Beacon S Band",
-  "switch_BeaconCBand": "[MC] Beacon C Band",
-  "switch_TMCalib": "[MC] TM Calib",
-  "switch_TMSby": "[MC] TM Stby",
-  "switch_TMTM": "[MC] TM TM",
-  "switch_RadioTapePlayback": "[MC] Radio Tape Playback",
-  "switch_RadioAntSel": "[MC] Radio Ant Sel",
-  "switch_HfAntControl": "[MC] Hf Ant Control",
-  "switch_TDARigid": "[MC] TDA Rigid",
-  "button_SepSpcft": "[MC] SEP SPCFT",
-  "button_RCS": "[MC] RCS",
-  "button_SepOAMSLine": "[MC] Sep OAMS Line",
-  "button_SepElec": "[MC] Sep Elec",
-  "button_SepAdapt": "[MC] Sep Adapt",
-  "button_ArmAutoRetro": "[MC] Arm Auto Retro",
-  "button_ComputerReset": "[LC] Computer Reset",
-  "button_ComputerStart": "[LC] Computer Start",
-  "button_DCSReceive": "[PMP] DCS Receive",
-  "button_EmerRelease": "[RHP] Emer Release",
-  "button_HiAltDrogue": "[LC] Hi Alt Drogue",
-  "button_IMUReset": "[LC] IMU Reset?",
-  "button_IndRetroAtt": "[MC] Ind Retro Att",
-  "button_JettFairing": "[MC] Jett Fairing",
-  "button_JettRetro": "[MC] Jett Retro",
-  "button_Keyboard1": "[PMP] Keyboard 1",
-  "button_Keyboard2": "[PMP] Keyboard 2",
-  "button_Keyboard3": "[PMP] Keyboard 3",
-  "button_Keyboard4": "[PMP] Keyboard 4",
-  "button_Keyboard5": "[PMP] Keyboard 5",
-  "button_Keyboard6": "[PMP] Keyboard 6",
-  "button_Keyboard7": "[PMP] Keyboard 7",
-  "button_Keyboard8": "[PMP] Keyboard 8",
-  "button_Keyboard9": "[PMP] Keyboard 9",
-  "button_KeyboardClear": "[PMP] Keyboard Clear",
-  "button_KeyboardEnter": "[PMP] Keyboard Enter",
-  "button_KeyboardReadOut": "[PMP] Keyboard Read Out",
-  "button_KeyboardZero": "[PMP] Keyboard Zero",
-  "button_LdgAtt": "[LC] Ldg Att",
-  "button_Para": "[LC] Para",
-  "button_ManFireRetro": "[MC] Man Fire Retro",
-  "knob_VoltMeterSelector": "[PMP] Volt Meter Selector",
-  "knob_dPMeterSelector": "[PMP] dP Meter Selector",
-  "knob_CryoSelector": "[MC] Cryo Selector",
-  "knob_ACMEMode": "[LC] ACME Mode",
-  "knob_IGSPlatform": "[LC] IGS Platform",
-  "knob_ComputerMode": "[LC] Computer Mode",
-  "knob_FDI1Mode": "[CMP] FDI1 Mode",
-  "knob_FDI1Data": "[CMP] FDI1 Data",
-  "knob_FDI2Mode": "[PMP] FDI2 Mode",
-  "knob_FDI2Data": "[PMP] FDI2 Data",
-  "knob_TapeControl": "[PMP] Tape Control",
-  "knob_Repressurize": "[LC] Repressurize",
-  "knob_CabinRecirc": "[CP] Cabin Recirc",
-  "knob_CabinVent": "[CP] Cabin Vent",
-  "knob_WaterSeal": "[CP] Water Seal",
-  "knob_O2HighRateRecock": "[CP] O2 High Rate Recock",
-  "knob_Snorkel": "[CP] Snorkel",
-  "knob_EventTimerTimeKnob": "[CMP] Event Timer Time Knob",
-  "knob_MissionElapsedTimeKnob": "[MC] Mission Elapsed Time Knob",
-  "knob_PropGaugeSelector": "[MC] Prop Gauge Selector",
-  "knob_FDI1SetKnob": "[CMP] FDI1 Set Knob",
-  "knob_FDI2SetKnob": "[PMP] FDI2 Set Knob",
-  "knob_DCDCConvATM": "[OHP] DC-DC Conv ATM",
-  "knob_SecondaryO2ShutoffL": "[LHP] Secondary O2 Shutoff L",
-  "knob_SecondaryO2ShutoffR": "[RHP] Secondary O2 Shutoff R",
-  "knob_EncoderBit1": "[PMP] Encoder Bit 1",
-  "knob_EncoderBit2": "[PMP] Encoder Bit 2",
-  "knob_EncoderBit3": "[PMP] Encoder Bit 3",
-  "knob_RadioModeA": "[MC] Radio Mode A",
-  "knob_RadioModeB": "[MC] Radio Mode B",
-  "knob_DimLightControl": "Dim Light Control",
-  "gauge_FC1AAmps": "[PMP] FC 1 A Amps",
-  "gauge_FC1BAmps": "[PMP] FC 1 B Amps",
-  "gauge_FC1CAmps": "[PMP] FC 1 C Amps",
-  "gauge_FC2AAmps": "[PMP] FC 2 A Amps",
-  "gauge_FC2BAmps": "[PMP] FC 2 B Amps",
-  "gauge_FC2CAmps": "[PMP] FC 2 C Amps",
-  "gauge_DCVoltmeter": "[PMP] DC Volt meter",
-  "gauge_FuelOxid1A": "[] Fuel Oxid 1 A",
-  "gauge_FuelOxid1B": "[] Fuel Oxid 1 B",
-  "gauge_FuelOxid2A": "[] Fuel Oxid 2 A",
-  "gauge_FuelOxid2B": "[] Fuel Oxid 2 B",
-  "gauge_dPMonitor": "[] dP Monitor",
-  "gauge_CryoQuantity": "[] Cryo Quantity",
-  "gauge_CryoPSIA": "[] Cryo PSIA",
-  "gauge_TempCabin": "[] Temp Cabin",
-  "gauge_TempSuit": "[] Temp Suit",
-  "gauge_PressCabin": "[] Press Cabin",
-  "gauge_PressSuit": "[] Press Suit",
-  "gauge_SecO2Pri": "[] Sec O2 Pri",
-  "gauge_SecO2Sec": "[] Sec O2 Sec",
-  "gauge_AltimeterShort": "[] AltimeterShort",
-  "gauge_AltimeterLong": "[] AltimeterLong",
-  "gauge_DecentRate": "[] DecentRate",
-  "gauge_LongGForces": "[] LongGForces",
-  "gauge_AccutronClockHour": "[] AccutronClockHour",
-  "gauge_AccutronClockMinutes": "[] AccutronClockMinutes",
-  "gauge_MechanicalClockMinutes": "[] MechanicalClockMinutes",
-  "gauge_MechanicalClockHour": "[] MechanicalClockHour",
-  "gauge_PropGaugeQty": "[] PropGaugeQty",
-  "gauge_PropGaugePSI": "[] PropGaugePSI",
-  "gauge_PropGaugeTemp": "[] PropGaugeTemp",
-  "gauge_RadarRange": "[] RadarRange",
-  "gauge_RadarRangeRate": "[] RadarRangeRate",
-  "gauge_AgenaPPSBurnTime": "[] AgenaPPSBurnTime",
-  "gauge_AgenaSPSBurnTime": "[] AgenaSPSBurnTime",
-  "light_SwitchSepSpcft": "[] SwitchSepSpcft",
-  "light_SwitchIndRetroAtt": "[] SwitchIndRetroAtt",
-  "light_IndBtryPwr": "[] IndBtryPwr",
-  "light_SwitchRCS": "[] SwitchRCS",
-  "light_SwitchSepOAMSLines": "[] SwitchSepOAMSLines",
-  "light_SwitchSepElec": "[] SwitchSepElec",
-  "light_SwitchSepAdapt": "[] SwitchSepAdapt",
-  "light_SwitchArmAutoRetro": "[] SwitchArmAutoRetro",
-  "light_SwitchJettRetro": "[] SwitchJettRetro",
-  "light_IndAbort1": "[] IndAbort1",
-  "light_IndAbort2": "[] IndAbort2",
-  "light_IndAttRate": "[] IndAttRate",
-  "light_IndSecGuidance": "[] IndSecGuidance",
-  "light_IndEngineIA": "[] IndEngineIA",
-  "light_IndEngineIB": "[] IndEngineIB",
-  "light_IndEngineII": "[] IndEngineII",
-  "light_Red40k": "[] Red40k",
-  "light_Red106k": "[] Red106k",
-  "light_RedPriPumpA": "[] RedPriPumpA",
-  "light_RedPriRes": "[] RedPriRes",
-  "light_RedPriPumpB": "[] RedPriPumpB",
-  "light_RedSecPumpA": "[] RedSecPumpA",
-  "light_RedSecRes": "[] RedSecRes",
-  "light_RedSecPumpB": "[] RedSecPumpB",
-  "light_RedEvapPress": "[] RedEvapPress",
-  "light_RedAcq": "[] RedAcq",
-  "light_RedAtt": "[] RedAtt",
-  "light_RedScanner": "[] RedScanner",
-  "light_RedAuxTapeError": "[] RedAuxTapeError",
-  "light_RedDCS": "[] RedDCS",
-  "light_GreenRadarLockOn": "[] GreenRadarLockOn",
-  "light_GreenAuxTapeRun": "[] GreenAuxTapeRun",
-  "light_ComputerComp": "[] ComputerComp",
-  "light_ComputerMalf": "[] ComputerMalf",
-  "light_IVIFwd": "[] IVIFwd",
-  "light_IVIAft": "[] IVIAft",
-  "light_IVIUp": "[] IVIUp",
-  "light_IVIDn": "[] IVIDn",
-  "light_IVILft": "[] IVILft",
-  "light_IVIRght": "[] IVIRght",
-  "light_TelelightO2HighRate": "[] TelelightO2HighRate",
-  "light_TelelightRCSHtr": "[] TelelightRCSHtr",
-  "light_TelelightRCDRTape": "[] TelelightRCDRTape",
-  "light_TelelightECSHtrs": "[] TelelightECSHtrs",
-  "light_TelelightFC1dP": "[] TelelightFC1dP",
-  "light_TelelightFC2dP": "[] TelelightFC2dP",
-  "light_AgenaDock": "[] AgenaDock",
-  "light_AgenaRigid": "[] AgenaRigid",
-  "light_AgenaPWR": "[] AgenaPWR",
-  "light_AgenaMain1": "[] AgenaMain1",
-  "light_AgenaMain2": "[] AgenaMain2",
-  "light_AgenaArmed": "[] AgenaArmed",
-  "light_AgenaSecHi": "[] AgenaSecHi",
-  "light_AgenaSecLo": "[] AgenaSecLo",
-  "light_AgenaATT": "[] AgenaATT"
+  "entries": [
+    {
+      "Id": "switch_FUSECoaxCntl",
+      "DisplayName": "[LHP] FUSE Coax Cntl",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_SquibBoostInsert",
+      "DisplayName": "[LHP] Squib Boost Insert",
+      "Labels": {
+        "4": "PWR",
+        "5": "OFF"
+      }
+    },
+    {
+      "Id": "switch_SquibRetroPWR",
+      "DisplayName": "[LHP] Squib Retro PWR",
+      "Labels": {
+        "4": "PWR",
+        "5": "OFF"
+      }
+    },
+    {
+      "Id": "switch_SquibRetroJett",
+      "DisplayName": "[LHP] Squib Retro Jett",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_SquibLanding",
+      "DisplayName": "[LHP] Squib Landing",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_SquibRetro1",
+      "DisplayName": "[LHP] Squib Retro 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_SquibRetro2",
+      "DisplayName": "[LHP] Squib Retro 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_SquibRetro3",
+      "DisplayName": "[LHP] Squib Retro 3",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_SquibRetro4",
+      "DisplayName": "[LHP] Squib Retro 4",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_MainBattery1",
+      "DisplayName": "[RHP] Main Battery 1",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_MainBattery2",
+      "DisplayName": "[RHP] Main Battery 2",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_MainBattery3",
+      "DisplayName": "[RHP] Main Battery 3",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_MainBattery4",
+      "DisplayName": "[RHP] Main Battery 4",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_SquibBattery1",
+      "DisplayName": "[RHP] Squib Battery 1",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_SquibBattery2",
+      "DisplayName": "[RHP] Squib Battery 2",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_SquibBattery3",
+      "DisplayName": "[RHP] Squib Battery 3",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_LightsBrightness",
+      "DisplayName": "Lights Brightness",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_LightsTest",
+      "DisplayName": "Lights Test",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FuelCell1PurgeO2",
+      "DisplayName": "[PMP] Fuel Cell 1 Purge O2",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FuelCell1PWR",
+      "DisplayName": "[PMP] Fuel Cell 1 PWR",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FuelCell2PurgeO2",
+      "DisplayName": "[PMP] Fuel Cell 2 Purge O2",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FuelCell2PWR",
+      "DisplayName": "[PMP] Fuel Cell 2 PWR",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FuelCell1A",
+      "DisplayName": "[PMP] Fuel Cell 1A",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FuelCell1B",
+      "DisplayName": "[PMP] Fuel Cell 1B",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FuelCell1C",
+      "DisplayName": "[PMP] Fuel Cell 1C",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FuelCell2A",
+      "DisplayName": "[PMP] Fuel Cell 2A",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FuelCell2B",
+      "DisplayName": "[PMP] Fuel Cell 2B",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FuelCell2C",
+      "DisplayName": "[PMP] Fuel Cell 2C",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_BusTie1",
+      "DisplayName": "[RHP] Bus Tie 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_BusTie2",
+      "DisplayName": "[RHP] Bus Tie 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_ControllerPWROAMS",
+      "DisplayName": "[LC] Controller PWR OAMS",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_ControllerPWRRCSA",
+      "DisplayName": "[LC] Controller PWR RCS A",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_ControllerPWRRCSB",
+      "DisplayName": "[LC] Controller PW RCS B",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_ACPowerSource",
+      "DisplayName": "[RHP] AC Power Source",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_MDIUPower",
+      "DisplayName": "[PMP] MDIU Power",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_AuxTapePWR",
+      "DisplayName": "[PMP] Aux Tape PWR",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_ComputerPower",
+      "DisplayName": "[LC] Computer Power",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_HorizonScannerSelect",
+      "DisplayName": "[] HorizonScannerSelect",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_HorizonScannerHeater",
+      "DisplayName": "[] HorizonScannerHeater",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_SuitFan",
+      "DisplayName": "[MC] Suit Fan",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSESuitFan1",
+      "DisplayName": "[OHP] FUSE Suit Fan 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSESuitFan2",
+      "DisplayName": "[OHP] FUSE Suit Fan 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_O2HighRate",
+      "DisplayName": "[MC] O2 High Rate",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_CoolPriPumpA",
+      "DisplayName": "[MC] Cool Pri Pump A",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_CoolPriPumpB",
+      "DisplayName": "[MC] Cool Pri Pump B",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_CoolSecPumpA",
+      "DisplayName": "[MC] Cool Sec Pump A",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_CoolSecPumpB",
+      "DisplayName": "[MC] Cool Sec Pump B",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_RadiatorFlow",
+      "DisplayName": "[MC] Radiator Flow",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_EvaporatorHeat",
+      "DisplayName": "[MC] Evaporator Heat",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_EvaporatprMaxFlow",
+      "DisplayName": "[MC] Evap Max Flow",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_EventTimerStart",
+      "DisplayName": "[MC] Event Timer Start",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_EventTimerDirection",
+      "DisplayName": "[MC] Event Timer Direction",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_ElapsedTimeStarter",
+      "DisplayName": "[MC] Elapsed Time Starter",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_H2VacTank",
+      "DisplayName": "switch_H2VacTank",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_CryoHeaterO2",
+      "DisplayName": "[MC] Cryo Heater O2",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_CryoHeaterH2",
+      "DisplayName": "[MC] Cryo Heater H2",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_OAMReg",
+      "DisplayName": "[] OAMReg",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_PropMotoOAMS",
+      "DisplayName": "[LC] Prop Moto Valve OAMS",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_PropMotRCSA",
+      "DisplayName": "[LC] Prop Moto Valve RCS A",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_PropMotRCSB",
+      "DisplayName": "[LC] Prop Moto Valve RCS B",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEDCDCConv",
+      "DisplayName": "[OHP] FUSE DC-DC Conv",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_LightsCabin",
+      "DisplayName": "[OHP] Lights Cabin",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_LightsFDI",
+      "DisplayName": "[OHP] Lights FDI",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_CTRLights",
+      "DisplayName": "[OHP] CTR Lights",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAudioAndUHFTR1",
+      "DisplayName": "[LHP] FUSE Audio & UHF T/R 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAudioAndUHFTR2",
+      "DisplayName": "[LHP] FUSE Audio & UHF T/R 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEUHFRelay",
+      "DisplayName": "[LHP] FUSE UHF Relay",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEToneVox",
+      "DisplayName": "[LHP] FUSE Tone Vox",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSETV",
+      "DisplayName": "[LHP] FUSE TV",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEHFTR",
+      "DisplayName": "[LHP] FUSE HF T/R",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAntCntl",
+      "DisplayName": "[LHP] FUSE Ant Cntl",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEWhipAntHF",
+      "DisplayName": "[LHP] FUSE Whip Ant HF",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEWhipAntUHF",
+      "DisplayName": "[LHP] FUSE Whip Ant UHF",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEWhipAntDiplex",
+      "DisplayName": "[LHP] FUSE Whip Ant Diplex",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEElectTimer",
+      "DisplayName": "[LHP] FUSE Elect Timer",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEEventTimer",
+      "DisplayName": "[LHP] FUSE Event Timer",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEBoostCutoff1",
+      "DisplayName": "[LHP] FUSE Boost Cutoff 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEBoostCutoff2",
+      "DisplayName": "[LHP] FUSE Boost Cutoff 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERetroAuto",
+      "DisplayName": "[LHP] FUSE Retro Auto",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERetroMan",
+      "DisplayName": "[LHP] FUSE Retro Man",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSETr256",
+      "DisplayName": "[LHP] FUSE TR256",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEECSIndLts",
+      "DisplayName": "[LHP] FUSE ECS Ind Lts",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEIndLtTest",
+      "DisplayName": "[LHP] FUSE Ind Lt Test",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSESeqLightsPWR",
+      "DisplayName": "[LHP] FUSE Seq Lights PWR",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSESeqLightsCntl",
+      "DisplayName": "[LHP] FUSE Seq Lights Cntl",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEParaCntl",
+      "DisplayName": "[LHP] FUSE Para Cntl",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAttIncCntlRetro",
+      "DisplayName": "[LHP] FUSE Att Inc Cntl Retro",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAttIndCntlLdg",
+      "DisplayName": "[LHP] FUSE Att Ind Cntl Ldg",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEBoostInsertCntl1",
+      "DisplayName": "[LHP] FUSE Boost Insert Cntl 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEBoostInsertCntl2",
+      "DisplayName": "[LHP] FUSE Boost Insert Cntl 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERetroSeqCntl1",
+      "DisplayName": "[LHP] FUSE Retro Seq Cntl 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERetroSeqCntl2",
+      "DisplayName": "[LHP] FUSE Retro Seq Cntl 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSELandingSecCntl1",
+      "DisplayName": "[LHP] FUSE Landing Sec Cntl 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSELandingSecCntl2",
+      "DisplayName": "[LHP] FUSE Landing Sec Cntl 12",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FDI1Controller",
+      "DisplayName": "[LHP] FDI1 Controller",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_GuidanceSwitch",
+      "DisplayName": "[LHP] Guidance Switch",
+      "Labels": {
+        "1": "Left",
+        "2": "Middle",
+        "3": "Right"
+      }
+    },
+    {
+      "Id": "switch_FUSEBeaconsC",
+      "DisplayName": "[OHP] FUSE Beacons C",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEBeaconsResc",
+      "DisplayName": "[OHP] FUSE Beacons Resc",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEBeaconsAcq",
+      "DisplayName": "[OHP] FUSE Beacons Acq",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAUXRecp",
+      "DisplayName": "[OHP] FUSE AUX Recp",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSECryQty",
+      "DisplayName": "[OHP] FUSE Cry Qty",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSECoolPumpSecB",
+      "DisplayName": "[OHP] FUSE Cool Pump Sec B",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSECoolPumpSecA",
+      "DisplayName": "[OHP] FUSE Cool Pump Sec A",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSECoolPumpPriB",
+      "DisplayName": "[OHP] FUSE Cool Pump Pri B",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSECoolPumpPriA",
+      "DisplayName": "[OHP] FUSE Cool Pump Pri A",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSETMAC",
+      "DisplayName": "[OHP] FUSE T/M AC",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEXmtrsDT",
+      "DisplayName": "[OHP] FUSE XMTRS DT",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEXmtrsRT",
+      "DisplayName": "[OHP] FUSE XMTRS RT",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEXmtrsStbyPWR",
+      "DisplayName": "[OHP] FUSE XMTRS Stby PWR",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEXmtrsStbyCntl",
+      "DisplayName": "[OHP] FUSE XMTRS Stby Cntl",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEPriO2Htrs",
+      "DisplayName": "[OHP] FUSE Pri O2 Htrs",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEH2OHtrs",
+      "DisplayName": "[OHP] FUSE H2O Htrs",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEClkLt",
+      "DisplayName": "[OHP] FUSE Clk Lt",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEOAMSHtrs",
+      "DisplayName": "[OHP] FUSE OAMS Htrs",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEEvapThr",
+      "DisplayName": "[OHP] FUSE Evap HTR",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSECoolVlvsSec",
+      "DisplayName": "[OHP] FUSE Cool Vlvs Sec",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSECoolVlvsPri",
+      "DisplayName": "[OHP] FUSE Cool Vlvs Pri",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEO2RateCntl",
+      "DisplayName": "[OHP] FUSE O2 Rate Cntl",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_ACMEBiasPWR",
+      "DisplayName": "[OHP] ACME Bias PWR",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_RollJetsSelector",
+      "DisplayName": "[OHP] Roll Jets Selector",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEACMECntl1",
+      "DisplayName": "[OHP] FUSE ACME Cntl 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEACMECntl2",
+      "DisplayName": "[OHP] FUSE ACME Cntl 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEOAMSCntlProp",
+      "DisplayName": "[OHP] FUSE OAMS Cntl Prop",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEOAMSCntlReg1",
+      "DisplayName": "[OHP] FUSE OAMS Cntl Reg 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEOAMSCntlReg2",
+      "DisplayName": "[OHP] FUSE OAMS Cntl Reg 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERCSSquibs1",
+      "DisplayName": "[OHP] FUSE RCS Squibs 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERCSSquibs2",
+      "DisplayName": "[OHP] FUSE RCS Squibs 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_OAMSResvSwitch",
+      "DisplayName": "[OHP] OAMS Resv Switch",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEManThru9",
+      "DisplayName": "[OHP] FUSE Maneuver Thrusters 9",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEManThru10",
+      "DisplayName": "[OHP] FUSE Maneuver Thrusters 10",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEManThru11",
+      "DisplayName": "[OHP] FUSE Maneuver Thrusters 11",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEManThru12",
+      "DisplayName": "[OHP] FUSE Maneuver Thrusters 12",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEManThru13",
+      "DisplayName": "[OHP] FUSE Maneuver Thrusters 13",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEManThru14",
+      "DisplayName": "[OHP] FUSE Maneuver Thrusters 14",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEManThru15",
+      "DisplayName": "[OHP] FUSE Maneuver Thrusters 15",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEManThru16",
+      "DisplayName": "[OHP] FUSE Maneuver Thrusters 16",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_AttitiudeDriversSwitch",
+      "DisplayName": "[OHP] Attitiude Drivers Switch",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAttThrust1",
+      "DisplayName": "[OHP] FUSE Att Thrust 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAttThrust2",
+      "DisplayName": "[OHP] FUSE Att Thrust 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAttThrust3",
+      "DisplayName": "[OHP] FUSE Att Thrust 3",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAttThrust4",
+      "DisplayName": "[OHP] FUSE Att Thrust 4",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAttThrust5",
+      "DisplayName": "[OHP] FUSE Att Thrust 5",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAttThrust6",
+      "DisplayName": "[OHP] FUSE Att Thrust 6",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAttThrust7",
+      "DisplayName": "[OHP] FUSE Att Thrust 7",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAttThrust8",
+      "DisplayName": "[OHP] FUSE Att Thrust 8",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_ACMELogicYawSelector",
+      "DisplayName": "[OHP] ACME Logic Yaw Selector",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_ACMELogicPitchSelector",
+      "DisplayName": "[OHP] ACME Logic Pitch Selector",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_ACMELogicRollSelector",
+      "DisplayName": "[OHP] ACME Logic Roll Selector",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERCSAPitch",
+      "DisplayName": "[OHP] FUSE RCS A Pitch",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERCSAYawL",
+      "DisplayName": "[OHP] FUSE RCS A Yaw L",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERCSAYawR",
+      "DisplayName": "[OHP] FUSE RCS A Yaw R",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERCSBPitch",
+      "DisplayName": "[OHP] FUSE RCS B Pitch",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERCSBYawL",
+      "DisplayName": "[OHP] FUSE RCS B Yaw L",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERCSBYawR",
+      "DisplayName": "[OHP] FUSE RCS B Yaw R",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEAUXTape",
+      "DisplayName": "[RHP] FUSE AUX Tape",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSESEOInst",
+      "DisplayName": "[RHP] FUSE SEQ Inst",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSECalib",
+      "DisplayName": "[RHP] FUSE Calib",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEBioMedInst",
+      "DisplayName": "[RHP] FUSE Bio Med Inst",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEDCSPWR",
+      "DisplayName": "[RHP] FUSE DCS PWR",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEFCO2H2Reg",
+      "DisplayName": "[RHP] FUSE CRYO/O2&H2 Reg",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEFCO2H2HTR",
+      "DisplayName": "[RHP] FUSE CRYO/O2&H2 HTR",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_AGENAPWR",
+      "DisplayName": "[RHP] AGENA PWR",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_AGENASquib1",
+      "DisplayName": "[RHP] AGENA Squib 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_AGENASquib2",
+      "DisplayName": "[RHP] AGENA Squib 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_AGENACntl",
+      "DisplayName": "[RHP] AGENA Cntl",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERadarPWR",
+      "DisplayName": "[RHP] FUSE Radar PWR",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEACMEInv",
+      "DisplayName": "[RHP] FUSE ACME Inv",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERCSHTRSA",
+      "DisplayName": "[RHP] FUSE RCS HTRS A",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERCSHTRSB",
+      "DisplayName": "[RHP] FUSE RCS HTRS B",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSETapeRecorderPWR",
+      "DisplayName": "[RHP] FUSE Tape RCDR PWR",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSETapeRecorderCNTL",
+      "DisplayName": "[RHP] FUSE Tape RCDR CNTL",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEFuelCellCntl1",
+      "DisplayName": "[RHP] FUSE Fuel Cell Cntl 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEFuelCellCntl2",
+      "DisplayName": "[RHP] FUSE Fuel Cell Cntl 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEFCdP",
+      "DisplayName": "[RHP] FUSE FC/P",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_AGENAEncoder",
+      "DisplayName": "[RHP] AGENA ENCDR",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_AGENAExtrLts",
+      "DisplayName": "[RHP] AGENA Ext Lts",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FDI2Switch",
+      "DisplayName": "[RHP] FDI2 Switch",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEBioMedRcdr1",
+      "DisplayName": "[RHP] FUSE Bio Med Rcdr 1",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSEBioMedRcdr2",
+      "DisplayName": "[RHP] FUSE Bio Med Rcdr 2",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_FUSERCSHtr",
+      "DisplayName": "[RHP] FUSE RCS Htr",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_AGENAIndexEvaBars",
+      "DisplayName": "[RHP] AGENA Index Eva Bars",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_AGENAEngineARM",
+      "DisplayName": "[RHP] AGENA Engine ARM",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_AGENABusArm",
+      "DisplayName": "[RHP] AGENA Bus Arm",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_RadarLockOn",
+      "DisplayName": "[LC] RadarLockOn?",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_TDAUndock",
+      "DisplayName": "[MC] TDA Undock",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_RateGyroPitch",
+      "DisplayName": "[LC] Rate Gyro Pitch",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_RateGyroYaw",
+      "DisplayName": "[LC] Rate Gyro Yaw",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_RateGyroRoll",
+      "DisplayName": "[LC] Rate Gyro Roll",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_UHFRadioSelect",
+      "DisplayName": "[MC] UHF Radio Select",
+      "Labels": {
+        "1": "Left",
+        "2": "Middle",
+        "3": "Right"
+      }
+    },
+    {
+      "Id": "switch_HFAntennaSelect",
+      "DisplayName": "[MC] HF Antenna Select",
+      "Labels": {
+        "1": "Left",
+        "2": "Middle",
+        "3": "Right"
+      }
+    },
+    {
+      "Id": "switch_RadioSilence",
+      "DisplayName": "[MC] Radio Silence",
+      "Labels": {
+        "1": "Left",
+        "2": "Middle",
+        "3": "Right"
+      }
+    },
+    {
+      "Id": "switch_RadioKeying",
+      "DisplayName": "[MC] Radio Keying",
+      "Labels": {
+        "1": "Left",
+        "2": "Middle",
+        "3": "Right"
+      }
+    },
+    {
+      "Id": "switch_RadioRecord",
+      "DisplayName": "[MC] Radio Record",
+      "Labels": {
+        "1": "Left",
+        "2": "Middle",
+        "3": "Right"
+      }
+    },
+    {
+      "Id": "switch_BeaconResc",
+      "DisplayName": "[MC] Beacon Resc",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_BeaconSBand",
+      "DisplayName": "[MC] Beacon S Band",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_BeaconCBand",
+      "DisplayName": "[MC] Beacon C Band",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_TMCalib",
+      "DisplayName": "[MC] TM Calib",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_TMSby",
+      "DisplayName": "[MC] TM Stby",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_TMTM",
+      "DisplayName": "[MC] TM TM",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_RadioTapePlayback",
+      "DisplayName": "[MC] Radio Tape Playback",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_RadioAntSel",
+      "DisplayName": "[MC] Radio Ant Sel",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_HfAntControl",
+      "DisplayName": "[MC] Hf Ant Control",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_TDARigid",
+      "DisplayName": "[MC] TDA Rigid",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_ABORTHandle",
+      "DisplayName": "switch_ABORTHandle",
+      "Labels": {
+        "2": "Middle",
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "switch_XOver",
+      "DisplayName": "switch_XOver",
+      "Labels": {
+        "4": "Up",
+        "5": "Down"
+      }
+    },
+    {
+      "Id": "button_SepSpcft",
+      "DisplayName": "[MC] SEP SPCFT",
+      "Labels": null
+    },
+    {
+      "Id": "button_RCS",
+      "DisplayName": "[MC] RCS",
+      "Labels": null
+    },
+    {
+      "Id": "button_SepOAMSLine",
+      "DisplayName": "[MC] Sep OAMS Line",
+      "Labels": null
+    },
+    {
+      "Id": "button_SepElec",
+      "DisplayName": "[MC] Sep Elec",
+      "Labels": null
+    },
+    {
+      "Id": "button_SepAdapt",
+      "DisplayName": "[MC] Sep Adapt",
+      "Labels": null
+    },
+    {
+      "Id": "button_ArmAutoRetro",
+      "DisplayName": "[MC] Arm Auto Retro",
+      "Labels": null
+    },
+    {
+      "Id": "button_ComputerReset",
+      "DisplayName": "[LC] Computer Reset",
+      "Labels": null
+    },
+    {
+      "Id": "button_ComputerStart",
+      "DisplayName": "[LC] Computer Start",
+      "Labels": null
+    },
+    {
+      "Id": "button_DCSReceive",
+      "DisplayName": "[PMP] DCS Receive",
+      "Labels": null
+    },
+    {
+      "Id": "button_EmerRelease",
+      "DisplayName": "[RHP] Emer Release",
+      "Labels": null
+    },
+    {
+      "Id": "button_HiAltDrogue",
+      "DisplayName": "[LC] Hi Alt Drogue",
+      "Labels": null
+    },
+    {
+      "Id": "button_IMUReset",
+      "DisplayName": "[LC] IMU Reset?",
+      "Labels": null
+    },
+    {
+      "Id": "button_IndRetroAtt",
+      "DisplayName": "[MC] Ind Retro Att",
+      "Labels": null
+    },
+    {
+      "Id": "button_JettFairing",
+      "DisplayName": "[MC] Jett Fairing",
+      "Labels": null
+    },
+    {
+      "Id": "button_JettRetro",
+      "DisplayName": "[MC] Jett Retro",
+      "Labels": null
+    },
+    {
+      "Id": "button_Keyboard1",
+      "DisplayName": "[PMP] Keyboard 1",
+      "Labels": null
+    },
+    {
+      "Id": "button_Keyboard2",
+      "DisplayName": "[PMP] Keyboard 2",
+      "Labels": null
+    },
+    {
+      "Id": "button_Keyboard3",
+      "DisplayName": "[PMP] Keyboard 3",
+      "Labels": null
+    },
+    {
+      "Id": "button_Keyboard4",
+      "DisplayName": "[PMP] Keyboard 4",
+      "Labels": null
+    },
+    {
+      "Id": "button_Keyboard5",
+      "DisplayName": "[PMP] Keyboard 5",
+      "Labels": null
+    },
+    {
+      "Id": "button_Keyboard6",
+      "DisplayName": "[PMP] Keyboard 6",
+      "Labels": null
+    },
+    {
+      "Id": "button_Keyboard7",
+      "DisplayName": "[PMP] Keyboard 7",
+      "Labels": null
+    },
+    {
+      "Id": "button_Keyboard8",
+      "DisplayName": "[PMP] Keyboard 8",
+      "Labels": null
+    },
+    {
+      "Id": "button_Keyboard9",
+      "DisplayName": "[PMP] Keyboard 9",
+      "Labels": null
+    },
+    {
+      "Id": "button_KeyboardClear",
+      "DisplayName": "[PMP] Keyboard Clear",
+      "Labels": null
+    },
+    {
+      "Id": "button_KeyboardEnter",
+      "DisplayName": "[PMP] Keyboard Enter",
+      "Labels": null
+    },
+    {
+      "Id": "button_KeyboardReadOut",
+      "DisplayName": "[PMP] Keyboard Read Out",
+      "Labels": null
+    },
+    {
+      "Id": "button_KeyboardZero",
+      "DisplayName": "[PMP] Keyboard Zero",
+      "Labels": null
+    },
+    {
+      "Id": "button_LdgAtt",
+      "DisplayName": "[LC] Ldg Att",
+      "Labels": null
+    },
+    {
+      "Id": "button_ManFireRetro",
+      "DisplayName": "[MC] Man Fire Retro",
+      "Labels": null
+    },
+    {
+      "Id": "knob_VoltMeterSelector",
+      "DisplayName": "[PMP] Volt Meter Selector",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10"
+      }
+    },
+    {
+      "Id": "knob_dPMeterSelector",
+      "DisplayName": "[PMP] dP Meter Selector",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      }
+    },
+    {
+      "Id": "knob_CryoSelector",
+      "DisplayName": "[MC] Cryo Selector",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2"
+      }
+    },
+    {
+      "Id": "knob_ACMEMode",
+      "DisplayName": "[LC] ACME Mode",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6"
+      }
+    },
+    {
+      "Id": "knob_IGSPlatform",
+      "DisplayName": "[LC] IGS Platform",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6"
+      }
+    },
+    {
+      "Id": "knob_ComputerMode",
+      "DisplayName": "[LC] Computer Mode",
+      "Labels": {
+        "0": "PRE LN",
+        "1": "ASC",
+        "2": "CTCH UP",
+        "3": "RNDZ",
+        "4": "TD PRE",
+        "5": "RE ENT"
+      }
+    },
+    {
+      "Id": "knob_FDI1Mode",
+      "DisplayName": "[CMP] FDI1 Mode",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2"
+      }
+    },
+    {
+      "Id": "knob_FDI1Data",
+      "DisplayName": "[CMP] FDI1 Data",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2"
+      }
+    },
+    {
+      "Id": "knob_FDI2Mode",
+      "DisplayName": "[PMP] FDI2 Mode",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2"
+      }
+    },
+    {
+      "Id": "knob_FDI2Data",
+      "DisplayName": "[PMP] FDI2 Data",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2"
+      }
+    },
+    {
+      "Id": "knob_TapeControl",
+      "DisplayName": "[PMP] Tape Control",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      }
+    },
+    {
+      "Id": "knob_Repressurize",
+      "DisplayName": "[LC] Repressurize",
+      "Labels": {
+        "0": "0",
+        "1": "1"
+      }
+    },
+    {
+      "Id": "knob_CabinRecirc",
+      "DisplayName": "[CP] Cabin Recirc",
+      "Labels": {
+        "0": "0",
+        "1": "1"
+      }
+    },
+    {
+      "Id": "knob_CabinVent",
+      "DisplayName": "[CP] Cabin Vent",
+      "Labels": {
+        "0": "0",
+        "1": "1"
+      }
+    },
+    {
+      "Id": "knob_WaterSeal",
+      "DisplayName": "[CP] Water Seal",
+      "Labels": {
+        "0": "0",
+        "1": "1"
+      }
+    },
+    {
+      "Id": "knob_O2HighRateRecock",
+      "DisplayName": "[CP] O2 High Rate Recock",
+      "Labels": {
+        "0": "0",
+        "1": "1"
+      }
+    },
+    {
+      "Id": "knob_Snorkel",
+      "DisplayName": "[CP] Snorkel",
+      "Labels": {
+        "0": "0",
+        "1": "1"
+      }
+    },
+    {
+      "Id": "knob_EventTimerTimeKnob",
+      "DisplayName": "[CMP] Event Timer Time Knob",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6"
+      }
+    },
+    {
+      "Id": "knob_MissionElapsedTimeKnob",
+      "DisplayName": "[MC] Mission Elapsed Time Knob",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6"
+      }
+    },
+    {
+      "Id": "knob_PropGaugeSelector",
+      "DisplayName": "[MC] Prop Gauge Selector",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4"
+      }
+    },
+    {
+      "Id": "knob_FDI1SetKnob",
+      "DisplayName": "[CMP] FDI1 Set Knob",
+      "Labels": {
+        "0": "0",
+        "1": "1"
+      }
+    },
+    {
+      "Id": "knob_FDI2SetKnob",
+      "DisplayName": "[PMP] FDI2 Set Knob",
+      "Labels": {
+        "0": "0",
+        "1": "1"
+      }
+    },
+    {
+      "Id": "knob_DCDCConvATM",
+      "DisplayName": "[OHP] DC-DC Conv ATM",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2"
+      }
+    },
+    {
+      "Id": "knob_SecondaryO2ShutoffL",
+      "DisplayName": "[LHP] Secondary O2 Shutoff L",
+      "Labels": {
+        "0": "0",
+        "1": "1"
+      }
+    },
+    {
+      "Id": "knob_SecondaryO2ShutoffR",
+      "DisplayName": "[RHP] Secondary O2 Shutoff R",
+      "Labels": {
+        "0": "0",
+        "1": "1"
+      }
+    },
+    {
+      "Id": "knob_EncoderBit1",
+      "DisplayName": "[PMP] Encoder Bit 1",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7"
+      }
+    },
+    {
+      "Id": "knob_EncoderBit2",
+      "DisplayName": "[PMP] Encoder Bit 2",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7"
+      }
+    },
+    {
+      "Id": "knob_EncoderBit3",
+      "DisplayName": "[PMP] Encoder Bit 3",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2"
+      }
+    },
+    {
+      "Id": "knob_RadioModeA",
+      "DisplayName": "[MC] Radio Mode A",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3"
+      }
+    },
+    {
+      "Id": "knob_RadioModeB",
+      "DisplayName": "[MC] Radio Mode B",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3"
+      }
+    },
+    {
+      "Id": "knob_DimLightControl",
+      "DisplayName": "Dim Light Control",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10"
+      }
+    },
+    {
+      "Id": "gauge_FC1AAmps",
+      "DisplayName": "[PMP] FC 1 A Amps",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_FC1BAmps",
+      "DisplayName": "[PMP] FC 1 B Amps",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_FC1CAmps",
+      "DisplayName": "[PMP] FC 1 C Amps",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_FC2AAmps",
+      "DisplayName": "[PMP] FC 2 A Amps",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_FC2BAmps",
+      "DisplayName": "[PMP] FC 2 B Amps",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_FC2CAmps",
+      "DisplayName": "[PMP] FC 2 C Amps",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_DCVoltmeter",
+      "DisplayName": "[PMP] DC Volt meter",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_FuelOxid1A",
+      "DisplayName": "[] Fuel Oxid 1 A",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_FuelOxid1B",
+      "DisplayName": "[] Fuel Oxid 1 B",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_FuelOxid2A",
+      "DisplayName": "[] Fuel Oxid 2 A",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_FuelOxid2B",
+      "DisplayName": "[] Fuel Oxid 2 B",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_dPMonitor",
+      "DisplayName": "[] dP Monitor",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_CryoQuantity",
+      "DisplayName": "[] Cryo Quantity",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_CryoPSIA",
+      "DisplayName": "[] Cryo PSIA",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_TempCabin",
+      "DisplayName": "[] Temp Cabin",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_TempSuit",
+      "DisplayName": "[] Temp Suit",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_PressCabin",
+      "DisplayName": "[] Press Cabin",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_PressSuit",
+      "DisplayName": "[] Press Suit",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_SecO2Pri",
+      "DisplayName": "[] Sec O2 Pri",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_SecO2Sec",
+      "DisplayName": "[] Sec O2 Sec",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_AltimeterShort",
+      "DisplayName": "[] AltimeterShort",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_AltimeterLong",
+      "DisplayName": "[] AltimeterLong",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_DecentRate",
+      "DisplayName": "[] DecentRate",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_LongGForces",
+      "DisplayName": "[] LongGForces",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_AccutronClockHour",
+      "DisplayName": "[] AccutronClockHour",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_AccutronClockMinutes",
+      "DisplayName": "[] AccutronClockMinutes",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_MechanicalClockMinutes",
+      "DisplayName": "[] MechanicalClockMinutes",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_MechanicalClockHour",
+      "DisplayName": "[] MechanicalClockHour",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_PropGaugeQty",
+      "DisplayName": "[] PropGaugeQty",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_PropGaugePSI",
+      "DisplayName": "[] PropGaugePSI",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_PropGaugeTemp",
+      "DisplayName": "[] PropGaugeTemp",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_RadarRange",
+      "DisplayName": "[] RadarRange",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_RadarRangeRate",
+      "DisplayName": "[] RadarRangeRate",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_AgenaPPSBurnTime",
+      "DisplayName": "[] AgenaPPSBurnTime",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_AgenaSPSBurnTime",
+      "DisplayName": "[] AgenaSPSBurnTime",
+      "Labels": null
+    },
+    {
+      "Id": "gauge_RangeRate5",
+      "DisplayName": "gauge_RangeRate5",
+      "Labels": null
+    },
+    {
+      "Id": "light_SwitchSepSpcft",
+      "DisplayName": "[] SwitchSepSpcft",
+      "Labels": null
+    },
+    {
+      "Id": "light_SwitchIndRetroAtt",
+      "DisplayName": "[] SwitchIndRetroAtt",
+      "Labels": null
+    },
+    {
+      "Id": "light_IndBtryPwr",
+      "DisplayName": "[] IndBtryPwr",
+      "Labels": null
+    },
+    {
+      "Id": "light_SwitchRCS",
+      "DisplayName": "[] SwitchRCS",
+      "Labels": null
+    },
+    {
+      "Id": "light_SwitchSepOAMSLines",
+      "DisplayName": "[] SwitchSepOAMSLines",
+      "Labels": null
+    },
+    {
+      "Id": "light_SwitchSepElec",
+      "DisplayName": "[] SwitchSepElec",
+      "Labels": null
+    },
+    {
+      "Id": "light_SwitchSepAdapt",
+      "DisplayName": "[] SwitchSepAdapt",
+      "Labels": null
+    },
+    {
+      "Id": "light_SwitchArmAutoRetro",
+      "DisplayName": "[] SwitchArmAutoRetro",
+      "Labels": null
+    },
+    {
+      "Id": "light_SwitchJettRetro",
+      "DisplayName": "[] SwitchJettRetro",
+      "Labels": null
+    },
+    {
+      "Id": "light_IndAbort1",
+      "DisplayName": "[] IndAbort1",
+      "Labels": null
+    },
+    {
+      "Id": "light_IndAbort2",
+      "DisplayName": "[] IndAbort2",
+      "Labels": null
+    },
+    {
+      "Id": "light_IndAttRate",
+      "DisplayName": "[] IndAttRate",
+      "Labels": null
+    },
+    {
+      "Id": "light_IndSecGuidance",
+      "DisplayName": "[] IndSecGuidance",
+      "Labels": null
+    },
+    {
+      "Id": "light_IndEngineIA",
+      "DisplayName": "[] IndEngineIA",
+      "Labels": null
+    },
+    {
+      "Id": "light_IndEngineIB",
+      "DisplayName": "[] IndEngineIB",
+      "Labels": null
+    },
+    {
+      "Id": "light_IndEngineII",
+      "DisplayName": "[] IndEngineII",
+      "Labels": null
+    },
+    {
+      "Id": "light_Red40k",
+      "DisplayName": "[] Red40k",
+      "Labels": null
+    },
+    {
+      "Id": "light_Red106k",
+      "DisplayName": "[] Red106k",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedPriPumpA",
+      "DisplayName": "[] RedPriPumpA",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedPriRes",
+      "DisplayName": "[] RedPriRes",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedPriPumpB",
+      "DisplayName": "[] RedPriPumpB",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedSecPumpA",
+      "DisplayName": "[] RedSecPumpA",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedSecRes",
+      "DisplayName": "[] RedSecRes",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedSecPumpB",
+      "DisplayName": "[] RedSecPumpB",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedEvapPress",
+      "DisplayName": "[] RedEvapPress",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedAcq",
+      "DisplayName": "[] RedAcq",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedAtt",
+      "DisplayName": "[] RedAtt",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedScanner",
+      "DisplayName": "[] RedScanner",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedAuxTapeError",
+      "DisplayName": "[] RedAuxTapeError",
+      "Labels": null
+    },
+    {
+      "Id": "light_RedDCS",
+      "DisplayName": "[] RedDCS",
+      "Labels": null
+    },
+    {
+      "Id": "light_GreenRadarLockOn",
+      "DisplayName": "[] GreenRadarLockOn",
+      "Labels": null
+    },
+    {
+      "Id": "light_GreenAuxTapeRun",
+      "DisplayName": "[] GreenAuxTapeRun",
+      "Labels": null
+    },
+    {
+      "Id": "light_ComputerComp",
+      "DisplayName": "[] ComputerComp",
+      "Labels": null
+    },
+    {
+      "Id": "light_ComputerMalf",
+      "DisplayName": "[] ComputerMalf",
+      "Labels": null
+    },
+    {
+      "Id": "light_IVIFwd",
+      "DisplayName": "[] IVIFwd",
+      "Labels": null
+    },
+    {
+      "Id": "light_IVIAft",
+      "DisplayName": "[] IVIAft",
+      "Labels": null
+    },
+    {
+      "Id": "light_IVIUp",
+      "DisplayName": "[] IVIUp",
+      "Labels": null
+    },
+    {
+      "Id": "light_IVIDn",
+      "DisplayName": "[] IVIDn",
+      "Labels": null
+    },
+    {
+      "Id": "light_IVILft",
+      "DisplayName": "[] IVILft",
+      "Labels": null
+    },
+    {
+      "Id": "light_IVIRght",
+      "DisplayName": "[] IVIRght",
+      "Labels": null
+    },
+    {
+      "Id": "light_TelelightO2HighRate",
+      "DisplayName": "[] TelelightO2HighRate",
+      "Labels": null
+    },
+    {
+      "Id": "light_TelelightRCSHtr",
+      "DisplayName": "[] TelelightRCSHtr",
+      "Labels": null
+    },
+    {
+      "Id": "light_TelelightRCDRTape",
+      "DisplayName": "[] TelelightRCDRTape",
+      "Labels": null
+    },
+    {
+      "Id": "light_TelelightECSHtrs",
+      "DisplayName": "[] TelelightECSHtrs",
+      "Labels": null
+    },
+    {
+      "Id": "light_TelelightFC1dP",
+      "DisplayName": "[] TelelightFC1dP",
+      "Labels": null
+    },
+    {
+      "Id": "light_TelelightFC2dP",
+      "DisplayName": "[] TelelightFC2dP",
+      "Labels": null
+    },
+    {
+      "Id": "light_AgenaDock",
+      "DisplayName": "[] AgenaDock",
+      "Labels": null
+    },
+    {
+      "Id": "light_AgenaRigid",
+      "DisplayName": "[] AgenaRigid",
+      "Labels": null
+    },
+    {
+      "Id": "light_AgenaPWR",
+      "DisplayName": "[] AgenaPWR",
+      "Labels": null
+    },
+    {
+      "Id": "light_AgenaMain1",
+      "DisplayName": "[] AgenaMain1",
+      "Labels": null
+    },
+    {
+      "Id": "light_AgenaMain2",
+      "DisplayName": "[] AgenaMain2",
+      "Labels": null
+    },
+    {
+      "Id": "light_AgenaArmed",
+      "DisplayName": "[] AgenaArmed",
+      "Labels": null
+    },
+    {
+      "Id": "light_AgenaSecHi",
+      "DisplayName": "[] AgenaSecHi",
+      "Labels": null
+    },
+    {
+      "Id": "light_AgenaSecLo",
+      "DisplayName": "[] AgenaSecLo",
+      "Labels": null
+    },
+    {
+      "Id": "light_AgenaATT",
+      "DisplayName": "[] AgenaATT",
+      "Labels": null
+    }
+  ]
 }
