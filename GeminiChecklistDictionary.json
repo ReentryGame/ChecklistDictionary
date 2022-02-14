@@ -1,6 +1,8 @@
 {
   "entries": [
     {
+      "TypeID": 0,
+      "RefID": 1,
       "Id": "switch_FUSECoaxCntl",
       "DisplayName": "[LHP] FUSE Coax Cntl",
       "Labels": {
@@ -9,6 +11,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 2,
       "Id": "switch_SquibBoostInsert",
       "DisplayName": "[LHP] Squib Boost Insert",
       "Labels": {
@@ -17,6 +21,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 3,
       "Id": "switch_SquibRetroPWR",
       "DisplayName": "[LHP] Squib Retro PWR",
       "Labels": {
@@ -25,6 +31,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 4,
       "Id": "switch_SquibRetroJett",
       "DisplayName": "[LHP] Squib Retro Jett",
       "Labels": {
@@ -33,6 +41,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 5,
       "Id": "switch_SquibLanding",
       "DisplayName": "[LHP] Squib Landing",
       "Labels": {
@@ -41,6 +51,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 6,
       "Id": "switch_SquibRetro1",
       "DisplayName": "[LHP] Squib Retro 1",
       "Labels": {
@@ -49,6 +61,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 7,
       "Id": "switch_SquibRetro2",
       "DisplayName": "[LHP] Squib Retro 2",
       "Labels": {
@@ -57,6 +71,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 8,
       "Id": "switch_SquibRetro3",
       "DisplayName": "[LHP] Squib Retro 3",
       "Labels": {
@@ -65,6 +81,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 9,
       "Id": "switch_SquibRetro4",
       "DisplayName": "[LHP] Squib Retro 4",
       "Labels": {
@@ -73,6 +91,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 10,
       "Id": "switch_MainBattery1",
       "DisplayName": "[RHP] Main Battery 1",
       "Labels": {
@@ -82,6 +102,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 11,
       "Id": "switch_MainBattery2",
       "DisplayName": "[RHP] Main Battery 2",
       "Labels": {
@@ -91,6 +113,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 12,
       "Id": "switch_MainBattery3",
       "DisplayName": "[RHP] Main Battery 3",
       "Labels": {
@@ -100,6 +124,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 13,
       "Id": "switch_MainBattery4",
       "DisplayName": "[RHP] Main Battery 4",
       "Labels": {
@@ -109,6 +135,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 14,
       "Id": "switch_SquibBattery1",
       "DisplayName": "[RHP] Squib Battery 1",
       "Labels": {
@@ -118,6 +146,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 15,
       "Id": "switch_SquibBattery2",
       "DisplayName": "[RHP] Squib Battery 2",
       "Labels": {
@@ -127,6 +157,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 16,
       "Id": "switch_SquibBattery3",
       "DisplayName": "[RHP] Squib Battery 3",
       "Labels": {
@@ -136,6 +168,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 17,
       "Id": "switch_LightsBrightness",
       "DisplayName": "Lights Brightness",
       "Labels": {
@@ -144,6 +178,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 18,
       "Id": "switch_LightsTest",
       "DisplayName": "Lights Test",
       "Labels": {
@@ -153,6 +189,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 19,
       "Id": "switch_FuelCell1PurgeO2",
       "DisplayName": "[PMP] Fuel Cell 1 Purge O2",
       "Labels": {
@@ -162,6 +200,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 20,
       "Id": "switch_FuelCell1PWR",
       "DisplayName": "[PMP] Fuel Cell 1 PWR",
       "Labels": {
@@ -171,6 +211,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 21,
       "Id": "switch_FuelCell2PurgeO2",
       "DisplayName": "[PMP] Fuel Cell 2 Purge O2",
       "Labels": {
@@ -180,6 +222,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 22,
       "Id": "switch_FuelCell2PWR",
       "DisplayName": "[PMP] Fuel Cell 2 PWR",
       "Labels": {
@@ -189,6 +233,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 23,
       "Id": "switch_FuelCell1A",
       "DisplayName": "[PMP] Fuel Cell 1A",
       "Labels": {
@@ -197,6 +243,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 24,
       "Id": "switch_FuelCell1B",
       "DisplayName": "[PMP] Fuel Cell 1B",
       "Labels": {
@@ -205,6 +253,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 25,
       "Id": "switch_FuelCell1C",
       "DisplayName": "[PMP] Fuel Cell 1C",
       "Labels": {
@@ -213,6 +263,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 26,
       "Id": "switch_FuelCell2A",
       "DisplayName": "[PMP] Fuel Cell 2A",
       "Labels": {
@@ -221,6 +273,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 27,
       "Id": "switch_FuelCell2B",
       "DisplayName": "[PMP] Fuel Cell 2B",
       "Labels": {
@@ -229,6 +283,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 28,
       "Id": "switch_FuelCell2C",
       "DisplayName": "[PMP] Fuel Cell 2C",
       "Labels": {
@@ -237,6 +293,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 29,
       "Id": "switch_BusTie1",
       "DisplayName": "[RHP] Bus Tie 1",
       "Labels": {
@@ -245,6 +303,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 30,
       "Id": "switch_BusTie2",
       "DisplayName": "[RHP] Bus Tie 2",
       "Labels": {
@@ -253,6 +313,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 31,
       "Id": "switch_ControllerPWROAMS",
       "DisplayName": "[LC] Controller PWR OAMS",
       "Labels": {
@@ -261,6 +323,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 32,
       "Id": "switch_ControllerPWRRCSA",
       "DisplayName": "[LC] Controller PWR RCS A",
       "Labels": {
@@ -270,6 +334,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 33,
       "Id": "switch_ControllerPWRRCSB",
       "DisplayName": "[LC] Controller PW RCS B",
       "Labels": {
@@ -279,6 +345,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 34,
       "Id": "switch_ACPowerSource",
       "DisplayName": "[RHP] AC Power Source",
       "Labels": {
@@ -288,6 +356,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 35,
       "Id": "switch_MDIUPower",
       "DisplayName": "[PMP] MDIU Power",
       "Labels": {
@@ -296,6 +366,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 36,
       "Id": "switch_AuxTapePWR",
       "DisplayName": "[PMP] Aux Tape PWR",
       "Labels": {
@@ -304,6 +376,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 37,
       "Id": "switch_ComputerPower",
       "DisplayName": "[LC] Computer Power",
       "Labels": {
@@ -312,8 +386,10 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 38,
       "Id": "switch_HorizonScannerSelect",
-      "DisplayName": "[] HorizonScannerSelect",
+      "DisplayName": "[LC] HorizonScannerSelect",
       "Labels": {
         "2": "Middle",
         "4": "Up",
@@ -321,14 +397,18 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 39,
       "Id": "switch_HorizonScannerHeater",
-      "DisplayName": "[] HorizonScannerHeater",
+      "DisplayName": "[LC] HorizonScannerHeater",
       "Labels": {
         "4": "Up",
         "5": "Down"
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 40,
       "Id": "switch_SuitFan",
       "DisplayName": "[MC] Suit Fan",
       "Labels": {
@@ -338,6 +418,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 41,
       "Id": "switch_FUSESuitFan1",
       "DisplayName": "[OHP] FUSE Suit Fan 1",
       "Labels": {
@@ -346,6 +428,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 42,
       "Id": "switch_FUSESuitFan2",
       "DisplayName": "[OHP] FUSE Suit Fan 2",
       "Labels": {
@@ -354,6 +438,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 43,
       "Id": "switch_O2HighRate",
       "DisplayName": "[MC] O2 High Rate",
       "Labels": {
@@ -362,6 +448,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 44,
       "Id": "switch_CoolPriPumpA",
       "DisplayName": "[MC] Cool Pri Pump A",
       "Labels": {
@@ -370,6 +458,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 45,
       "Id": "switch_CoolPriPumpB",
       "DisplayName": "[MC] Cool Pri Pump B",
       "Labels": {
@@ -378,6 +468,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 46,
       "Id": "switch_CoolSecPumpA",
       "DisplayName": "[MC] Cool Sec Pump A",
       "Labels": {
@@ -386,6 +478,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 47,
       "Id": "switch_CoolSecPumpB",
       "DisplayName": "[MC] Cool Sec Pump B",
       "Labels": {
@@ -394,6 +488,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 48,
       "Id": "switch_RadiatorFlow",
       "DisplayName": "[MC] Radiator Flow",
       "Labels": {
@@ -402,6 +498,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 49,
       "Id": "switch_EvaporatorHeat",
       "DisplayName": "[MC] Evaporator Heat",
       "Labels": {
@@ -410,6 +508,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 50,
       "Id": "switch_EvaporatprMaxFlow",
       "DisplayName": "[MC] Evap Max Flow",
       "Labels": {
@@ -418,6 +518,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 51,
       "Id": "switch_EventTimerStart",
       "DisplayName": "[MC] Event Timer Start",
       "Labels": {
@@ -426,6 +528,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 52,
       "Id": "switch_EventTimerDirection",
       "DisplayName": "[MC] Event Timer Direction",
       "Labels": {
@@ -435,6 +539,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 53,
       "Id": "switch_ElapsedTimeStarter",
       "DisplayName": "[MC] Elapsed Time Starter",
       "Labels": {
@@ -443,6 +549,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 54,
       "Id": "switch_H2VacTank",
       "DisplayName": "switch_H2VacTank",
       "Labels": {
@@ -451,6 +559,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 55,
       "Id": "switch_CryoHeaterO2",
       "DisplayName": "[MC] Cryo Heater O2",
       "Labels": {
@@ -460,6 +570,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 56,
       "Id": "switch_CryoHeaterH2",
       "DisplayName": "[MC] Cryo Heater H2",
       "Labels": {
@@ -469,14 +581,18 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 57,
       "Id": "switch_OAMReg",
-      "DisplayName": "[] OAMReg",
+      "DisplayName": "[MC] OAMReg",
       "Labels": {
         "4": "Up",
         "5": "Down"
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 58,
       "Id": "switch_PropMotoOAMS",
       "DisplayName": "[LC] Prop Moto Valve OAMS",
       "Labels": {
@@ -485,6 +601,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 59,
       "Id": "switch_PropMotRCSA",
       "DisplayName": "[LC] Prop Moto Valve RCS A",
       "Labels": {
@@ -493,6 +611,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 60,
       "Id": "switch_PropMotRCSB",
       "DisplayName": "[LC] Prop Moto Valve RCS B",
       "Labels": {
@@ -501,6 +621,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 61,
       "Id": "switch_FUSEDCDCConv",
       "DisplayName": "[OHP] FUSE DC-DC Conv",
       "Labels": {
@@ -509,6 +631,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 62,
       "Id": "switch_LightsCabin",
       "DisplayName": "[OHP] Lights Cabin",
       "Labels": {
@@ -517,6 +641,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 63,
       "Id": "switch_LightsFDI",
       "DisplayName": "[OHP] Lights FDI",
       "Labels": {
@@ -525,6 +651,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 64,
       "Id": "switch_CTRLights",
       "DisplayName": "[OHP] CTR Lights",
       "Labels": {
@@ -534,6 +662,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 65,
       "Id": "switch_FUSEAudioAndUHFTR1",
       "DisplayName": "[LHP] FUSE Audio & UHF T/R 1",
       "Labels": {
@@ -542,6 +672,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 66,
       "Id": "switch_FUSEAudioAndUHFTR2",
       "DisplayName": "[LHP] FUSE Audio & UHF T/R 2",
       "Labels": {
@@ -550,6 +682,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 67,
       "Id": "switch_FUSEUHFRelay",
       "DisplayName": "[LHP] FUSE UHF Relay",
       "Labels": {
@@ -558,6 +692,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 68,
       "Id": "switch_FUSEToneVox",
       "DisplayName": "[LHP] FUSE Tone Vox",
       "Labels": {
@@ -566,6 +702,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 69,
       "Id": "switch_FUSETV",
       "DisplayName": "[LHP] FUSE TV",
       "Labels": {
@@ -574,6 +712,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 70,
       "Id": "switch_FUSEHFTR",
       "DisplayName": "[LHP] FUSE HF T/R",
       "Labels": {
@@ -582,6 +722,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 71,
       "Id": "switch_FUSEAntCntl",
       "DisplayName": "[LHP] FUSE Ant Cntl",
       "Labels": {
@@ -590,6 +732,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 72,
       "Id": "switch_FUSEWhipAntHF",
       "DisplayName": "[LHP] FUSE Whip Ant HF",
       "Labels": {
@@ -598,6 +742,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 73,
       "Id": "switch_FUSEWhipAntUHF",
       "DisplayName": "[LHP] FUSE Whip Ant UHF",
       "Labels": {
@@ -606,6 +752,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 74,
       "Id": "switch_FUSEWhipAntDiplex",
       "DisplayName": "[LHP] FUSE Whip Ant Diplex",
       "Labels": {
@@ -614,6 +762,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 75,
       "Id": "switch_FUSEElectTimer",
       "DisplayName": "[LHP] FUSE Elect Timer",
       "Labels": {
@@ -622,6 +772,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 76,
       "Id": "switch_FUSEEventTimer",
       "DisplayName": "[LHP] FUSE Event Timer",
       "Labels": {
@@ -630,6 +782,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 77,
       "Id": "switch_FUSEBoostCutoff1",
       "DisplayName": "[LHP] FUSE Boost Cutoff 1",
       "Labels": {
@@ -638,6 +792,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 78,
       "Id": "switch_FUSEBoostCutoff2",
       "DisplayName": "[LHP] FUSE Boost Cutoff 2",
       "Labels": {
@@ -646,6 +802,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 79,
       "Id": "switch_FUSERetroAuto",
       "DisplayName": "[LHP] FUSE Retro Auto",
       "Labels": {
@@ -654,6 +812,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 80,
       "Id": "switch_FUSERetroMan",
       "DisplayName": "[LHP] FUSE Retro Man",
       "Labels": {
@@ -662,6 +822,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 81,
       "Id": "switch_FUSETr256",
       "DisplayName": "[LHP] FUSE TR256",
       "Labels": {
@@ -670,6 +832,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 82,
       "Id": "switch_FUSEECSIndLts",
       "DisplayName": "[LHP] FUSE ECS Ind Lts",
       "Labels": {
@@ -678,6 +842,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 83,
       "Id": "switch_FUSEIndLtTest",
       "DisplayName": "[LHP] FUSE Ind Lt Test",
       "Labels": {
@@ -686,6 +852,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 84,
       "Id": "switch_FUSESeqLightsPWR",
       "DisplayName": "[LHP] FUSE Seq Lights PWR",
       "Labels": {
@@ -694,6 +862,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 85,
       "Id": "switch_FUSESeqLightsCntl",
       "DisplayName": "[LHP] FUSE Seq Lights Cntl",
       "Labels": {
@@ -702,6 +872,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 86,
       "Id": "switch_FUSEParaCntl",
       "DisplayName": "[LHP] FUSE Para Cntl",
       "Labels": {
@@ -710,6 +882,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 87,
       "Id": "switch_FUSEAttIncCntlRetro",
       "DisplayName": "[LHP] FUSE Att Inc Cntl Retro",
       "Labels": {
@@ -718,6 +892,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 88,
       "Id": "switch_FUSEAttIndCntlLdg",
       "DisplayName": "[LHP] FUSE Att Ind Cntl Ldg",
       "Labels": {
@@ -726,6 +902,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 89,
       "Id": "switch_FUSEBoostInsertCntl1",
       "DisplayName": "[LHP] FUSE Boost Insert Cntl 1",
       "Labels": {
@@ -734,6 +912,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 90,
       "Id": "switch_FUSEBoostInsertCntl2",
       "DisplayName": "[LHP] FUSE Boost Insert Cntl 2",
       "Labels": {
@@ -742,6 +922,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 91,
       "Id": "switch_FUSERetroSeqCntl1",
       "DisplayName": "[LHP] FUSE Retro Seq Cntl 1",
       "Labels": {
@@ -750,6 +932,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 92,
       "Id": "switch_FUSERetroSeqCntl2",
       "DisplayName": "[LHP] FUSE Retro Seq Cntl 2",
       "Labels": {
@@ -758,6 +942,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 93,
       "Id": "switch_FUSELandingSecCntl1",
       "DisplayName": "[LHP] FUSE Landing Sec Cntl 1",
       "Labels": {
@@ -766,6 +952,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 94,
       "Id": "switch_FUSELandingSecCntl2",
       "DisplayName": "[LHP] FUSE Landing Sec Cntl 12",
       "Labels": {
@@ -774,6 +962,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 95,
       "Id": "switch_FDI1Controller",
       "DisplayName": "[LHP] FDI1 Controller",
       "Labels": {
@@ -783,6 +973,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 96,
       "Id": "switch_GuidanceSwitch",
       "DisplayName": "[LHP] Guidance Switch",
       "Labels": {
@@ -792,6 +984,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 97,
       "Id": "switch_FUSEBeaconsC",
       "DisplayName": "[OHP] FUSE Beacons C",
       "Labels": {
@@ -800,6 +994,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 98,
       "Id": "switch_FUSEBeaconsResc",
       "DisplayName": "[OHP] FUSE Beacons Resc",
       "Labels": {
@@ -808,6 +1004,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 99,
       "Id": "switch_FUSEBeaconsAcq",
       "DisplayName": "[OHP] FUSE Beacons Acq",
       "Labels": {
@@ -816,6 +1014,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 100,
       "Id": "switch_FUSEAUXRecp",
       "DisplayName": "[OHP] FUSE AUX Recp",
       "Labels": {
@@ -824,6 +1024,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 101,
       "Id": "switch_FUSECryQty",
       "DisplayName": "[OHP] FUSE Cry Qty",
       "Labels": {
@@ -832,6 +1034,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 102,
       "Id": "switch_FUSECoolPumpSecB",
       "DisplayName": "[OHP] FUSE Cool Pump Sec B",
       "Labels": {
@@ -840,6 +1044,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 103,
       "Id": "switch_FUSECoolPumpSecA",
       "DisplayName": "[OHP] FUSE Cool Pump Sec A",
       "Labels": {
@@ -848,6 +1054,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 104,
       "Id": "switch_FUSECoolPumpPriB",
       "DisplayName": "[OHP] FUSE Cool Pump Pri B",
       "Labels": {
@@ -856,6 +1064,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 105,
       "Id": "switch_FUSECoolPumpPriA",
       "DisplayName": "[OHP] FUSE Cool Pump Pri A",
       "Labels": {
@@ -864,6 +1074,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 106,
       "Id": "switch_FUSETMAC",
       "DisplayName": "[OHP] FUSE T/M AC",
       "Labels": {
@@ -872,6 +1084,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 107,
       "Id": "switch_FUSEXmtrsDT",
       "DisplayName": "[OHP] FUSE XMTRS DT",
       "Labels": {
@@ -880,6 +1094,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 108,
       "Id": "switch_FUSEXmtrsRT",
       "DisplayName": "[OHP] FUSE XMTRS RT",
       "Labels": {
@@ -888,6 +1104,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 109,
       "Id": "switch_FUSEXmtrsStbyPWR",
       "DisplayName": "[OHP] FUSE XMTRS Stby PWR",
       "Labels": {
@@ -896,6 +1114,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 110,
       "Id": "switch_FUSEXmtrsStbyCntl",
       "DisplayName": "[OHP] FUSE XMTRS Stby Cntl",
       "Labels": {
@@ -904,6 +1124,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 111,
       "Id": "switch_FUSEPriO2Htrs",
       "DisplayName": "[OHP] FUSE Pri O2 Htrs",
       "Labels": {
@@ -912,6 +1134,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 112,
       "Id": "switch_FUSEH2OHtrs",
       "DisplayName": "[OHP] FUSE H2O Htrs",
       "Labels": {
@@ -920,6 +1144,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 113,
       "Id": "switch_FUSEClkLt",
       "DisplayName": "[OHP] FUSE Clk Lt",
       "Labels": {
@@ -928,6 +1154,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 114,
       "Id": "switch_FUSEOAMSHtrs",
       "DisplayName": "[OHP] FUSE OAMS Htrs",
       "Labels": {
@@ -936,6 +1164,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 115,
       "Id": "switch_FUSEEvapThr",
       "DisplayName": "[OHP] FUSE Evap HTR",
       "Labels": {
@@ -944,6 +1174,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 116,
       "Id": "switch_FUSECoolVlvsSec",
       "DisplayName": "[OHP] FUSE Cool Vlvs Sec",
       "Labels": {
@@ -952,6 +1184,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 117,
       "Id": "switch_FUSECoolVlvsPri",
       "DisplayName": "[OHP] FUSE Cool Vlvs Pri",
       "Labels": {
@@ -960,6 +1194,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 118,
       "Id": "switch_FUSEO2RateCntl",
       "DisplayName": "[OHP] FUSE O2 Rate Cntl",
       "Labels": {
@@ -968,6 +1204,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 119,
       "Id": "switch_ACMEBiasPWR",
       "DisplayName": "[OHP] ACME Bias PWR",
       "Labels": {
@@ -977,6 +1215,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 120,
       "Id": "switch_RollJetsSelector",
       "DisplayName": "[OHP] Roll Jets Selector",
       "Labels": {
@@ -985,6 +1225,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 121,
       "Id": "switch_FUSEACMECntl1",
       "DisplayName": "[OHP] FUSE ACME Cntl 1",
       "Labels": {
@@ -993,6 +1235,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 122,
       "Id": "switch_FUSEACMECntl2",
       "DisplayName": "[OHP] FUSE ACME Cntl 2",
       "Labels": {
@@ -1001,6 +1245,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 123,
       "Id": "switch_FUSEOAMSCntlProp",
       "DisplayName": "[OHP] FUSE OAMS Cntl Prop",
       "Labels": {
@@ -1009,6 +1255,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 124,
       "Id": "switch_FUSEOAMSCntlReg1",
       "DisplayName": "[OHP] FUSE OAMS Cntl Reg 1",
       "Labels": {
@@ -1017,6 +1265,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 125,
       "Id": "switch_FUSEOAMSCntlReg2",
       "DisplayName": "[OHP] FUSE OAMS Cntl Reg 2",
       "Labels": {
@@ -1025,6 +1275,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 126,
       "Id": "switch_FUSERCSSquibs1",
       "DisplayName": "[OHP] FUSE RCS Squibs 1",
       "Labels": {
@@ -1033,6 +1285,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 127,
       "Id": "switch_FUSERCSSquibs2",
       "DisplayName": "[OHP] FUSE RCS Squibs 2",
       "Labels": {
@@ -1041,6 +1295,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 128,
       "Id": "switch_OAMSResvSwitch",
       "DisplayName": "[OHP] OAMS Resv Switch",
       "Labels": {
@@ -1049,6 +1305,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 129,
       "Id": "switch_FUSEManThru9",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 9",
       "Labels": {
@@ -1057,6 +1315,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 130,
       "Id": "switch_FUSEManThru10",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 10",
       "Labels": {
@@ -1065,6 +1325,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 131,
       "Id": "switch_FUSEManThru11",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 11",
       "Labels": {
@@ -1073,6 +1335,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 132,
       "Id": "switch_FUSEManThru12",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 12",
       "Labels": {
@@ -1081,6 +1345,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 133,
       "Id": "switch_FUSEManThru13",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 13",
       "Labels": {
@@ -1089,6 +1355,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 134,
       "Id": "switch_FUSEManThru14",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 14",
       "Labels": {
@@ -1097,6 +1365,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 135,
       "Id": "switch_FUSEManThru15",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 15",
       "Labels": {
@@ -1105,6 +1375,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 136,
       "Id": "switch_FUSEManThru16",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 16",
       "Labels": {
@@ -1113,6 +1385,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 137,
       "Id": "switch_AttitiudeDriversSwitch",
       "DisplayName": "[OHP] Attitiude Drivers Switch",
       "Labels": {
@@ -1121,6 +1395,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 138,
       "Id": "switch_FUSEAttThrust1",
       "DisplayName": "[OHP] FUSE Att Thrust 1",
       "Labels": {
@@ -1129,6 +1405,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 139,
       "Id": "switch_FUSEAttThrust2",
       "DisplayName": "[OHP] FUSE Att Thrust 2",
       "Labels": {
@@ -1137,6 +1415,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 140,
       "Id": "switch_FUSEAttThrust3",
       "DisplayName": "[OHP] FUSE Att Thrust 3",
       "Labels": {
@@ -1145,6 +1425,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 141,
       "Id": "switch_FUSEAttThrust4",
       "DisplayName": "[OHP] FUSE Att Thrust 4",
       "Labels": {
@@ -1153,6 +1435,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 142,
       "Id": "switch_FUSEAttThrust5",
       "DisplayName": "[OHP] FUSE Att Thrust 5",
       "Labels": {
@@ -1161,6 +1445,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 143,
       "Id": "switch_FUSEAttThrust6",
       "DisplayName": "[OHP] FUSE Att Thrust 6",
       "Labels": {
@@ -1169,6 +1455,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 144,
       "Id": "switch_FUSEAttThrust7",
       "DisplayName": "[OHP] FUSE Att Thrust 7",
       "Labels": {
@@ -1177,6 +1465,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 145,
       "Id": "switch_FUSEAttThrust8",
       "DisplayName": "[OHP] FUSE Att Thrust 8",
       "Labels": {
@@ -1185,6 +1475,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 146,
       "Id": "switch_ACMELogicYawSelector",
       "DisplayName": "[OHP] ACME Logic Yaw Selector",
       "Labels": {
@@ -1193,6 +1485,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 147,
       "Id": "switch_ACMELogicPitchSelector",
       "DisplayName": "[OHP] ACME Logic Pitch Selector",
       "Labels": {
@@ -1201,6 +1495,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 148,
       "Id": "switch_ACMELogicRollSelector",
       "DisplayName": "[OHP] ACME Logic Roll Selector",
       "Labels": {
@@ -1209,6 +1505,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 149,
       "Id": "switch_FUSERCSAPitch",
       "DisplayName": "[OHP] FUSE RCS A Pitch",
       "Labels": {
@@ -1217,6 +1515,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 150,
       "Id": "switch_FUSERCSAYawL",
       "DisplayName": "[OHP] FUSE RCS A Yaw L",
       "Labels": {
@@ -1225,6 +1525,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 151,
       "Id": "switch_FUSERCSAYawR",
       "DisplayName": "[OHP] FUSE RCS A Yaw R",
       "Labels": {
@@ -1233,6 +1535,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 152,
       "Id": "switch_FUSERCSBPitch",
       "DisplayName": "[OHP] FUSE RCS B Pitch",
       "Labels": {
@@ -1241,6 +1545,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 153,
       "Id": "switch_FUSERCSBYawL",
       "DisplayName": "[OHP] FUSE RCS B Yaw L",
       "Labels": {
@@ -1249,6 +1555,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 154,
       "Id": "switch_FUSERCSBYawR",
       "DisplayName": "[OHP] FUSE RCS B Yaw R",
       "Labels": {
@@ -1257,6 +1565,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 155,
       "Id": "switch_FUSEAUXTape",
       "DisplayName": "[RHP] FUSE AUX Tape",
       "Labels": {
@@ -1265,6 +1575,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 156,
       "Id": "switch_FUSESEOInst",
       "DisplayName": "[RHP] FUSE SEQ Inst",
       "Labels": {
@@ -1273,6 +1585,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 157,
       "Id": "switch_FUSECalib",
       "DisplayName": "[RHP] FUSE Calib",
       "Labels": {
@@ -1281,6 +1595,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 158,
       "Id": "switch_FUSEBioMedInst",
       "DisplayName": "[RHP] FUSE Bio Med Inst",
       "Labels": {
@@ -1289,6 +1605,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 159,
       "Id": "switch_FUSEDCSPWR",
       "DisplayName": "[RHP] FUSE DCS PWR",
       "Labels": {
@@ -1297,6 +1615,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 160,
       "Id": "switch_FUSEFCO2H2Reg",
       "DisplayName": "[RHP] FUSE CRYO/O2&H2 Reg",
       "Labels": {
@@ -1305,6 +1625,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 161,
       "Id": "switch_FUSEFCO2H2HTR",
       "DisplayName": "[RHP] FUSE CRYO/O2&H2 HTR",
       "Labels": {
@@ -1313,6 +1635,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 162,
       "Id": "switch_AGENAPWR",
       "DisplayName": "[RHP] AGENA PWR",
       "Labels": {
@@ -1321,6 +1645,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 163,
       "Id": "switch_AGENASquib1",
       "DisplayName": "[RHP] AGENA Squib 1",
       "Labels": {
@@ -1329,6 +1655,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 164,
       "Id": "switch_AGENASquib2",
       "DisplayName": "[RHP] AGENA Squib 2",
       "Labels": {
@@ -1337,6 +1665,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 165,
       "Id": "switch_AGENACntl",
       "DisplayName": "[RHP] AGENA Cntl",
       "Labels": {
@@ -1345,6 +1675,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 166,
       "Id": "switch_FUSERadarPWR",
       "DisplayName": "[RHP] FUSE Radar PWR",
       "Labels": {
@@ -1353,6 +1685,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 167,
       "Id": "switch_FUSEACMEInv",
       "DisplayName": "[RHP] FUSE ACME Inv",
       "Labels": {
@@ -1361,6 +1695,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 168,
       "Id": "switch_FUSERCSHTRSA",
       "DisplayName": "[RHP] FUSE RCS HTRS A",
       "Labels": {
@@ -1369,6 +1705,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 169,
       "Id": "switch_FUSERCSHTRSB",
       "DisplayName": "[RHP] FUSE RCS HTRS B",
       "Labels": {
@@ -1377,6 +1715,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 170,
       "Id": "switch_FUSETapeRecorderPWR",
       "DisplayName": "[RHP] FUSE Tape RCDR PWR",
       "Labels": {
@@ -1385,6 +1725,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 171,
       "Id": "switch_FUSETapeRecorderCNTL",
       "DisplayName": "[RHP] FUSE Tape RCDR CNTL",
       "Labels": {
@@ -1393,6 +1735,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 172,
       "Id": "switch_FUSEFuelCellCntl1",
       "DisplayName": "[RHP] FUSE Fuel Cell Cntl 1",
       "Labels": {
@@ -1401,6 +1745,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 173,
       "Id": "switch_FUSEFuelCellCntl2",
       "DisplayName": "[RHP] FUSE Fuel Cell Cntl 2",
       "Labels": {
@@ -1409,6 +1755,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 174,
       "Id": "switch_FUSEFCdP",
       "DisplayName": "[RHP] FUSE FC/P",
       "Labels": {
@@ -1417,6 +1765,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 175,
       "Id": "switch_AGENAEncoder",
       "DisplayName": "[RHP] AGENA ENCDR",
       "Labels": {
@@ -1425,6 +1775,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 176,
       "Id": "switch_AGENAExtrLts",
       "DisplayName": "[RHP] AGENA Ext Lts",
       "Labels": {
@@ -1434,6 +1786,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 177,
       "Id": "switch_FDI2Switch",
       "DisplayName": "[RHP] FDI2 Switch",
       "Labels": {
@@ -1443,6 +1797,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 178,
       "Id": "switch_FUSEBioMedRcdr1",
       "DisplayName": "[RHP] FUSE Bio Med Rcdr 1",
       "Labels": {
@@ -1451,6 +1807,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 179,
       "Id": "switch_FUSEBioMedRcdr2",
       "DisplayName": "[RHP] FUSE Bio Med Rcdr 2",
       "Labels": {
@@ -1459,6 +1817,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 180,
       "Id": "switch_FUSERCSHtr",
       "DisplayName": "[RHP] FUSE RCS Htr",
       "Labels": {
@@ -1467,6 +1827,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 181,
       "Id": "switch_AGENAIndexEvaBars",
       "DisplayName": "[RHP] AGENA Index Eva Bars",
       "Labels": {
@@ -1476,6 +1838,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 182,
       "Id": "switch_AGENAEngineARM",
       "DisplayName": "[RHP] AGENA Engine ARM",
       "Labels": {
@@ -1484,6 +1848,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 183,
       "Id": "switch_AGENABusArm",
       "DisplayName": "[RHP] AGENA Bus Arm",
       "Labels": {
@@ -1493,8 +1859,10 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 184,
       "Id": "switch_RadarLockOn",
-      "DisplayName": "[LC] RadarLockOn?",
+      "DisplayName": "[LC] Radar Lock On",
       "Labels": {
         "2": "Middle",
         "4": "Up",
@@ -1502,6 +1870,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 185,
       "Id": "switch_TDAUndock",
       "DisplayName": "[MC] TDA Undock",
       "Labels": {
@@ -1510,6 +1880,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 186,
       "Id": "switch_RateGyroPitch",
       "DisplayName": "[LC] Rate Gyro Pitch",
       "Labels": {
@@ -1519,6 +1891,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 187,
       "Id": "switch_RateGyroYaw",
       "DisplayName": "[LC] Rate Gyro Yaw",
       "Labels": {
@@ -1528,6 +1902,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 188,
       "Id": "switch_RateGyroRoll",
       "DisplayName": "[LC] Rate Gyro Roll",
       "Labels": {
@@ -1537,6 +1913,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 189,
       "Id": "switch_UHFRadioSelect",
       "DisplayName": "[MC] UHF Radio Select",
       "Labels": {
@@ -1546,6 +1924,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 190,
       "Id": "switch_HFAntennaSelect",
       "DisplayName": "[MC] HF Antenna Select",
       "Labels": {
@@ -1555,6 +1935,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 191,
       "Id": "switch_RadioSilence",
       "DisplayName": "[MC] Radio Silence",
       "Labels": {
@@ -1564,6 +1946,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 192,
       "Id": "switch_RadioKeying",
       "DisplayName": "[MC] Radio Keying",
       "Labels": {
@@ -1573,6 +1957,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 193,
       "Id": "switch_RadioRecord",
       "DisplayName": "[MC] Radio Record",
       "Labels": {
@@ -1582,6 +1968,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 194,
       "Id": "switch_BeaconResc",
       "DisplayName": "[MC] Beacon Resc",
       "Labels": {
@@ -1590,6 +1978,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 195,
       "Id": "switch_BeaconSBand",
       "DisplayName": "[MC] Beacon S Band",
       "Labels": {
@@ -1598,6 +1988,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 196,
       "Id": "switch_BeaconCBand",
       "DisplayName": "[MC] Beacon C Band",
       "Labels": {
@@ -1606,6 +1998,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 197,
       "Id": "switch_TMCalib",
       "DisplayName": "[MC] TM Calib",
       "Labels": {
@@ -1614,6 +2008,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 198,
       "Id": "switch_TMSby",
       "DisplayName": "[MC] TM Stby",
       "Labels": {
@@ -1622,6 +2018,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 199,
       "Id": "switch_TMTM",
       "DisplayName": "[MC] TM TM",
       "Labels": {
@@ -1631,6 +2029,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 200,
       "Id": "switch_RadioTapePlayback",
       "DisplayName": "[MC] Radio Tape Playback",
       "Labels": {
@@ -1640,6 +2040,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 201,
       "Id": "switch_RadioAntSel",
       "DisplayName": "[MC] Radio Ant Sel",
       "Labels": {
@@ -1648,6 +2050,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 202,
       "Id": "switch_HfAntControl",
       "DisplayName": "[MC] Hf Ant Control",
       "Labels": {
@@ -1657,6 +2061,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 203,
       "Id": "switch_TDARigid",
       "DisplayName": "[MC] TDA Rigid",
       "Labels": {
@@ -1666,6 +2072,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 204,
       "Id": "switch_ABORTHandle",
       "DisplayName": "switch_ABORTHandle",
       "Labels": {
@@ -1675,6 +2083,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 205,
       "Id": "switch_XOver",
       "DisplayName": "switch_XOver",
       "Labels": {
@@ -1683,156 +2093,218 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 2,
       "Id": "button_SepSpcft",
       "DisplayName": "[MC] SEP SPCFT",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 4,
       "Id": "button_RCS",
       "DisplayName": "[MC] RCS",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 5,
       "Id": "button_SepOAMSLine",
       "DisplayName": "[MC] Sep OAMS Line",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 6,
       "Id": "button_SepElec",
       "DisplayName": "[MC] Sep Elec",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 7,
       "Id": "button_SepAdapt",
       "DisplayName": "[MC] Sep Adapt",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 8,
       "Id": "button_ArmAutoRetro",
       "DisplayName": "[MC] Arm Auto Retro",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 24,
       "Id": "button_ComputerReset",
       "DisplayName": "[LC] Computer Reset",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 25,
       "Id": "button_ComputerStart",
       "DisplayName": "[LC] Computer Start",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 28,
       "Id": "button_DCSReceive",
       "DisplayName": "[PMP] DCS Receive",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 27,
       "Id": "button_EmerRelease",
       "DisplayName": "[RHP] Emer Release",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 30,
       "Id": "button_HiAltDrogue",
       "DisplayName": "[LC] Hi Alt Drogue",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 29,
       "Id": "button_IMUReset",
       "DisplayName": "[LC] IMU Reset?",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 3,
       "Id": "button_IndRetroAtt",
       "DisplayName": "[MC] Ind Retro Att",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 1,
       "Id": "button_JettFairing",
       "DisplayName": "[MC] Jett Fairing",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 9,
       "Id": "button_JettRetro",
       "DisplayName": "[MC] Jett Retro",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 11,
       "Id": "button_Keyboard1",
       "DisplayName": "[PMP] Keyboard 1",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 12,
       "Id": "button_Keyboard2",
       "DisplayName": "[PMP] Keyboard 2",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 13,
       "Id": "button_Keyboard3",
       "DisplayName": "[PMP] Keyboard 3",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 14,
       "Id": "button_Keyboard4",
       "DisplayName": "[PMP] Keyboard 4",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 15,
       "Id": "button_Keyboard5",
       "DisplayName": "[PMP] Keyboard 5",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 16,
       "Id": "button_Keyboard6",
       "DisplayName": "[PMP] Keyboard 6",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 17,
       "Id": "button_Keyboard7",
       "DisplayName": "[PMP] Keyboard 7",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 18,
       "Id": "button_Keyboard8",
       "DisplayName": "[PMP] Keyboard 8",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 19,
       "Id": "button_Keyboard9",
       "DisplayName": "[PMP] Keyboard 9",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 22,
       "Id": "button_KeyboardClear",
       "DisplayName": "[PMP] Keyboard Clear",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 23,
       "Id": "button_KeyboardEnter",
       "DisplayName": "[PMP] Keyboard Enter",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 21,
       "Id": "button_KeyboardReadOut",
       "DisplayName": "[PMP] Keyboard Read Out",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 20,
       "Id": "button_KeyboardZero",
       "DisplayName": "[PMP] Keyboard Zero",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 32,
       "Id": "button_LdgAtt",
       "DisplayName": "[LC] Ldg Att",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 10,
       "Id": "button_ManFireRetro",
       "DisplayName": "[MC] Man Fire Retro",
       "Labels": null
     },
     {
+      "TypeID": 2,
+      "RefID": 1,
       "Id": "knob_VoltMeterSelector",
       "DisplayName": "[PMP] Volt Meter Selector",
       "Labels": {
@@ -1850,6 +2322,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 2,
       "Id": "knob_dPMeterSelector",
       "DisplayName": "[PMP] dP Meter Selector",
       "Labels": {
@@ -1861,6 +2335,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 3,
       "Id": "knob_CryoSelector",
       "DisplayName": "[MC] Cryo Selector",
       "Labels": {
@@ -1870,6 +2346,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 4,
       "Id": "knob_ACMEMode",
       "DisplayName": "[LC] ACME Mode",
       "Labels": {
@@ -1883,6 +2361,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 5,
       "Id": "knob_IGSPlatform",
       "DisplayName": "[LC] IGS Platform",
       "Labels": {
@@ -1896,6 +2376,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 6,
       "Id": "knob_ComputerMode",
       "DisplayName": "[LC] Computer Mode",
       "Labels": {
@@ -1908,6 +2390,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 7,
       "Id": "knob_FDI1Mode",
       "DisplayName": "[CMP] FDI1 Mode",
       "Labels": {
@@ -1917,6 +2401,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 8,
       "Id": "knob_FDI1Data",
       "DisplayName": "[CMP] FDI1 Data",
       "Labels": {
@@ -1926,6 +2412,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 9,
       "Id": "knob_FDI2Mode",
       "DisplayName": "[PMP] FDI2 Mode",
       "Labels": {
@@ -1935,6 +2423,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 10,
       "Id": "knob_FDI2Data",
       "DisplayName": "[PMP] FDI2 Data",
       "Labels": {
@@ -1944,6 +2434,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 11,
       "Id": "knob_TapeControl",
       "DisplayName": "[PMP] Tape Control",
       "Labels": {
@@ -1955,6 +2447,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 12,
       "Id": "knob_Repressurize",
       "DisplayName": "[LC] Repressurize",
       "Labels": {
@@ -1963,6 +2457,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 13,
       "Id": "knob_CabinRecirc",
       "DisplayName": "[CP] Cabin Recirc",
       "Labels": {
@@ -1971,6 +2467,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 15,
       "Id": "knob_CabinVent",
       "DisplayName": "[CP] Cabin Vent",
       "Labels": {
@@ -1979,6 +2477,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 16,
       "Id": "knob_WaterSeal",
       "DisplayName": "[CP] Water Seal",
       "Labels": {
@@ -1987,6 +2487,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 17,
       "Id": "knob_O2HighRateRecock",
       "DisplayName": "[CP] O2 High Rate Recock",
       "Labels": {
@@ -1995,6 +2497,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 14,
       "Id": "knob_Snorkel",
       "DisplayName": "[CP] Snorkel",
       "Labels": {
@@ -2003,6 +2507,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 18,
       "Id": "knob_EventTimerTimeKnob",
       "DisplayName": "[CMP] Event Timer Time Knob",
       "Labels": {
@@ -2016,6 +2522,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 19,
       "Id": "knob_MissionElapsedTimeKnob",
       "DisplayName": "[MC] Mission Elapsed Time Knob",
       "Labels": {
@@ -2029,6 +2537,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 20,
       "Id": "knob_PropGaugeSelector",
       "DisplayName": "[MC] Prop Gauge Selector",
       "Labels": {
@@ -2040,6 +2550,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 21,
       "Id": "knob_FDI1SetKnob",
       "DisplayName": "[CMP] FDI1 Set Knob",
       "Labels": {
@@ -2048,6 +2560,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 22,
       "Id": "knob_FDI2SetKnob",
       "DisplayName": "[PMP] FDI2 Set Knob",
       "Labels": {
@@ -2056,6 +2570,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 23,
       "Id": "knob_DCDCConvATM",
       "DisplayName": "[OHP] DC-DC Conv ATM",
       "Labels": {
@@ -2065,6 +2581,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 24,
       "Id": "knob_SecondaryO2ShutoffL",
       "DisplayName": "[LHP] Secondary O2 Shutoff L",
       "Labels": {
@@ -2073,6 +2591,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 25,
       "Id": "knob_SecondaryO2ShutoffR",
       "DisplayName": "[RHP] Secondary O2 Shutoff R",
       "Labels": {
@@ -2081,6 +2601,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 26,
       "Id": "knob_EncoderBit1",
       "DisplayName": "[PMP] Encoder Bit 1",
       "Labels": {
@@ -2095,6 +2617,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 27,
       "Id": "knob_EncoderBit2",
       "DisplayName": "[PMP] Encoder Bit 2",
       "Labels": {
@@ -2109,6 +2633,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 28,
       "Id": "knob_EncoderBit3",
       "DisplayName": "[PMP] Encoder Bit 3",
       "Labels": {
@@ -2118,6 +2644,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 29,
       "Id": "knob_RadioModeA",
       "DisplayName": "[MC] Radio Mode A",
       "Labels": {
@@ -2128,6 +2656,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 30,
       "Id": "knob_RadioModeB",
       "DisplayName": "[MC] Radio Mode B",
       "Labels": {
@@ -2138,6 +2668,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 31,
       "Id": "knob_DimLightControl",
       "DisplayName": "Dim Light Control",
       "Labels": {
@@ -2155,456 +2687,638 @@
       }
     },
     {
+      "TypeID": 4,
+      "RefID": 1,
       "Id": "gauge_FC1AAmps",
       "DisplayName": "[PMP] FC 1 A Amps",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 2,
       "Id": "gauge_FC1BAmps",
       "DisplayName": "[PMP] FC 1 B Amps",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 3,
       "Id": "gauge_FC1CAmps",
       "DisplayName": "[PMP] FC 1 C Amps",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 4,
       "Id": "gauge_FC2AAmps",
       "DisplayName": "[PMP] FC 2 A Amps",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 5,
       "Id": "gauge_FC2BAmps",
       "DisplayName": "[PMP] FC 2 B Amps",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 6,
       "Id": "gauge_FC2CAmps",
       "DisplayName": "[PMP] FC 2 C Amps",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 7,
       "Id": "gauge_DCVoltmeter",
       "DisplayName": "[PMP] DC Volt meter",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 8,
       "Id": "gauge_FuelOxid1A",
       "DisplayName": "[] Fuel Oxid 1 A",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 9,
       "Id": "gauge_FuelOxid1B",
       "DisplayName": "[] Fuel Oxid 1 B",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 10,
       "Id": "gauge_FuelOxid2A",
       "DisplayName": "[] Fuel Oxid 2 A",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 11,
       "Id": "gauge_FuelOxid2B",
       "DisplayName": "[] Fuel Oxid 2 B",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 12,
       "Id": "gauge_dPMonitor",
       "DisplayName": "[] dP Monitor",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 13,
       "Id": "gauge_CryoQuantity",
       "DisplayName": "[] Cryo Quantity",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 14,
       "Id": "gauge_CryoPSIA",
       "DisplayName": "[] Cryo PSIA",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 15,
       "Id": "gauge_TempCabin",
       "DisplayName": "[] Temp Cabin",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 16,
       "Id": "gauge_TempSuit",
       "DisplayName": "[] Temp Suit",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 17,
       "Id": "gauge_PressCabin",
       "DisplayName": "[] Press Cabin",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 18,
       "Id": "gauge_PressSuit",
       "DisplayName": "[] Press Suit",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 19,
       "Id": "gauge_SecO2Pri",
       "DisplayName": "[] Sec O2 Pri",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 20,
       "Id": "gauge_SecO2Sec",
       "DisplayName": "[] Sec O2 Sec",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 21,
       "Id": "gauge_AltimeterShort",
       "DisplayName": "[] AltimeterShort",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 22,
       "Id": "gauge_AltimeterLong",
       "DisplayName": "[] AltimeterLong",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 23,
       "Id": "gauge_DecentRate",
       "DisplayName": "[] DecentRate",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 24,
       "Id": "gauge_LongGForces",
       "DisplayName": "[] LongGForces",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 25,
       "Id": "gauge_AccutronClockHour",
       "DisplayName": "[] AccutronClockHour",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 26,
       "Id": "gauge_AccutronClockMinutes",
       "DisplayName": "[] AccutronClockMinutes",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 28,
       "Id": "gauge_MechanicalClockMinutes",
       "DisplayName": "[] MechanicalClockMinutes",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 27,
       "Id": "gauge_MechanicalClockHour",
       "DisplayName": "[] MechanicalClockHour",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 29,
       "Id": "gauge_PropGaugeQty",
       "DisplayName": "[] PropGaugeQty",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 30,
       "Id": "gauge_PropGaugePSI",
       "DisplayName": "[] PropGaugePSI",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 31,
       "Id": "gauge_PropGaugeTemp",
       "DisplayName": "[] PropGaugeTemp",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 32,
       "Id": "gauge_RadarRange",
       "DisplayName": "[] RadarRange",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 33,
       "Id": "gauge_RadarRangeRate",
       "DisplayName": "[] RadarRangeRate",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 34,
       "Id": "gauge_AgenaPPSBurnTime",
       "DisplayName": "[] AgenaPPSBurnTime",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 35,
       "Id": "gauge_AgenaSPSBurnTime",
       "DisplayName": "[] AgenaSPSBurnTime",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 36,
       "Id": "gauge_RangeRate5",
       "DisplayName": "gauge_RangeRate5",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 1,
       "Id": "light_SwitchSepSpcft",
       "DisplayName": "[] SwitchSepSpcft",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 2,
       "Id": "light_SwitchIndRetroAtt",
       "DisplayName": "[] SwitchIndRetroAtt",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 3,
       "Id": "light_IndBtryPwr",
       "DisplayName": "[] IndBtryPwr",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 4,
       "Id": "light_SwitchRCS",
       "DisplayName": "[] SwitchRCS",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 5,
       "Id": "light_SwitchSepOAMSLines",
       "DisplayName": "[] SwitchSepOAMSLines",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 6,
       "Id": "light_SwitchSepElec",
       "DisplayName": "[] SwitchSepElec",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 7,
       "Id": "light_SwitchSepAdapt",
       "DisplayName": "[] SwitchSepAdapt",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 8,
       "Id": "light_SwitchArmAutoRetro",
       "DisplayName": "[] SwitchArmAutoRetro",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 9,
       "Id": "light_SwitchJettRetro",
       "DisplayName": "[] SwitchJettRetro",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 10,
       "Id": "light_IndAbort1",
       "DisplayName": "[] IndAbort1",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 11,
       "Id": "light_IndAbort2",
       "DisplayName": "[] IndAbort2",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 12,
       "Id": "light_IndAttRate",
       "DisplayName": "[] IndAttRate",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 13,
       "Id": "light_IndSecGuidance",
       "DisplayName": "[] IndSecGuidance",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 14,
       "Id": "light_IndEngineIA",
       "DisplayName": "[] IndEngineIA",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 15,
       "Id": "light_IndEngineIB",
       "DisplayName": "[] IndEngineIB",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 16,
       "Id": "light_IndEngineII",
       "DisplayName": "[] IndEngineII",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 17,
       "Id": "light_Red40k",
       "DisplayName": "[] Red40k",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 18,
       "Id": "light_Red106k",
       "DisplayName": "[] Red106k",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 19,
       "Id": "light_RedPriPumpA",
       "DisplayName": "[] RedPriPumpA",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 20,
       "Id": "light_RedPriRes",
       "DisplayName": "[] RedPriRes",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 21,
       "Id": "light_RedPriPumpB",
       "DisplayName": "[] RedPriPumpB",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 22,
       "Id": "light_RedSecPumpA",
       "DisplayName": "[] RedSecPumpA",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 23,
       "Id": "light_RedSecRes",
       "DisplayName": "[] RedSecRes",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 24,
       "Id": "light_RedSecPumpB",
       "DisplayName": "[] RedSecPumpB",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 25,
       "Id": "light_RedEvapPress",
       "DisplayName": "[] RedEvapPress",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 26,
       "Id": "light_RedAcq",
       "DisplayName": "[] RedAcq",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 27,
       "Id": "light_RedAtt",
       "DisplayName": "[] RedAtt",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 28,
       "Id": "light_RedScanner",
       "DisplayName": "[] RedScanner",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 29,
       "Id": "light_RedAuxTapeError",
       "DisplayName": "[] RedAuxTapeError",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 30,
       "Id": "light_RedDCS",
       "DisplayName": "[] RedDCS",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 31,
       "Id": "light_GreenRadarLockOn",
       "DisplayName": "[] GreenRadarLockOn",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 32,
       "Id": "light_GreenAuxTapeRun",
       "DisplayName": "[] GreenAuxTapeRun",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 33,
       "Id": "light_ComputerComp",
       "DisplayName": "[] ComputerComp",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 34,
       "Id": "light_ComputerMalf",
       "DisplayName": "[] ComputerMalf",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 35,
       "Id": "light_IVIFwd",
       "DisplayName": "[] IVIFwd",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 36,
       "Id": "light_IVIAft",
       "DisplayName": "[] IVIAft",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 37,
       "Id": "light_IVIUp",
       "DisplayName": "[] IVIUp",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 38,
       "Id": "light_IVIDn",
       "DisplayName": "[] IVIDn",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 39,
       "Id": "light_IVILft",
       "DisplayName": "[] IVILft",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 40,
       "Id": "light_IVIRght",
       "DisplayName": "[] IVIRght",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 41,
       "Id": "light_TelelightO2HighRate",
       "DisplayName": "[] TelelightO2HighRate",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 42,
       "Id": "light_TelelightRCSHtr",
       "DisplayName": "[] TelelightRCSHtr",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 43,
       "Id": "light_TelelightRCDRTape",
       "DisplayName": "[] TelelightRCDRTape",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 44,
       "Id": "light_TelelightECSHtrs",
       "DisplayName": "[] TelelightECSHtrs",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 45,
       "Id": "light_TelelightFC1dP",
       "DisplayName": "[] TelelightFC1dP",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 46,
       "Id": "light_TelelightFC2dP",
       "DisplayName": "[] TelelightFC2dP",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 47,
       "Id": "light_AgenaDock",
       "DisplayName": "[] AgenaDock",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 48,
       "Id": "light_AgenaRigid",
       "DisplayName": "[] AgenaRigid",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 49,
       "Id": "light_AgenaPWR",
       "DisplayName": "[] AgenaPWR",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 50,
       "Id": "light_AgenaMain1",
       "DisplayName": "[] AgenaMain1",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 51,
       "Id": "light_AgenaMain2",
       "DisplayName": "[] AgenaMain2",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 52,
       "Id": "light_AgenaArmed",
       "DisplayName": "[] AgenaArmed",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 53,
       "Id": "light_AgenaSecHi",
       "DisplayName": "[] AgenaSecHi",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 54,
       "Id": "light_AgenaSecLo",
       "DisplayName": "[] AgenaSecLo",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 55,
       "Id": "light_AgenaATT",
       "DisplayName": "[] AgenaATT",
       "Labels": null

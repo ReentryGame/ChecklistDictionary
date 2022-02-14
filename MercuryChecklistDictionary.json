@@ -1,6 +1,8 @@
 {
   "entries": [
     {
+      "TypeID": 0,
+      "RefID": 1,
       "Id": "switch_CabinLight",
       "DisplayName": "[LP] Cabin Light",
       "Labels": {
@@ -10,6 +12,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 2,
       "Id": "switch_PhotoLight",
       "DisplayName": "[LP] Photo Light",
       "Labels": {
@@ -18,6 +22,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 3,
       "Id": "switch_LaunchControl",
       "DisplayName": "[LP] Launch Control",
       "Labels": {
@@ -26,6 +32,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 4,
       "Id": "switch_StbyBtry",
       "DisplayName": "[MIP] Stby Btry",
       "Labels": {
@@ -34,6 +42,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 5,
       "Id": "switch_IsolBtry",
       "DisplayName": "[MIP] Isol Btry",
       "Labels": {
@@ -42,6 +52,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 6,
       "Id": "switch_Ammeter",
       "DisplayName": "[MIP] Ammeter",
       "Labels": {
@@ -51,6 +63,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 7,
       "Id": "switch_AudioBus",
       "DisplayName": "[MIP] Audio Bus",
       "Labels": {
@@ -59,6 +73,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 8,
       "Id": "switch_FansACBus",
       "DisplayName": "[MIP] Fans AC Bus",
       "Labels": {
@@ -68,6 +84,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 9,
       "Id": "switch_CabinFan",
       "DisplayName": "[MIP] Cabin Fan",
       "Labels": {
@@ -76,6 +94,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 10,
       "Id": "switch_SuitFan",
       "DisplayName": "[MIP] Suit Fan",
       "Labels": {
@@ -85,6 +105,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 11,
       "Id": "switch_ASCSAC",
       "DisplayName": "[MIP] ASCS AC Bus",
       "Labels": {
@@ -94,6 +116,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 12,
       "Id": "switch_ASCSMode",
       "DisplayName": "[LP] ASCS Mode",
       "Labels": {
@@ -103,6 +127,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 13,
       "Id": "switch_ASCSAuto",
       "DisplayName": "[LP] ASCS Auto",
       "Labels": {
@@ -111,6 +137,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 14,
       "Id": "switch_ASCSGyro",
       "DisplayName": "[LP] ASCS Gyro",
       "Labels": {
@@ -120,6 +148,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 15,
       "Id": "switch_ArmSquib",
       "DisplayName": "[LP] Arm Squib",
       "Labels": {
@@ -128,6 +158,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 16,
       "Id": "switch_RetroDelay",
       "DisplayName": "[LP] Retro Delay",
       "Labels": {
@@ -136,6 +168,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 17,
       "Id": "switch_RetroAtt",
       "DisplayName": "[LP] Retro Att",
       "Labels": {
@@ -144,6 +178,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 18,
       "Id": "switch_AutoRetroJett",
       "DisplayName": "[LP] Auto Retro Jett",
       "Labels": {
@@ -152,6 +188,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 19,
       "Id": "switch_RetractScope",
       "DisplayName": "[LP] Retract Scope",
       "Labels": {
@@ -160,6 +198,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 20,
       "Id": "switch_AttitudeSelect",
       "DisplayName": "[LP] Attitude Select",
       "Labels": {
@@ -168,6 +208,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 21,
       "Id": "switch_WarningLightsBrightness",
       "DisplayName": "[MIP] Warning Lights Brightness",
       "Labels": {
@@ -176,6 +218,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 22,
       "Id": "switch_VOXSwitch",
       "DisplayName": "[MIP] VOX Switch",
       "Labels": {
@@ -185,6 +229,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 23,
       "Id": "switch_Beacon",
       "DisplayName": "[MIP] Beacon",
       "Labels": {
@@ -193,6 +239,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 24,
       "Id": "switch_Transmit",
       "DisplayName": "[MIP] Transmit",
       "Labels": {
@@ -202,6 +250,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 25,
       "Id": "switch_UHFSelect",
       "DisplayName": "[MIP] UHF Select",
       "Labels": {
@@ -210,6 +260,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 26,
       "Id": "switch_UHFDF",
       "DisplayName": "[MIP] UHF/DF",
       "Labels": {
@@ -218,6 +270,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 27,
       "Id": "switch_TLMLoFreq",
       "DisplayName": "[LP] TLM Lo-Freq",
       "Labels": {
@@ -226,6 +280,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 28,
       "Id": "switch_LandingBag",
       "DisplayName": "[LP] Landing Bag",
       "Labels": {
@@ -235,6 +291,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 29,
       "Id": "switch_RescueAids",
       "DisplayName": "[LP] Rescue Aids",
       "Labels": {
@@ -243,6 +301,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 34,
       "Id": "switch_LightsTest",
       "DisplayName": "[MIP] Lights Test",
       "Labels": {
@@ -252,6 +312,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 31,
       "Id": "switch_AudioO2Emer",
       "DisplayName": "[MIP] Audio O2 Emer",
       "Labels": {
@@ -260,6 +322,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 30,
       "Id": "switch_AudioCabinPress",
       "DisplayName": "[MIP] Audio Cabin Press",
       "Labels": {
@@ -268,6 +332,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 32,
       "Id": "switch_AudioFuelQuan",
       "DisplayName": "[MIP] Audio Fuel Quan",
       "Labels": {
@@ -276,6 +342,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 33,
       "Id": "switch_AudioRetroWarn",
       "DisplayName": "[MIP] Audio Retro Warn",
       "Labels": {
@@ -284,6 +352,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 35,
       "Id": "switch_AudioH2OCabin",
       "DisplayName": "[MIP] Audio H2O Cabin",
       "Labels": {
@@ -292,6 +362,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 36,
       "Id": "switch_AudioH2OSuit",
       "DisplayName": "[MIP] Audio H2O Suit",
       "Labels": {
@@ -300,6 +372,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 37,
       "Id": "switch_AudioRetroReset",
       "DisplayName": "[MIP] Audio Retro Reset",
       "Labels": {
@@ -308,6 +382,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 38,
       "Id": "switch_InletValve",
       "DisplayName": "[MIP] Inlet Valve Pwr",
       "Labels": {
@@ -316,6 +392,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 39,
       "Id": "switch_Maneuver",
       "DisplayName": "[MIP] Maneuver",
       "Labels": {
@@ -324,6 +402,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 40,
       "Id": "switch_Battery1",
       "DisplayName": "[Rear] Battery 1",
       "Labels": {
@@ -332,6 +412,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 41,
       "Id": "switch_Battery2",
       "DisplayName": "[Rear] Battery 2",
       "Labels": {
@@ -340,6 +422,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 42,
       "Id": "switch_Battery3",
       "DisplayName": "[Rear] Battery 3",
       "Labels": {
@@ -348,6 +432,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 43,
       "Id": "switch_Standby1",
       "DisplayName": "[Rear] Standby 1",
       "Labels": {
@@ -356,6 +442,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 44,
       "Id": "switch_Standby2",
       "DisplayName": "[Rear] Standby 2",
       "Labels": {
@@ -364,6 +452,8 @@
       }
     },
     {
+      "TypeID": 0,
+      "RefID": 45,
       "Id": "switch_IsolatedBattery",
       "DisplayName": "[MIP] Isolated Battery",
       "Labels": {
@@ -372,6 +462,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 1,
       "Id": "fuse_SuitFan",
       "DisplayName": "[MIP] Suit Fan Fuse",
       "Labels": {
@@ -381,6 +473,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 2,
       "Id": "fuse_InvrContrl",
       "DisplayName": "[MIP] Invr Contrl Fuse",
       "Labels": {
@@ -390,6 +484,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 3,
       "Id": "fuse_RetroJett",
       "DisplayName": "[MIP] Retro Jett Fuse",
       "Labels": {
@@ -399,6 +495,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 4,
       "Id": "fuse_RetroMan",
       "DisplayName": "[MIP] Retro Man Fuse",
       "Labels": {
@@ -408,6 +506,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 5,
       "Id": "fuse_ProGramr",
       "DisplayName": "[MIP] Programmer Fuse",
       "Labels": {
@@ -417,6 +517,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 6,
       "Id": "fuse_BloodPress",
       "DisplayName": "[MIP] Blood Press Fuse",
       "Labels": {
@@ -426,6 +528,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 7,
       "Id": "fuse_AntSwitch",
       "DisplayName": "[LC] Ant Switch Fuse",
       "Labels": {
@@ -435,6 +539,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 8,
       "Id": "fuse_ComvRcvrA",
       "DisplayName": "[LC] Comv Rcvr A Fuse",
       "Labels": {
@@ -444,6 +550,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 9,
       "Id": "fuse_TrimHiFreq",
       "DisplayName": "[LC] Trim Hi Freq Fuse",
       "Labels": {
@@ -453,6 +561,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 10,
       "Id": "fuse_EmerReserveDeploy",
       "DisplayName": "[LC] Emer Reserve Deploy Fuse",
       "Labels": {
@@ -462,6 +572,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 11,
       "Id": "fuse_EmerLandBag",
       "DisplayName": "[LC] Emer Land Bag Fuse",
       "Labels": {
@@ -471,6 +583,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 12,
       "Id": "fuse_EmerRescueAids",
       "DisplayName": "[LC] Emer Rescue Aids Fuse",
       "Labels": {
@@ -480,6 +594,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 13,
       "Id": "fuse_PeriScope",
       "DisplayName": "[LC] Periscope Fuse",
       "Labels": {
@@ -489,6 +605,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 14,
       "Id": "fuse_ASCSDot05G",
       "DisplayName": "[LC] ASCS Dot05G Fuse",
       "Labels": {
@@ -498,6 +616,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 15,
       "Id": "fuse_EmerDot05G",
       "DisplayName": "[LC] Emer Dot05G Fuse",
       "Labels": {
@@ -507,6 +627,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 16,
       "Id": "fuse_EmerDrogueDeploy",
       "DisplayName": "[LC] Emer Drogue Deploy Fuse",
       "Labels": {
@@ -516,6 +638,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 17,
       "Id": "fuse_EmerMainDeploy",
       "DisplayName": "[LC] Emer Main Deploy Fuse",
       "Labels": {
@@ -525,6 +649,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 18,
       "Id": "fuse_ReserveDeploy",
       "DisplayName": "[LC] Reserve Deploy Fuse",
       "Labels": {
@@ -534,6 +660,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 19,
       "Id": "fuse_AuxBcn",
       "DisplayName": "[LC] Aux Bcn Fuse",
       "Labels": {
@@ -543,6 +671,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 20,
       "Id": "fuse_No1RetroRckt",
       "DisplayName": "[LC] No1 Retro Rckt Fuse",
       "Labels": {
@@ -552,6 +682,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 21,
       "Id": "fuse_No2RetroRckt",
       "DisplayName": "[LC] No2 Retro Rckt Fuse",
       "Labels": {
@@ -561,6 +693,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 22,
       "Id": "fuse_No3RetroRckt",
       "DisplayName": "[LC] No3 Retro Rckt Fuse",
       "Labels": {
@@ -570,6 +704,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 23,
       "Id": "fuse_EmerRetroSeq",
       "DisplayName": "[LC] Emer Retro Seq Fuse",
       "Labels": {
@@ -579,6 +715,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 24,
       "Id": "fuse_EmerRetroJett",
       "DisplayName": "[LC] Emer RetroJett Fuse",
       "Labels": {
@@ -588,6 +726,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 25,
       "Id": "fuse_PhaseShifter",
       "DisplayName": "[LC] Phase Shifter Fuse",
       "Labels": {
@@ -597,6 +737,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 26,
       "Id": "fuse_EmerCapSepCntrl",
       "DisplayName": "[LC] Emer Cap Sep Cntrl Fuse",
       "Labels": {
@@ -606,6 +748,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 27,
       "Id": "fuse_EmerEscapeRckt",
       "DisplayName": "[LC] Emer Escape Rckt Fuse",
       "Labels": {
@@ -615,6 +759,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 28,
       "Id": "fuse_TowerSepContrl",
       "DisplayName": "[LC] Tower Sep Contrl Fuse",
       "Labels": {
@@ -624,6 +770,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 29,
       "Id": "fuse_EmerTowerSep",
       "DisplayName": "[LC] Emer Tower Sep Fuse",
       "Labels": {
@@ -633,6 +781,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 30,
       "Id": "fuse_EmerTowerJett",
       "DisplayName": "[LC] Emer Tower Jett Fuse",
       "Labels": {
@@ -642,6 +792,8 @@
       }
     },
     {
+      "TypeID": 1,
+      "RefID": 31,
       "Id": "fuse_EmerPosgrd",
       "DisplayName": "[LC] Emer Posgrd Fuse",
       "Labels": {
@@ -651,31 +803,43 @@
       }
     },
     {
+      "TypeID": 5,
+      "RefID": 3,
       "Id": "button_CommunicationKey",
       "DisplayName": "[MIP] Communication Key",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 4,
       "Id": "button_EPIOrbit",
       "DisplayName": "[MIP] EPI Orbit",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 2,
       "Id": "button_BloodPressureEnd",
       "DisplayName": "[MIP] Blood Pressure End",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 1,
       "Id": "button_BloodPressureStart",
       "DisplayName": "[MIP] Blood Pressure Start",
       "Labels": null
     },
     {
+      "TypeID": 5,
+      "RefID": 5,
       "Id": "button_EPIPolar",
       "DisplayName": "[MIP] EPI Polar",
       "Labels": null
     },
     {
+      "TypeID": 2,
+      "RefID": 1,
       "Id": "knob_DCSelector",
       "DisplayName": "[MIP] DC Selector",
       "Labels": {
@@ -690,6 +854,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 2,
       "Id": "knob_ACSelector",
       "DisplayName": "[MIP] AC Selector",
       "Labels": {
@@ -704,6 +870,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 3,
       "Id": "knob_RetroTimeModifier",
       "DisplayName": "[MIP] Retro Time Modifier",
       "Labels": {
@@ -715,6 +883,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 5,
       "Id": "knob_SuitTemp",
       "DisplayName": "[RC] Suit Temp",
       "Labels": {
@@ -728,6 +898,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 4,
       "Id": "knob_CabinTemp",
       "DisplayName": "[RC] Cabin Temp",
       "Labels": {
@@ -741,6 +913,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 6,
       "Id": "knob_InverterTemp",
       "DisplayName": "[RC] Inverter Temp",
       "Labels": {
@@ -754,6 +928,8 @@
       }
     },
     {
+      "TypeID": 2,
+      "RefID": 7,
       "Id": "knob_EPIInclination",
       "DisplayName": "[MIP] EPI Inclination",
       "Labels": {
@@ -781,226 +957,316 @@
       }
     },
     {
+      "TypeID": 6,
+      "RefID": 1,
       "Id": "gauge_Altitude",
       "DisplayName": "Altitude",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 2,
       "Id": "gauge_AttRoll",
       "DisplayName": "Att Roll",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 3,
       "Id": "gauge_AttPitch",
       "DisplayName": "Att Pitch",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 4,
       "Id": "gauge_AttYaw",
       "DisplayName": "Att Yaw",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 5,
       "Id": "gauge_DCVolts",
       "DisplayName": "DC Volts",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 6,
       "Id": "gauge_DCAmps",
       "DisplayName": "DC Amps",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 7,
       "Id": "gauge_PrimaryO2Tank",
       "DisplayName": "Primary O2 Tank",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 8,
       "Id": "gauge_SecondaryO2Tank",
       "DisplayName": "Secondary O2 Tank",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 9,
       "Id": "gauge_CabinPSIA",
       "DisplayName": "Cabin PSIA",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 10,
       "Id": "gauge_CabinAir",
       "DisplayName": "Cabin Air",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 11,
       "Id": "gauge_FuelQuantityAuto",
       "DisplayName": "Fuel Quantity Auto",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 12,
       "Id": "gauge_FuelQuantityMan",
       "DisplayName": "Fuel Quantity Man",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 14,
       "Id": "gauge_SuitPressure",
       "DisplayName": "Suit Pressure",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 13,
       "Id": "gauge_SuitTemp",
       "DisplayName": "Suit Temp",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 15,
       "Id": "gauge_ACVolts",
       "DisplayName": "AC Volts",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 16,
       "Id": "gauge_Accelerometer",
       "DisplayName": "Accelerometer",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 17,
       "Id": "gauge_DecentRate",
       "DisplayName": "Decent Rate",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 18,
       "Id": "gauge_SateliteClockSeconds",
       "DisplayName": "Satelite Clock Seconds",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 19,
       "Id": "gauge_SateliteClockMinutes",
       "DisplayName": "Satelite Clock Minutes",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 20,
       "Id": "gauge_SateliteClockHours",
       "DisplayName": "Satelite Clock Hours",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 21,
       "Id": "gauge_SteamVentCabin",
       "DisplayName": "SteamVent Cabin",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 22,
       "Id": "gauge_SteamVentSuit",
       "DisplayName": "Steam Vent Suit",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 23,
       "Id": "gauge_SensorTemp",
       "DisplayName": "Sensor Temp",
       "Labels": null
     },
     {
+      "TypeID": 6,
+      "RefID": 24,
       "Id": "gauge_CabinO2",
       "DisplayName": "Cabin O2",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 1,
       "Id": "light_CabinPress",
       "DisplayName": "Cabin Press",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 2,
       "Id": "light_StbyACAuto",
       "DisplayName": "Stby AC Auto",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 3,
       "Id": "light_JettTower",
       "DisplayName": "Jett Tower",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 4,
       "Id": "light_SepCapsule",
       "DisplayName": "SepCapsule",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 5,
       "Id": "light_RetroAtt",
       "DisplayName": "Retro Att",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 6,
       "Id": "light_RetroSeq",
       "DisplayName": "Retro Seq",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 7,
       "Id": "light_RetroFire",
       "DisplayName": "Retro Fire",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 8,
       "Id": "light_JettRetro",
       "DisplayName": "Jett Retro",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 9,
       "Id": "light_RetroWarn",
       "DisplayName": "Retro Warn",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 10,
       "Id": "light_RetractPeriscope",
       "DisplayName": "Retract Periscope",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 11,
       "Id": "light_Dot05GDetected",
       "DisplayName": "Dot05G Detected",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 12,
       "Id": "light_MainChute",
       "DisplayName": "Main Chute",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 13,
       "Id": "light_O2Emer",
       "DisplayName": "O2 Emer",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 14,
       "Id": "light_LandingBag",
       "DisplayName": "Landing Bag",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 15,
       "Id": "light_RescueAids",
       "DisplayName": "Rescue Aids",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 16,
       "Id": "light_FuelQuan",
       "DisplayName": "Fuel Quan",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 19,
       "Id": "light_ExcessCabinH2O",
       "DisplayName": "Excess Cabin H2O",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 18,
       "Id": "light_ExcessSuitH2O",
       "DisplayName": "Excess Suit H2O",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 17,
       "Id": "light_RetroReset",
       "DisplayName": "Retro Reset",
       "Labels": null
     },
     {
+      "TypeID": 7,
+      "RefID": 20,
       "Id": "light_AbortRequested",
       "DisplayName": "Abort Requested",
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 1,
       "Id": "handle_Decompress",
       "DisplayName": "[LP] Decompress",
       "Labels": {
@@ -1009,6 +1275,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 2,
       "Id": "handle_Repressurize",
       "DisplayName": "[LP] Repressurize",
       "Labels": {
@@ -1017,6 +1285,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 3,
       "Id": "handle_ManualControl",
       "DisplayName": "[LP] Manual Control Handle",
       "Labels": {
@@ -1025,6 +1295,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 4,
       "Id": "handle_RollLock",
       "DisplayName": "[LP] Roll Handle",
       "Labels": {
@@ -1033,6 +1305,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 6,
       "Id": "handle_YawLock",
       "DisplayName": "[LP] Yaw Handle",
       "Labels": {
@@ -1041,6 +1315,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 5,
       "Id": "handle_PitchLock",
       "DisplayName": "[LP] Pitch Handle",
       "Labels": {
@@ -1049,6 +1325,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 7,
       "Id": "handle_RingJettTower",
       "DisplayName": "[LP] Ring Jett Tower",
       "Labels": {
@@ -1057,6 +1335,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 8,
       "Id": "handle_RingSepCapsule",
       "DisplayName": "[LP] Ring Sep Capsule",
       "Labels": {
@@ -1065,6 +1345,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 9,
       "Id": "handle_RingOpenSnorkelNow",
       "DisplayName": "[LP] Ring Open Snorkel",
       "Labels": {
@@ -1073,6 +1355,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 10,
       "Id": "handle_RingDeployMainNow",
       "DisplayName": "[LP] Ring Deploy Main",
       "Labels": {
@@ -1081,6 +1365,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 11,
       "Id": "handle_RingDeployReserveNow",
       "DisplayName": "[LP] Ring Deploy Reserve",
       "Labels": {
@@ -1089,6 +1375,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 12,
       "Id": "handle_EmerO2",
       "DisplayName": "[RC] Emer O2 Handle",
       "Labels": {
@@ -1097,6 +1385,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 13,
       "Id": "handle_RetractPeriscope",
       "DisplayName": "[MIP] Retract Periscope Handle",
       "Labels": {
@@ -1105,6 +1395,8 @@
       }
     },
     {
+      "TypeID": 3,
+      "RefID": 14,
       "Id": "handle_PressRegHandle",
       "DisplayName": "[LP] Press Reg Handle",
       "Labels": {
@@ -1113,31 +1405,43 @@
       }
     },
     {
+      "TypeID": 4,
+      "RefID": 1,
       "Id": "trigger_RetroSeq",
       "DisplayName": "[LP] Retro Seq",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 2,
       "Id": "trigger_FireRetroNow",
       "DisplayName": "[LP] Fire Retro",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 3,
       "Id": "trigger_JettRetroNow",
       "DisplayName": "[LP] Jett Retro",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 4,
       "Id": "trigger_Dot05GNow",
       "DisplayName": "[LP] Dot05G",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 5,
       "Id": "trigger_DeployDrogueNow",
       "DisplayName": "[LP] Deploy Drogue",
       "Labels": null
     },
     {
+      "TypeID": 4,
+      "RefID": 6,
       "Id": "trigger_TimeZero",
       "DisplayName": "[MIP] Time Zero",
       "Labels": null
