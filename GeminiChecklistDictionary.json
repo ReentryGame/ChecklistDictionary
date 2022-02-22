@@ -6,8 +6,8 @@
       "Id": "switch_FUSECoaxCntl",
       "DisplayName": "[LHP] FUSE Coax Cntl",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -16,8 +16,8 @@
       "Id": "switch_SquibBoostInsert",
       "DisplayName": "[LHP] Squib Boost Insert",
       "Labels": {
-        "4": "PWR",
-        "5": "OFF"
+        "4": "ARM",
+        "5": "SAFE"
       }
     },
     {
@@ -26,8 +26,8 @@
       "Id": "switch_SquibRetroPWR",
       "DisplayName": "[LHP] Squib Retro PWR",
       "Labels": {
-        "4": "PWR",
-        "5": "OFF"
+        "4": "ARM",
+        "5": "SAFE"
       }
     },
     {
@@ -36,8 +36,8 @@
       "Id": "switch_SquibRetroJett",
       "DisplayName": "[LHP] Squib Retro Jett",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ARM",
+        "5": "SAFE"
       }
     },
     {
@@ -46,8 +46,8 @@
       "Id": "switch_SquibLanding",
       "DisplayName": "[LHP] Squib Landing",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ARM",
+        "5": "SAFE"
       }
     },
     {
@@ -56,8 +56,8 @@
       "Id": "switch_SquibRetro1",
       "DisplayName": "[LHP] Squib Retro 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ARM",
+        "5": "SAFE"
       }
     },
     {
@@ -66,8 +66,8 @@
       "Id": "switch_SquibRetro2",
       "DisplayName": "[LHP] Squib Retro 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ARM",
+        "5": "SAFE"
       }
     },
     {
@@ -76,8 +76,8 @@
       "Id": "switch_SquibRetro3",
       "DisplayName": "[LHP] Squib Retro 3",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ARM",
+        "5": "SAFE"
       }
     },
     {
@@ -86,8 +86,8 @@
       "Id": "switch_SquibRetro4",
       "DisplayName": "[LHP] Squib Retro 4",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ARM",
+        "5": "SAFE"
       }
     },
     {
@@ -96,9 +96,9 @@
       "Id": "switch_MainBattery1",
       "DisplayName": "[RHP] Main Battery 1",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "ON",
+        "5": "TEST"
       }
     },
     {
@@ -107,9 +107,9 @@
       "Id": "switch_MainBattery2",
       "DisplayName": "[RHP] Main Battery 2",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "ON",
+        "5": "TEST"
       }
     },
     {
@@ -118,9 +118,9 @@
       "Id": "switch_MainBattery3",
       "DisplayName": "[RHP] Main Battery 3",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "ON",
+        "5": "TEST"
       }
     },
     {
@@ -129,9 +129,9 @@
       "Id": "switch_MainBattery4",
       "DisplayName": "[RHP] Main Battery 4",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "ON",
+        "5": "TEST"
       }
     },
     {
@@ -140,9 +140,9 @@
       "Id": "switch_SquibBattery1",
       "DisplayName": "[RHP] Squib Battery 1",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "ON",
+        "5": "UMB"
       }
     },
     {
@@ -151,9 +151,9 @@
       "Id": "switch_SquibBattery2",
       "DisplayName": "[RHP] Squib Battery 2",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "ON",
+        "5": "UMB"
       }
     },
     {
@@ -162,9 +162,9 @@
       "Id": "switch_SquibBattery3",
       "DisplayName": "[RHP] Squib Battery 3",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "ON",
+        "5": "UMB"
       }
     },
     {
@@ -183,9 +183,9 @@
       "Id": "switch_LightsTest",
       "DisplayName": "Lights Test",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "Off",
+        "4": "Amber",
+        "5": "Red"
       }
     },
     {
@@ -194,9 +194,9 @@
       "Id": "switch_FuelCell1PurgeO2",
       "DisplayName": "[PMP] Fuel Cell 1 Purge O2",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "O2",
+        "5": "H2"
       }
     },
     {
@@ -205,9 +205,9 @@
       "Id": "switch_FuelCell1PWR",
       "DisplayName": "[PMP] Fuel Cell 1 PWR",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "WARMUP",
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -216,9 +216,9 @@
       "Id": "switch_FuelCell2PurgeO2",
       "DisplayName": "[PMP] Fuel Cell 2 Purge O2",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "O2",
+        "5": "H2"
       }
     },
     {
@@ -227,9 +227,9 @@
       "Id": "switch_FuelCell2PWR",
       "DisplayName": "[PMP] Fuel Cell 2 PWR",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "WARMUP",
+        "4": "ON",
+        "5": "ÖFF"
       }
     },
     {
@@ -238,8 +238,8 @@
       "Id": "switch_FuelCell1A",
       "DisplayName": "[PMP] Fuel Cell 1A",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -248,8 +248,8 @@
       "Id": "switch_FuelCell1B",
       "DisplayName": "[PMP] Fuel Cell 1B",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -258,8 +258,8 @@
       "Id": "switch_FuelCell1C",
       "DisplayName": "[PMP] Fuel Cell 1C",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -268,8 +268,8 @@
       "Id": "switch_FuelCell2A",
       "DisplayName": "[PMP] Fuel Cell 2A",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -278,8 +278,8 @@
       "Id": "switch_FuelCell2B",
       "DisplayName": "[PMP] Fuel Cell 2B",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -288,8 +288,8 @@
       "Id": "switch_FuelCell2C",
       "DisplayName": "[PMP] Fuel Cell 2C",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -298,8 +298,8 @@
       "Id": "switch_BusTie1",
       "DisplayName": "[RHP] Bus Tie 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -308,8 +308,8 @@
       "Id": "switch_BusTie2",
       "DisplayName": "[RHP] Bus Tie 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -318,8 +318,8 @@
       "Id": "switch_ControllerPWROAMS",
       "DisplayName": "[LC] Controller PWR OAMS",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -328,9 +328,9 @@
       "Id": "switch_ControllerPWRRCSA",
       "DisplayName": "[LC] Controller PWR RCS A",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "ACME",
+        "5": "DIRECT"
       }
     },
     {
@@ -339,9 +339,9 @@
       "Id": "switch_ControllerPWRRCSB",
       "DisplayName": "[LC] Controller PW RCS B",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "ACME",
+        "5": "DIRECT"
       }
     },
     {
@@ -350,9 +350,9 @@
       "Id": "switch_ACPowerSource",
       "DisplayName": "[RHP] AC Power Source",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "IGS",
+        "5": "ACME"
       }
     },
     {
@@ -361,8 +361,8 @@
       "Id": "switch_MDIUPower",
       "DisplayName": "[PMP] MDIU Power",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -371,8 +371,8 @@
       "Id": "switch_AuxTapePWR",
       "DisplayName": "[PMP] Aux Tape PWR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON/RESET",
+        "5": "OFF"
       }
     },
     {
@@ -381,8 +381,8 @@
       "Id": "switch_ComputerPower",
       "DisplayName": "[LC] Computer Power",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -391,9 +391,9 @@
       "Id": "switch_HorizonScannerSelect",
       "DisplayName": "[LC] HorizonScannerSelect",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "PRI",
+        "5": "SEC"
       }
     },
     {
@@ -402,8 +402,8 @@
       "Id": "switch_HorizonScannerHeater",
       "DisplayName": "[LC] HorizonScannerHeater",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -412,9 +412,9 @@
       "Id": "switch_SuitFan",
       "DisplayName": "[MC] Suit Fan",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "No 1",
+        "5": "No 1 & 2"
       }
     },
     {
@@ -423,8 +423,8 @@
       "Id": "switch_FUSESuitFan1",
       "DisplayName": "[OHP] FUSE Suit Fan 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -433,8 +433,8 @@
       "Id": "switch_FUSESuitFan2",
       "DisplayName": "[OHP] FUSE Suit Fan 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -443,8 +443,8 @@
       "Id": "switch_O2HighRate",
       "DisplayName": "[MC] O2 High Rate",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OFF",
+        "5": "O2 HI RATE"
       }
     },
     {
@@ -453,8 +453,8 @@
       "Id": "switch_CoolPriPumpA",
       "DisplayName": "[MC] Cool Pri Pump A",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -463,8 +463,8 @@
       "Id": "switch_CoolPriPumpB",
       "DisplayName": "[MC] Cool Pri Pump B",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -473,8 +473,8 @@
       "Id": "switch_CoolSecPumpA",
       "DisplayName": "[MC] Cool Sec Pump A",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "On",
+        "5": "Off"
       }
     },
     {
@@ -483,8 +483,8 @@
       "Id": "switch_CoolSecPumpB",
       "DisplayName": "[MC] Cool Sec Pump B",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "On",
+        "5": "Off"
       }
     },
     {
@@ -493,8 +493,8 @@
       "Id": "switch_RadiatorFlow",
       "DisplayName": "[MC] Radiator Flow",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Flow",
+        "5": "Bypass"
       }
     },
     {
@@ -503,8 +503,8 @@
       "Id": "switch_EvaporatorHeat",
       "DisplayName": "[MC] Evaporator Heat",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Heat",
+        "5": "Off"
       }
     },
     {
@@ -513,8 +513,8 @@
       "Id": "switch_EvaporatprMaxFlow",
       "DisplayName": "[MC] Evap Max Flow",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Max Flow",
+        "5": "Norm"
       }
     },
     {
@@ -523,8 +523,8 @@
       "Id": "switch_EventTimerStart",
       "DisplayName": "[MC] Event Timer Start",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Stby",
+        "5": "Stop"
       }
     },
     {
@@ -533,7 +533,7 @@
       "Id": "switch_EventTimerDirection",
       "DisplayName": "[MC] Event Timer Direction",
       "Labels": {
-        "2": "Middle",
+        "2": "Auto",
         "4": "Up",
         "5": "Down"
       }
@@ -544,18 +544,18 @@
       "Id": "switch_ElapsedTimeStarter",
       "DisplayName": "[MC] Elapsed Time Starter",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Start",
+        "5": "Stop"
       }
     },
     {
       "TypeID": 0,
       "RefID": 54,
       "Id": "switch_H2VacTank",
-      "DisplayName": "switch_H2VacTank",
+      "DisplayName": "[MC] H2 VAC TANK",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Open",
+        "5": "Closed"
       }
     },
     {
@@ -564,9 +564,9 @@
       "Id": "switch_CryoHeaterO2",
       "DisplayName": "[MC] Cryo Heater O2",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "Off",
+        "4": "Auto",
+        "5": "On"
       }
     },
     {
@@ -575,9 +575,9 @@
       "Id": "switch_CryoHeaterH2",
       "DisplayName": "[MC] Cryo Heater H2",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "Off",
+        "4": "Auto",
+        "5": "On"
       }
     },
     {
@@ -596,8 +596,8 @@
       "Id": "switch_PropMotoOAMS",
       "DisplayName": "[LC] Prop Moto Valve OAMS",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSED"
       }
     },
     {
@@ -606,8 +606,8 @@
       "Id": "switch_PropMotRCSA",
       "DisplayName": "[LC] Prop Moto Valve RCS A",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSED"
       }
     },
     {
@@ -616,8 +616,8 @@
       "Id": "switch_PropMotRCSB",
       "DisplayName": "[LC] Prop Moto Valve RCS B",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSED"
       }
     },
     {
@@ -626,8 +626,8 @@
       "Id": "switch_FUSEDCDCConv",
       "DisplayName": "[OHP] FUSE DC-DC Conv",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -636,8 +636,8 @@
       "Id": "switch_LightsCabin",
       "DisplayName": "[OHP] Lights Cabin",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -646,8 +646,8 @@
       "Id": "switch_LightsFDI",
       "DisplayName": "[OHP] Lights FDI",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -656,9 +656,9 @@
       "Id": "switch_CTRLights",
       "DisplayName": "[OHP] CTR Lights",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "BRIGHT",
+        "5": "RED"
       }
     },
     {
@@ -667,8 +667,8 @@
       "Id": "switch_FUSEAudioAndUHFTR1",
       "DisplayName": "[LHP] FUSE Audio & UHF T/R 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -677,8 +677,8 @@
       "Id": "switch_FUSEAudioAndUHFTR2",
       "DisplayName": "[LHP] FUSE Audio & UHF T/R 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -687,8 +687,8 @@
       "Id": "switch_FUSEUHFRelay",
       "DisplayName": "[LHP] FUSE UHF Relay",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -697,8 +697,8 @@
       "Id": "switch_FUSEToneVox",
       "DisplayName": "[LHP] FUSE Tone Vox",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -707,8 +707,8 @@
       "Id": "switch_FUSETV",
       "DisplayName": "[LHP] FUSE TV",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -717,8 +717,8 @@
       "Id": "switch_FUSEHFTR",
       "DisplayName": "[LHP] FUSE HF T/R",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -727,8 +727,8 @@
       "Id": "switch_FUSEAntCntl",
       "DisplayName": "[LHP] FUSE Ant Cntl",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -737,8 +737,8 @@
       "Id": "switch_FUSEWhipAntHF",
       "DisplayName": "[LHP] FUSE Whip Ant HF",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -747,8 +747,8 @@
       "Id": "switch_FUSEWhipAntUHF",
       "DisplayName": "[LHP] FUSE Whip Ant UHF",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -757,8 +757,8 @@
       "Id": "switch_FUSEWhipAntDiplex",
       "DisplayName": "[LHP] FUSE Whip Ant Diplex",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -767,8 +767,8 @@
       "Id": "switch_FUSEElectTimer",
       "DisplayName": "[LHP] FUSE Elect Timer",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -777,8 +777,8 @@
       "Id": "switch_FUSEEventTimer",
       "DisplayName": "[LHP] FUSE Event Timer",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -787,8 +787,8 @@
       "Id": "switch_FUSEBoostCutoff1",
       "DisplayName": "[LHP] FUSE Boost Cutoff 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -797,8 +797,8 @@
       "Id": "switch_FUSEBoostCutoff2",
       "DisplayName": "[LHP] FUSE Boost Cutoff 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -807,8 +807,8 @@
       "Id": "switch_FUSERetroAuto",
       "DisplayName": "[LHP] FUSE Retro Auto",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -817,8 +817,8 @@
       "Id": "switch_FUSERetroMan",
       "DisplayName": "[LHP] FUSE Retro Man",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -827,8 +827,8 @@
       "Id": "switch_FUSETr256",
       "DisplayName": "[LHP] FUSE TR256",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -837,8 +837,8 @@
       "Id": "switch_FUSEECSIndLts",
       "DisplayName": "[LHP] FUSE ECS Ind Lts",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -847,8 +847,8 @@
       "Id": "switch_FUSEIndLtTest",
       "DisplayName": "[LHP] FUSE Ind Lt Test",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -857,8 +857,8 @@
       "Id": "switch_FUSESeqLightsPWR",
       "DisplayName": "[LHP] FUSE Seq Lights PWR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -867,8 +867,8 @@
       "Id": "switch_FUSESeqLightsCntl",
       "DisplayName": "[LHP] FUSE Seq Lights Cntl",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -877,8 +877,8 @@
       "Id": "switch_FUSEParaCntl",
       "DisplayName": "[LHP] FUSE Para Cntl",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -887,7 +887,7 @@
       "Id": "switch_FUSEAttIncCntlRetro",
       "DisplayName": "[LHP] FUSE Att Inc Cntl Retro",
       "Labels": {
-        "4": "Up",
+        "4": "Closed",
         "5": "Down"
       }
     },
@@ -897,7 +897,7 @@
       "Id": "switch_FUSEAttIndCntlLdg",
       "DisplayName": "[LHP] FUSE Att Ind Cntl Ldg",
       "Labels": {
-        "4": "Up",
+        "4": "Closed",
         "5": "Down"
       }
     },
@@ -907,7 +907,7 @@
       "Id": "switch_FUSEBoostInsertCntl1",
       "DisplayName": "[LHP] FUSE Boost Insert Cntl 1",
       "Labels": {
-        "4": "Up",
+        "4": "Closed",
         "5": "Down"
       }
     },
@@ -917,7 +917,7 @@
       "Id": "switch_FUSEBoostInsertCntl2",
       "DisplayName": "[LHP] FUSE Boost Insert Cntl 2",
       "Labels": {
-        "4": "Up",
+        "4": "Closed",
         "5": "Down"
       }
     },
@@ -927,7 +927,7 @@
       "Id": "switch_FUSERetroSeqCntl1",
       "DisplayName": "[LHP] FUSE Retro Seq Cntl 1",
       "Labels": {
-        "4": "Up",
+        "4": "Closed",
         "5": "Down"
       }
     },
@@ -937,7 +937,7 @@
       "Id": "switch_FUSERetroSeqCntl2",
       "DisplayName": "[LHP] FUSE Retro Seq Cntl 2",
       "Labels": {
-        "4": "Up",
+        "4": "Closed",
         "5": "Down"
       }
     },
@@ -947,7 +947,7 @@
       "Id": "switch_FUSELandingSecCntl1",
       "DisplayName": "[LHP] FUSE Landing Sec Cntl 1",
       "Labels": {
-        "4": "Up",
+        "4": "Closed",
         "5": "Down"
       }
     },
@@ -957,7 +957,7 @@
       "Id": "switch_FUSELandingSecCntl2",
       "DisplayName": "[LHP] FUSE Landing Sec Cntl 12",
       "Labels": {
-        "4": "Up",
+        "4": "Closed",
         "5": "Down"
       }
     },
@@ -967,9 +967,9 @@
       "Id": "switch_FDI1Controller",
       "DisplayName": "[LHP] FDI1 Controller",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "Off",
+        "4": "With FDI",
+        "5": "W/O FDI"
       }
     },
     {
@@ -989,8 +989,8 @@
       "Id": "switch_FUSEBeaconsC",
       "DisplayName": "[OHP] FUSE Beacons C",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -999,8 +999,8 @@
       "Id": "switch_FUSEBeaconsResc",
       "DisplayName": "[OHP] FUSE Beacons Resc",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1009,8 +1009,8 @@
       "Id": "switch_FUSEBeaconsAcq",
       "DisplayName": "[OHP] FUSE Beacons Acq",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1019,8 +1019,8 @@
       "Id": "switch_FUSEAUXRecp",
       "DisplayName": "[OHP] FUSE AUX Recp",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1029,8 +1029,8 @@
       "Id": "switch_FUSECryQty",
       "DisplayName": "[OHP] FUSE Cry Qty",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1039,8 +1039,8 @@
       "Id": "switch_FUSECoolPumpSecB",
       "DisplayName": "[OHP] FUSE Cool Pump Sec B",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1049,8 +1049,8 @@
       "Id": "switch_FUSECoolPumpSecA",
       "DisplayName": "[OHP] FUSE Cool Pump Sec A",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1059,8 +1059,8 @@
       "Id": "switch_FUSECoolPumpPriB",
       "DisplayName": "[OHP] FUSE Cool Pump Pri B",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1069,8 +1069,8 @@
       "Id": "switch_FUSECoolPumpPriA",
       "DisplayName": "[OHP] FUSE Cool Pump Pri A",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1079,8 +1079,8 @@
       "Id": "switch_FUSETMAC",
       "DisplayName": "[OHP] FUSE T/M AC",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -1089,8 +1089,8 @@
       "Id": "switch_FUSEXmtrsDT",
       "DisplayName": "[OHP] FUSE XMTRS DT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1099,8 +1099,8 @@
       "Id": "switch_FUSEXmtrsRT",
       "DisplayName": "[OHP] FUSE XMTRS RT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1109,8 +1109,8 @@
       "Id": "switch_FUSEXmtrsStbyPWR",
       "DisplayName": "[OHP] FUSE XMTRS Stby PWR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1119,8 +1119,8 @@
       "Id": "switch_FUSEXmtrsStbyCntl",
       "DisplayName": "[OHP] FUSE XMTRS Stby Cntl",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1129,8 +1129,8 @@
       "Id": "switch_FUSEPriO2Htrs",
       "DisplayName": "[OHP] FUSE Pri O2 Htrs",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1139,8 +1139,8 @@
       "Id": "switch_FUSEH2OHtrs",
       "DisplayName": "[OHP] FUSE H2O Htrs",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1149,8 +1149,8 @@
       "Id": "switch_FUSEClkLt",
       "DisplayName": "[OHP] FUSE Clk Lt",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1159,8 +1159,8 @@
       "Id": "switch_FUSEOAMSHtrs",
       "DisplayName": "[OHP] FUSE OAMS Htrs",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1169,8 +1169,8 @@
       "Id": "switch_FUSEEvapThr",
       "DisplayName": "[OHP] FUSE Evap HTR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1179,8 +1179,8 @@
       "Id": "switch_FUSECoolVlvsSec",
       "DisplayName": "[OHP] FUSE Cool Vlvs Sec",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1189,8 +1189,8 @@
       "Id": "switch_FUSECoolVlvsPri",
       "DisplayName": "[OHP] FUSE Cool Vlvs Pri",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1199,8 +1199,8 @@
       "Id": "switch_FUSEO2RateCntl",
       "DisplayName": "[OHP] FUSE O2 Rate Cntl",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1209,9 +1209,9 @@
       "Id": "switch_ACMEBiasPWR",
       "DisplayName": "[OHP] ACME Bias PWR",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "SEC",
+        "5": "PRI"
       }
     },
     {
@@ -1220,8 +1220,8 @@
       "Id": "switch_RollJetsSelector",
       "DisplayName": "[OHP] Roll Jets Selector",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "PITCH",
+        "5": "YAW"
       }
     },
     {
@@ -1230,8 +1230,8 @@
       "Id": "switch_FUSEACMECntl1",
       "DisplayName": "[OHP] FUSE ACME Cntl 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1240,8 +1240,8 @@
       "Id": "switch_FUSEACMECntl2",
       "DisplayName": "[OHP] FUSE ACME Cntl 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1250,8 +1250,8 @@
       "Id": "switch_FUSEOAMSCntlProp",
       "DisplayName": "[OHP] FUSE OAMS Cntl Prop",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1260,8 +1260,8 @@
       "Id": "switch_FUSEOAMSCntlReg1",
       "DisplayName": "[OHP] FUSE OAMS Cntl Reg 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1270,8 +1270,8 @@
       "Id": "switch_FUSEOAMSCntlReg2",
       "DisplayName": "[OHP] FUSE OAMS Cntl Reg 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1280,8 +1280,8 @@
       "Id": "switch_FUSERCSSquibs1",
       "DisplayName": "[OHP] FUSE RCS Squibs 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1290,8 +1290,8 @@
       "Id": "switch_FUSERCSSquibs2",
       "DisplayName": "[OHP] FUSE RCS Squibs 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1300,8 +1300,8 @@
       "Id": "switch_OAMSResvSwitch",
       "DisplayName": "[OHP] OAMS Resv Switch",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "SAFE",
+        "5": "SQUIB"
       }
     },
     {
@@ -1310,8 +1310,8 @@
       "Id": "switch_FUSEManThru9",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 9",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1320,8 +1320,8 @@
       "Id": "switch_FUSEManThru10",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 10",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1330,8 +1330,8 @@
       "Id": "switch_FUSEManThru11",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 11",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1340,8 +1340,8 @@
       "Id": "switch_FUSEManThru12",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 12",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1350,8 +1350,8 @@
       "Id": "switch_FUSEManThru13",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 13",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1360,8 +1360,8 @@
       "Id": "switch_FUSEManThru14",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 14",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1370,8 +1370,8 @@
       "Id": "switch_FUSEManThru15",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 15",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1380,8 +1380,8 @@
       "Id": "switch_FUSEManThru16",
       "DisplayName": "[OHP] FUSE Maneuver Thrusters 16",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1390,8 +1390,8 @@
       "Id": "switch_AttitiudeDriversSwitch",
       "DisplayName": "[OHP] Attitiude Drivers Switch",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "SEC",
+        "5": "PRI"
       }
     },
     {
@@ -1400,8 +1400,8 @@
       "Id": "switch_FUSEAttThrust1",
       "DisplayName": "[OHP] FUSE Att Thrust 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1410,8 +1410,8 @@
       "Id": "switch_FUSEAttThrust2",
       "DisplayName": "[OHP] FUSE Att Thrust 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1420,8 +1420,8 @@
       "Id": "switch_FUSEAttThrust3",
       "DisplayName": "[OHP] FUSE Att Thrust 3",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1430,8 +1430,8 @@
       "Id": "switch_FUSEAttThrust4",
       "DisplayName": "[OHP] FUSE Att Thrust 4",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1440,8 +1440,8 @@
       "Id": "switch_FUSEAttThrust5",
       "DisplayName": "[OHP] FUSE Att Thrust 5",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1450,8 +1450,8 @@
       "Id": "switch_FUSEAttThrust6",
       "DisplayName": "[OHP] FUSE Att Thrust 6",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1460,8 +1460,8 @@
       "Id": "switch_FUSEAttThrust7",
       "DisplayName": "[OHP] FUSE Att Thrust 7",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1470,8 +1470,8 @@
       "Id": "switch_FUSEAttThrust8",
       "DisplayName": "[OHP] FUSE Att Thrust 8",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1480,8 +1480,8 @@
       "Id": "switch_ACMELogicYawSelector",
       "DisplayName": "[OHP] ACME Logic Yaw Selector",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "SEC",
+        "5": "PRI"
       }
     },
     {
@@ -1490,8 +1490,8 @@
       "Id": "switch_ACMELogicPitchSelector",
       "DisplayName": "[OHP] ACME Logic Pitch Selector",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "SEC",
+        "5": "PRI"
       }
     },
     {
@@ -1500,8 +1500,8 @@
       "Id": "switch_ACMELogicRollSelector",
       "DisplayName": "[OHP] ACME Logic Roll Selector",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "SEC",
+        "5": "PRI"
       }
     },
     {
@@ -1510,8 +1510,8 @@
       "Id": "switch_FUSERCSAPitch",
       "DisplayName": "[OHP] FUSE RCS A Pitch",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1520,8 +1520,8 @@
       "Id": "switch_FUSERCSAYawL",
       "DisplayName": "[OHP] FUSE RCS A Yaw L",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1530,8 +1530,8 @@
       "Id": "switch_FUSERCSAYawR",
       "DisplayName": "[OHP] FUSE RCS A Yaw R",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1540,8 +1540,8 @@
       "Id": "switch_FUSERCSBPitch",
       "DisplayName": "[OHP] FUSE RCS B Pitch",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1550,8 +1550,8 @@
       "Id": "switch_FUSERCSBYawL",
       "DisplayName": "[OHP] FUSE RCS B Yaw L",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1560,8 +1560,8 @@
       "Id": "switch_FUSERCSBYawR",
       "DisplayName": "[OHP] FUSE RCS B Yaw R",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CLOSED",
+        "5": "OPEN"
       }
     },
     {
@@ -1570,8 +1570,8 @@
       "Id": "switch_FUSEAUXTape",
       "DisplayName": "[RHP] FUSE AUX Tape",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1580,8 +1580,8 @@
       "Id": "switch_FUSESEOInst",
       "DisplayName": "[RHP] FUSE SEQ Inst",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1590,8 +1590,8 @@
       "Id": "switch_FUSECalib",
       "DisplayName": "[RHP] FUSE Calib",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1600,8 +1600,8 @@
       "Id": "switch_FUSEBioMedInst",
       "DisplayName": "[RHP] FUSE Bio Med Inst",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1610,8 +1610,8 @@
       "Id": "switch_FUSEDCSPWR",
       "DisplayName": "[RHP] FUSE DCS PWR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1620,8 +1620,8 @@
       "Id": "switch_FUSEFCO2H2Reg",
       "DisplayName": "[RHP] FUSE CRYO/O2&H2 Reg",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1630,8 +1630,8 @@
       "Id": "switch_FUSEFCO2H2HTR",
       "DisplayName": "[RHP] FUSE CRYO/O2&H2 HTR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1640,8 +1640,8 @@
       "Id": "switch_AGENAPWR",
       "DisplayName": "[RHP] AGENA PWR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1650,8 +1650,8 @@
       "Id": "switch_AGENASquib1",
       "DisplayName": "[RHP] AGENA Squib 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1660,8 +1660,8 @@
       "Id": "switch_AGENASquib2",
       "DisplayName": "[RHP] AGENA Squib 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1670,8 +1670,8 @@
       "Id": "switch_AGENACntl",
       "DisplayName": "[RHP] AGENA Cntl",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1680,8 +1680,8 @@
       "Id": "switch_FUSERadarPWR",
       "DisplayName": "[RHP] FUSE Radar PWR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1690,8 +1690,8 @@
       "Id": "switch_FUSEACMEInv",
       "DisplayName": "[RHP] FUSE ACME Inv",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1700,8 +1700,8 @@
       "Id": "switch_FUSERCSHTRSA",
       "DisplayName": "[RHP] FUSE RCS HTRS A",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1710,8 +1710,8 @@
       "Id": "switch_FUSERCSHTRSB",
       "DisplayName": "[RHP] FUSE RCS HTRS B",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1720,8 +1720,8 @@
       "Id": "switch_FUSETapeRecorderPWR",
       "DisplayName": "[RHP] FUSE Tape RCDR PWR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1730,8 +1730,8 @@
       "Id": "switch_FUSETapeRecorderCNTL",
       "DisplayName": "[RHP] FUSE Tape RCDR CNTL",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1740,8 +1740,8 @@
       "Id": "switch_FUSEFuelCellCntl1",
       "DisplayName": "[RHP] FUSE Fuel Cell Cntl 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1750,8 +1750,8 @@
       "Id": "switch_FUSEFuelCellCntl2",
       "DisplayName": "[RHP] FUSE Fuel Cell Cntl 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1760,8 +1760,8 @@
       "Id": "switch_FUSEFCdP",
       "DisplayName": "[RHP] FUSE FC/P",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1770,8 +1770,8 @@
       "Id": "switch_AGENAEncoder",
       "DisplayName": "[RHP] AGENA ENCDR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -1780,9 +1780,9 @@
       "Id": "switch_AGENAExtrLts",
       "DisplayName": "[RHP] AGENA Ext Lts",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "DOCK",
+        "5": "EVA"
       }
     },
     {
@@ -1791,9 +1791,9 @@
       "Id": "switch_FDI2Switch",
       "DisplayName": "[RHP] FDI2 Switch",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "With FDI",
+        "5": "W/O FDI"
       }
     },
     {
@@ -1802,8 +1802,8 @@
       "Id": "switch_FUSEBioMedRcdr1",
       "DisplayName": "[RHP] FUSE Bio Med Rcdr 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1812,8 +1812,8 @@
       "Id": "switch_FUSEBioMedRcdr2",
       "DisplayName": "[RHP] FUSE Bio Med Rcdr 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1822,8 +1822,8 @@
       "Id": "switch_FUSERCSHtr",
       "DisplayName": "[RHP] FUSE RCS Htr",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Closed",
+        "5": "Open"
       }
     },
     {
@@ -1832,9 +1832,9 @@
       "Id": "switch_AGENAIndexEvaBars",
       "DisplayName": "[RHP] AGENA Index Eva Bars",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "INDEX EXD",
+        "5": "EVA BARS EXT"
       }
     },
     {
@@ -1843,8 +1843,8 @@
       "Id": "switch_AGENAEngineARM",
       "DisplayName": "[RHP] AGENA Engine ARM",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ARM",
+        "5": "SAFE"
       }
     },
     {
@@ -1853,9 +1853,9 @@
       "Id": "switch_AGENABusArm",
       "DisplayName": "[RHP] AGENA Bus Arm",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "SAFE",
+        "4": "DOCK",
+        "5": "EXP"
       }
     },
     {
@@ -1864,9 +1864,9 @@
       "Id": "switch_RadarLockOn",
       "DisplayName": "[LC] Radar Lock On",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "STBY",
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -1875,8 +1875,8 @@
       "Id": "switch_TDAUndock",
       "DisplayName": "[MC] TDA Undock",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Undock",
+        "5": "Off"
       }
     },
     {
@@ -1885,9 +1885,9 @@
       "Id": "switch_RateGyroPitch",
       "DisplayName": "[LC] Rate Gyro Pitch",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "PRI",
+        "5": "SEC"
       }
     },
     {
@@ -1896,9 +1896,9 @@
       "Id": "switch_RateGyroYaw",
       "DisplayName": "[LC] Rate Gyro Yaw",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "PRI",
+        "5": "SEC"
       }
     },
     {
@@ -1907,9 +1907,9 @@
       "Id": "switch_RateGyroRoll",
       "DisplayName": "[LC] Rate Gyro Roll",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "PRI",
+        "5": "SEC"
       }
     },
     {
@@ -1918,9 +1918,9 @@
       "Id": "switch_UHFRadioSelect",
       "DisplayName": "[MC] UHF Radio Select",
       "Labels": {
-        "1": "Left",
-        "2": "Middle",
-        "3": "Right"
+        "1": "No 1",
+        "2": "Off",
+        "3": "No 2"
       }
     },
     {
@@ -1929,9 +1929,9 @@
       "Id": "switch_HFAntennaSelect",
       "DisplayName": "[MC] HF Antenna Select",
       "Labels": {
-        "1": "Left",
-        "2": "Middle",
-        "3": "Right"
+        "1": "Adpt",
+        "2": "Off",
+        "3": "Rnty"
       }
     },
     {
@@ -1940,9 +1940,9 @@
       "Id": "switch_RadioSilence",
       "DisplayName": "[MC] Radio Silence",
       "Labels": {
-        "1": "Left",
-        "2": "Middle",
-        "3": "Right"
+        "1": "No 1",
+        "2": "Silence",
+        "3": "No 2"
       }
     },
     {
@@ -1951,9 +1951,9 @@
       "Id": "switch_RadioKeying",
       "DisplayName": "[MC] Radio Keying",
       "Labels": {
-        "1": "Left",
-        "2": "Middle",
-        "3": "Right"
+        "1": "VOX",
+        "2": "PTT",
+        "3": "CONT INT PTT"
       }
     },
     {
@@ -1962,9 +1962,9 @@
       "Id": "switch_RadioRecord",
       "DisplayName": "[MC] Radio Record",
       "Labels": {
-        "1": "Left",
-        "2": "Middle",
-        "3": "Right"
+        "1": "Cont",
+        "2": "Off",
+        "3": "Mom"
       }
     },
     {
@@ -1973,8 +1973,8 @@
       "Id": "switch_BeaconResc",
       "DisplayName": "[MC] Beacon Resc",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "On",
+        "5": "W/O lt"
       }
     },
     {
@@ -1983,8 +1983,8 @@
       "Id": "switch_BeaconSBand",
       "DisplayName": "[MC] Beacon S Band",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Cont",
+        "5": "Cmd"
       }
     },
     {
@@ -1993,8 +1993,8 @@
       "Id": "switch_BeaconCBand",
       "DisplayName": "[MC] Beacon C Band",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Cont",
+        "5": "Cmd"
       }
     },
     {
@@ -2003,8 +2003,8 @@
       "Id": "switch_TMCalib",
       "DisplayName": "[MC] TM Calib",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "No 1",
+        "5": "No 2"
       }
     },
     {
@@ -2013,8 +2013,8 @@
       "Id": "switch_TMSby",
       "DisplayName": "[MC] TM Stby",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "R/T",
+        "5": "D/T"
       }
     },
     {
@@ -2023,9 +2023,9 @@
       "Id": "switch_TMTM",
       "DisplayName": "[MC] TM TM",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "CMD",
+        "4": "R/T & ACQ",
+        "5": "R/T D/T"
       }
     },
     {
@@ -2034,9 +2034,9 @@
       "Id": "switch_RadioTapePlayback",
       "DisplayName": "[MC] Radio Tape Playback",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "CMD",
+        "4": "Cont",
+        "5": "Reset"
       }
     },
     {
@@ -2045,8 +2045,8 @@
       "Id": "switch_RadioAntSel",
       "DisplayName": "[MC] Radio Ant Sel",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Rnty",
+        "5": "Adapt"
       }
     },
     {
@@ -2055,9 +2055,9 @@
       "Id": "switch_HfAntControl",
       "DisplayName": "[MC] Hf Ant Control",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "Off",
+        "4": "Ext",
+        "5": "Ret"
       }
     },
     {
@@ -2066,9 +2066,9 @@
       "Id": "switch_TDARigid",
       "DisplayName": "[MC] TDA Rigid",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "Off",
+        "4": "Rigid",
+        "5": "Stop"
       }
     },
     {
@@ -2077,9 +2077,9 @@
       "Id": "switch_ABORTHandle",
       "DisplayName": "switch_ABORTHandle",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "SHUTDOWN",
+        "4": "ABORT",
+        "5": "NORMAL"
       }
     },
     {
@@ -2088,8 +2088,8 @@
       "Id": "switch_XOver",
       "DisplayName": "switch_XOver",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -2308,17 +2308,17 @@
       "Id": "knob_VoltMeterSelector",
       "DisplayName": "[PMP] Volt Meter Selector",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5",
-        "6": "6",
-        "7": "7",
-        "8": "8",
-        "9": "9",
-        "10": "10"
+        "0": "1A",
+        "1": "2B",
+        "2": "1C",
+        "3": "2A",
+        "4": "2B",
+        "5": "2C",
+        "6": "BT",
+        "7": "M",
+        "8": "S1",
+        "9": "S1",
+        "10": "C"
       }
     },
     {
@@ -2327,11 +2327,11 @@
       "Id": "knob_dPMeterSelector",
       "DisplayName": "[PMP] dP Meter Selector",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4"
+        "0": "H2O",
+        "1": "H2",
+        "2": "OFF",
+        "3": "H2",
+        "4": "H2O"
       }
     },
     {
@@ -2340,9 +2340,9 @@
       "Id": "knob_CryoSelector",
       "DisplayName": "[MC] Cryo Selector",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "Off",
+        "1": "O2",
+        "2": "H2"
       }
     },
     {
@@ -2351,13 +2351,13 @@
       "Id": "knob_ACMEMode",
       "DisplayName": "[LC] ACME Mode",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5",
-        "6": "6"
+        "0": "HOR SCAN",
+        "1": "RATE CMD",
+        "2": "DIRECT",
+        "3": "PULSE",
+        "4": "RATE CMD (RE-ENT)",
+        "5": "RE-ENT",
+        "6": "PLAT"
       }
     },
     {
@@ -2366,13 +2366,13 @@
       "Id": "knob_IGSPlatform",
       "DisplayName": "[LC] IGS Platform",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5",
-        "6": "6"
+        "0": "OFF",
+        "1": "CAGE",
+        "2": "SEF",
+        "3": "ORB RATE",
+        "4": "BEF",
+        "5": "CAGE",
+        "6": "FREE"
       }
     },
     {
@@ -2417,9 +2417,9 @@
       "Id": "knob_FDI2Mode",
       "DisplayName": "[PMP] FDI2 Mode",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "RDR",
+        "1": "PLAT",
+        "2": "COMP"
       }
     },
     {
@@ -2428,9 +2428,9 @@
       "Id": "knob_FDI2Data",
       "DisplayName": "[PMP] FDI2 Data",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "RATE",
+        "1": "MIX",
+        "2": "ATT"
       }
     },
     {
@@ -2439,11 +2439,11 @@
       "Id": "knob_TapeControl",
       "DisplayName": "[PMP] Tape Control",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4"
+        "0": "STBY",
+        "1": "AUTO",
+        "2": "REWIND",
+        "3": "WIND",
+        "4": "PROG"
       }
     },
     {
@@ -2452,8 +2452,8 @@
       "Id": "knob_Repressurize",
       "DisplayName": "[LC] Repressurize",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "CLOSED",
+        "1": "OPEN"
       }
     },
     {
@@ -2462,8 +2462,8 @@
       "Id": "knob_CabinRecirc",
       "DisplayName": "[CP] Cabin Recirc",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "OFF",
+        "1": "ON"
       }
     },
     {
@@ -2472,8 +2472,8 @@
       "Id": "knob_CabinVent",
       "DisplayName": "[CP] Cabin Vent",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "OFF",
+        "1": "ON"
       }
     },
     {
@@ -2482,8 +2482,8 @@
       "Id": "knob_WaterSeal",
       "DisplayName": "[CP] Water Seal",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "OFF",
+        "1": "ON"
       }
     },
     {
@@ -2492,8 +2492,8 @@
       "Id": "knob_O2HighRateRecock",
       "DisplayName": "[CP] O2 High Rate Recock",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "OFF",
+        "1": "ON"
       }
     },
     {
@@ -2502,15 +2502,15 @@
       "Id": "knob_Snorkel",
       "DisplayName": "[CP] Snorkel",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "OFF",
+        "1": "ON"
       }
     },
     {
       "TypeID": 2,
       "RefID": 18,
       "Id": "knob_EventTimerTimeKnob",
-      "DisplayName": "[CMP] Event Timer Time Knob",
+      "DisplayName": "[CMP] Modify Event Timer sel",
       "Labels": {
         "0": "0",
         "1": "1",
@@ -2542,11 +2542,11 @@
       "Id": "knob_PropGaugeSelector",
       "DisplayName": "[MC] Prop Gauge Selector",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4"
+        "0": "OAMS",
+        "1": "0",
+        "2": "RCS A",
+        "3": "RCS B",
+        "4": "EXP"
       }
     },
     {
@@ -2575,9 +2575,9 @@
       "Id": "knob_DCDCConvATM",
       "DisplayName": "[OHP] DC-DC Conv ATM",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "PRI",
+        "1": "OFF",
+        "2": "SEC"
       }
     },
     {
@@ -2639,8 +2639,8 @@
       "DisplayName": "[PMP] Encoder Bit 3",
       "Labels": {
         "0": "0",
-        "1": "1",
-        "2": "2"
+        "1": "OFF",
+        "2": "1"
       }
     },
     {
@@ -2649,10 +2649,10 @@
       "Id": "knob_RadioModeA",
       "DisplayName": "[MC] Radio Mode A",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3"
+        "0": "UHF",
+        "1": "INT",
+        "2": "HF",
+        "3": "HF DF"
       }
     },
     {
@@ -2661,10 +2661,10 @@
       "Id": "knob_RadioModeB",
       "DisplayName": "[MC] Radio Mode B",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3"
+        "0": "UHF",
+        "1": "INT",
+        "2": "HF",
+        "3": "HF DF"
       }
     },
     {
@@ -2673,17 +2673,17 @@
       "Id": "knob_DimLightControl",
       "DisplayName": "Dim Light Control",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5",
-        "6": "6",
-        "7": "7",
-        "8": "8",
-        "9": "9",
-        "10": "10"
+        "0": "OFF",
+        "1": "MIN",
+        "2": "1",
+        "3": "2",
+        "4": "3",
+        "5": "4",
+        "6": "5",
+        "7": "6",
+        "8": "7",
+        "9": "8",
+        "10": "MAX"
       }
     },
     {

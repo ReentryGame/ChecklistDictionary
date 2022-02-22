@@ -3570,7 +3570,6 @@
       "Id": "switch_P162_SCIPower",
       "DisplayName": "[162] SCI PWR",
       "Labels": {
-        "2": "ctr",
         "4": "ON",
         "5": "OFF"
       }
@@ -3582,7 +3581,6 @@
       "Id": "switch_P163_SCIPower",
       "DisplayName": "[163] SCI/UTIL PWR",
       "Labels": {
-        "2": "ctr",
         "4": "ON",
         "5": "OFF"
       }
@@ -9382,11 +9380,11 @@
       "TypeID": 0,
       "RefID": 1,
       "Id": "lm_switch_P14_EDVolts",
-      "DisplayName": "P14_EDVolts",
+      "DisplayName": "[14] ED VOLTS",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "BAT A",
+        "5": "BAT B"
       }
     },
     {
@@ -9394,11 +9392,11 @@
       "TypeID": 0,
       "RefID": 2,
       "Id": "lm_switch_P14_Inverter",
-      "DisplayName": "P14_Inverter",
+      "DisplayName": "[14] INV",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "1",
+        "4": "2",
+        "5": "OFF"
       }
     },
     {
@@ -9406,10 +9404,10 @@
       "TypeID": 0,
       "RefID": 3,
       "Id": "lm_switch_P14_DescentBat1LMPHiV",
-      "DisplayName": "P14_DescentBat1LMPHiV",
+      "DisplayName": "[14] DES PWR: LMP BAT 1 HI-V",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9417,10 +9415,10 @@
       "TypeID": 0,
       "RefID": 4,
       "Id": "lm_switch_P14_DescentBat1LMPLoV",
-      "DisplayName": "P14_DescentBat1LMPLoV",
+      "DisplayName": "[14] DES PWR: LMP BAT 1 LO-V",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9428,10 +9426,10 @@
       "TypeID": 0,
       "RefID": 5,
       "Id": "lm_switch_P14_DescentBat2LMP",
-      "DisplayName": "P14_DescentBat2LMP",
+      "DisplayName": "[14] DES PWR: LMP BAT 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9439,10 +9437,10 @@
       "TypeID": 0,
       "RefID": 6,
       "Id": "lm_switch_P14_DescentBat3CDR",
-      "DisplayName": "P14_DescentBat3CDR",
+      "DisplayName": "[14] DES PWR: CDR BAT 3",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9450,10 +9448,10 @@
       "TypeID": 0,
       "RefID": 7,
       "Id": "lm_switch_P14_DescentBat4CDRHiV",
-      "DisplayName": "P14_DescentBat4CDRHiV",
+      "DisplayName": "[14] DES PWR: CDR BAT 4 HI-V",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9461,10 +9459,10 @@
       "TypeID": 0,
       "RefID": 8,
       "Id": "lm_switch_P14_DescentBat4CDRLoV",
-      "DisplayName": "P14_DescentBat4CDRLoV",
+      "DisplayName": "[14] DES PWR: CDR BAT 4 LO-V",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9472,10 +9470,10 @@
       "TypeID": 0,
       "RefID": 9,
       "Id": "lm_switch_P14_DescentBatLunarCDR",
-      "DisplayName": "P14_DescentBatLunarCDR",
+      "DisplayName": "[14] DES PWR: LUN BAT CDR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9483,10 +9481,10 @@
       "TypeID": 0,
       "RefID": 10,
       "Id": "lm_switch_P14_DescentBatLunarLMP",
-      "DisplayName": "P14_DescentBatLunarLMP",
+      "DisplayName": "[14] DES PWR: LUN BAT LMP",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9494,10 +9492,10 @@
       "TypeID": 0,
       "RefID": 11,
       "Id": "lm_switch_P14_DesBayDeadface",
-      "DisplayName": "P14_DesBayDeadface",
+      "DisplayName": "[14] DES PWR: DES BAT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CONNECT",
+        "5": "DEAD FACE"
       }
     },
     {
@@ -9505,10 +9503,10 @@
       "TypeID": 0,
       "RefID": 12,
       "Id": "lm_switch_P14_AscentBat5NormalLMPFeed",
-      "DisplayName": "P14_AscentBat5NormalLMPFeed",
+      "DisplayName": "[14] ASC PWR: BAT 5 NORM",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9516,10 +9514,10 @@
       "TypeID": 0,
       "RefID": 13,
       "Id": "lm_switch_P14_AscentBat5BackupCDRFeed",
-      "DisplayName": "P14_AscentBat5BackupCDRFeed",
+      "DisplayName": "[14] ASC PWR: BAT 5 BACKUP",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9527,10 +9525,10 @@
       "TypeID": 0,
       "RefID": 14,
       "Id": "lm_switch_P14_AscentBat6NormalCDRFeed",
-      "DisplayName": "P14_AscentBat6NormalCDRFeed",
+      "DisplayName": "[14] ASC PWR: BAT 6 NORM",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9538,10 +9536,10 @@
       "TypeID": 0,
       "RefID": 15,
       "Id": "lm_switch_P14_AscentBat6BackupLMPFeed",
-      "DisplayName": "P14_AscentBat6BackupLMPFeed",
+      "DisplayName": "[14] ASC PWR: BAT 6 BACKUP",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF/RESET"
       }
     },
     {
@@ -9549,10 +9547,10 @@
       "TypeID": 0,
       "RefID": 16,
       "Id": "lm_switch_P14_UplinkSquelch",
-      "DisplayName": "P14_UplinkSquelch",
+      "DisplayName": "[14] COMM: UPLINKL SQUELCH",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ENABLE",
+        "5": "OFF"
       }
     },
     {
@@ -9560,10 +9558,10 @@
       "TypeID": 0,
       "RefID": 17,
       "Id": "lm_switch_P02_SysA_ASCFeed1",
-      "DisplayName": "P02_SysA_ASCFeed1",
+      "DisplayName": "[2] RCS A: ASC FUEL",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ASC FEED 1",
+        "5": "CLOSE"
       }
     },
     {
@@ -9571,10 +9569,10 @@
       "TypeID": 0,
       "RefID": 18,
       "Id": "lm_switch_P02_SysA_ASCFeed2",
-      "DisplayName": "P02_SysA_ASCFeed2",
+      "DisplayName": "[2] RCS A: ASC OXID",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ASC FEED 2",
+        "5": "CLOSE"
       }
     },
     {
@@ -9582,10 +9580,10 @@
       "TypeID": 0,
       "RefID": 19,
       "Id": "lm_switch_P02_SysA_Q1",
-      "DisplayName": "P02_SysA_Q1",
+      "DisplayName": "[2] RCS A: QUAD 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9593,10 +9591,10 @@
       "TypeID": 0,
       "RefID": 20,
       "Id": "lm_switch_P02_SysA_Q2",
-      "DisplayName": "P02_SysA_Q2",
+      "DisplayName": "[2] RCS A: QUAD 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9604,10 +9602,10 @@
       "TypeID": 0,
       "RefID": 21,
       "Id": "lm_switch_P02_SysA_Q3",
-      "DisplayName": "P02_SysA_Q3",
+      "DisplayName": "[2] RCS A: QUAD 3",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9615,10 +9613,10 @@
       "TypeID": 0,
       "RefID": 22,
       "Id": "lm_switch_P02_SysA_Q4",
-      "DisplayName": "P02_SysA_Q4",
+      "DisplayName": "[2] RCS A: QUAD 4",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9626,10 +9624,10 @@
       "TypeID": 0,
       "RefID": 23,
       "Id": "lm_switch_P02_SysB_ASCFeed1",
-      "DisplayName": "P02_SysB_ASCFeed1",
+      "DisplayName": "[2] RCS B: ASC FUEL",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ASC FEED 1",
+        "5": "CLOSE"
       }
     },
     {
@@ -9637,10 +9635,10 @@
       "TypeID": 0,
       "RefID": 24,
       "Id": "lm_switch_P02_SysB_ASCFeed2",
-      "DisplayName": "P02_SysB_ASCFeed2",
+      "DisplayName": "[2] RCS B: ASC OXID",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ASC FEED 2",
+        "5": "CLOSE"
       }
     },
     {
@@ -9648,10 +9646,10 @@
       "TypeID": 0,
       "RefID": 25,
       "Id": "lm_switch_P02_SysB_Q1",
-      "DisplayName": "P02_SysB_Q1",
+      "DisplayName": "[2] RCS B: QUAD 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9659,10 +9657,10 @@
       "TypeID": 0,
       "RefID": 26,
       "Id": "lm_switch_P02_SysB_Q2",
-      "DisplayName": "P02_SysB_Q2",
+      "DisplayName": "[2] RCS B: QUAD 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9670,10 +9668,10 @@
       "TypeID": 0,
       "RefID": 27,
       "Id": "lm_switch_P02_SysB_Q3",
-      "DisplayName": "P02_SysB_Q3",
+      "DisplayName": "[2] RCS B: QUAD 3",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9681,10 +9679,10 @@
       "TypeID": 0,
       "RefID": 28,
       "Id": "lm_switch_P02_SysB_Q4",
-      "DisplayName": "P02_SysB_Q4",
+      "DisplayName": "[2] RCS B: QUAD 4",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9692,10 +9690,10 @@
       "TypeID": 0,
       "RefID": 29,
       "Id": "lm_switch_P02_Crossfeed",
-      "DisplayName": "P02_Crossfeed",
+      "DisplayName": "[2] CRSFD",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9703,10 +9701,10 @@
       "TypeID": 0,
       "RefID": 30,
       "Id": "lm_switch_P02_MainSOV_SysA",
-      "DisplayName": "P02_MainSOV_SysA",
+      "DisplayName": "[2] MAIN SOV A",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9714,10 +9712,10 @@
       "TypeID": 0,
       "RefID": 31,
       "Id": "lm_switch_P02_MainSOV_SysB",
-      "DisplayName": "P02_MainSOV_SysB",
+      "DisplayName": "[2] MAIN SOV B",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9725,10 +9723,10 @@
       "TypeID": 0,
       "RefID": 32,
       "Id": "lm_switch_P02_ACAProp",
-      "DisplayName": "P02_ACAProp",
+      "DisplayName": "[2] ACA PROP",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ENABLE",
+        "5": "DISABLE"
       }
     },
     {
@@ -9736,11 +9734,11 @@
       "TypeID": 0,
       "RefID": 33,
       "Id": "lm_switch_P03_RCS_Heaters_Q1",
-      "DisplayName": "P03_RCS_Heaters_Q1",
+      "DisplayName": "[3] RCS HTRS QUAD 1",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "AUTO",
+        "5": "MAN"
       }
     },
     {
@@ -9748,11 +9746,11 @@
       "TypeID": 0,
       "RefID": 34,
       "Id": "lm_switch_P03_RCS_Heaters_Q2",
-      "DisplayName": "P03_RCS_Heaters_Q2",
+      "DisplayName": "[3] RCS HTRS QUAD 2",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "AUTO",
+        "5": "MAN"
       }
     },
     {
@@ -9760,11 +9758,11 @@
       "TypeID": 0,
       "RefID": 35,
       "Id": "lm_switch_P03_RCS_Heaters_Q3",
-      "DisplayName": "P03_RCS_Heaters_Q3",
+      "DisplayName": "[3] RCS HTRS QUAD 3",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "AUTO",
+        "5": "MAN"
       }
     },
     {
@@ -9772,11 +9770,11 @@
       "TypeID": 0,
       "RefID": 36,
       "Id": "lm_switch_P03_RCS_Heaters_Q4",
-      "DisplayName": "P03_RCS_Heaters_Q4",
+      "DisplayName": "[3] RCS HTRS QUAD 4",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "AUTO",
+        "5": "MAN"
       }
     },
     {
@@ -9784,10 +9782,10 @@
       "TypeID": 0,
       "RefID": 37,
       "Id": "lm_switch_P01_AttTransFourTwoJetMode",
-      "DisplayName": "P01_AttTransFourTwoJetMode",
+      "DisplayName": "[1] ENG: ATT/TRANSL",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "4 JETS",
+        "5": "2 JETS"
       }
     },
     {
@@ -9795,10 +9793,10 @@
       "TypeID": 0,
       "RefID": 38,
       "Id": "lm_switch_P08_DesPropulsion_FuelVent",
-      "DisplayName": "P08_DesPropulsion_FuelVent",
+      "DisplayName": "[8] DES PROP - FUEL VENT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Open",
+        "5": "Close"
       }
     },
     {
@@ -9806,10 +9804,10 @@
       "TypeID": 0,
       "RefID": 39,
       "Id": "lm_switch_P08_DesPropulsion_OxidVent",
-      "DisplayName": "P08_DesPropulsion_OxidVent",
+      "DisplayName": "[8] DES PROP - OXID VENT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "Open",
+        "5": "Closed"
       }
     },
     {
@@ -9817,10 +9815,10 @@
       "TypeID": 0,
       "RefID": 40,
       "Id": "lm_switch_P08_DesPrplnt_IsolVlv",
-      "DisplayName": "P08_DesPrplnt_IsolVlv",
+      "DisplayName": "[8] ED: DES PRPLNT ISOL VLV",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "FIRE",
+        "5": "SAFE"
       }
     },
     {
@@ -9828,10 +9826,10 @@
       "TypeID": 0,
       "RefID": 41,
       "Id": "lm_switch_P08_MasterArm",
-      "DisplayName": "P08_MasterArm",
+      "DisplayName": "[8] ED: MASTER ARM",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -9839,10 +9837,10 @@
       "TypeID": 0,
       "RefID": 42,
       "Id": "lm_switch_P08_DesVent",
-      "DisplayName": "P08_DesVent",
+      "DisplayName": "[8] ED: DES VENT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "FIRE",
+        "5": "SAFE"
       }
     },
     {
@@ -9850,11 +9848,11 @@
       "TypeID": 0,
       "RefID": 43,
       "Id": "lm_switch_P08_ASCHeSel",
-      "DisplayName": "P08_ASCHeSel",
+      "DisplayName": "[8] ED: ASC He SEL",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "BOTH",
+        "4": "TK 1",
+        "5": "TK 2"
       }
     },
     {
@@ -9862,10 +9860,10 @@
       "TypeID": 0,
       "RefID": 44,
       "Id": "lm_switch_P08_LandingGearDeploy",
-      "DisplayName": "P08_LandingGearDeploy",
+      "DisplayName": "[8] ED: LDG GR DEPL",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "FIRE",
+        "5": "SAFE"
       }
     },
     {
@@ -9873,10 +9871,10 @@
       "TypeID": 0,
       "RefID": 45,
       "Id": "lm_switch_P08_HePRESS_RCS",
-      "DisplayName": "P08_HePRESS_RCS",
+      "DisplayName": "[8] ED: He PRESS - RCS",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "FIRE",
+        "5": "SAFE"
       }
     },
     {
@@ -9884,10 +9882,10 @@
       "TypeID": 0,
       "RefID": 46,
       "Id": "lm_switch_P08_HePRESS_DesStart",
-      "DisplayName": "P08_HePRESS_DesStart",
+      "DisplayName": "[8] ED: He PRESS - DES START",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "FIRE",
+        "5": "SAFE"
       }
     },
     {
@@ -9895,10 +9893,10 @@
       "TypeID": 0,
       "RefID": 47,
       "Id": "lm_switch_P08_HePRESS_Ascent",
-      "DisplayName": "P08_HePRESS_Ascent",
+      "DisplayName": "[8] ED: He PRESS - ASCENT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "FIRE",
+        "5": "SAFE"
       }
     },
     {
@@ -9906,10 +9904,10 @@
       "TypeID": 0,
       "RefID": 48,
       "Id": "lm_switch_P08_Stage",
-      "DisplayName": "P08_Stage",
+      "DisplayName": "[8] ED: STAGE",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "FIRE",
+        "5": "SAFE"
       }
     },
     {
@@ -9917,10 +9915,10 @@
       "TypeID": 0,
       "RefID": 49,
       "Id": "lm_switch_P08_StageRelay",
-      "DisplayName": "P08_StageRelay",
+      "DisplayName": "[8] ED: STAGE RELAY",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "RESET",
+        "5": "OFF"
       }
     },
     {
@@ -9928,11 +9926,11 @@
       "TypeID": 0,
       "RefID": 50,
       "Id": "lm_switch_P01_PrplntQtyMon",
-      "DisplayName": "P01_PrplntQtyMon",
+      "DisplayName": "[1] PRPLNT QTY MON",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "DES 2",
+        "4": "DES 1",
+        "5": "OFF"
       }
     },
     {
@@ -9940,11 +9938,11 @@
       "TypeID": 0,
       "RefID": 51,
       "Id": "lm_switch_P01_PrplntTempMon",
-      "DisplayName": "P01_PrplntTempMon",
+      "DisplayName": "[1] PRPLNT TEMP/PRESS MON",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "DES 1",
+        "4": "ASC",
+        "5": "DES 2"
       }
     },
     {
@@ -9952,10 +9950,10 @@
       "TypeID": 0,
       "RefID": 52,
       "Id": "lm_switch_P01_AscentHeReg1",
-      "DisplayName": "P01_AscentHeReg1",
+      "DisplayName": "[1] ASC He REG 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9963,10 +9961,10 @@
       "TypeID": 0,
       "RefID": 53,
       "Id": "lm_switch_P01_AscentHeReg2",
-      "DisplayName": "P01_AscentHeReg2",
+      "DisplayName": "[1] ASC He REG 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9974,10 +9972,10 @@
       "TypeID": 0,
       "RefID": 54,
       "Id": "lm_switch_P01_DescentHeReg1",
-      "DisplayName": "P01_DescentHeReg1",
+      "DisplayName": "[1] DES He REG 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9985,10 +9983,10 @@
       "TypeID": 0,
       "RefID": 55,
       "Id": "lm_switch_P01_DescentHeReg2",
-      "DisplayName": "P01_DescentHeReg2",
+      "DisplayName": "[1] DES He REG 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPEN",
+        "5": "CLOSE"
       }
     },
     {
@@ -9996,10 +9994,10 @@
       "TypeID": 0,
       "RefID": 56,
       "Id": "lm_switch_P03_DesEngCmdOvrd",
-      "DisplayName": "P03_DesEngCmdOvrd",
+      "DisplayName": "[3] DES ENG CMD OVRD",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10007,10 +10005,10 @@
       "TypeID": 0,
       "RefID": 57,
       "Id": "lm_switch_P03_EngGmbl",
-      "DisplayName": "P03_EngGmbl",
+      "DisplayName": "[3] ENG GMBL",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ENABLE",
+        "5": "OFF"
       }
     },
     {
@@ -10018,10 +10016,10 @@
       "TypeID": 0,
       "RefID": 58,
       "Id": "lm_switch_P01_EngineThrustCont_ThrCont_ThrCont",
-      "DisplayName": "P01_EngineThrustCont_ThrCont_ThrCont",
+      "DisplayName": "[1] ENG: THR CONT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "AUTO",
+        "5": "MAN"
       }
     },
     {
@@ -10029,10 +10027,10 @@
       "TypeID": 0,
       "RefID": 59,
       "Id": "lm_switch_P01_EngineThrustCont_ManThrot",
-      "DisplayName": "P01_EngineThrustCont_ManThrot",
+      "DisplayName": "[1] ENG: MAN THROT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "CDR",
+        "5": "SE"
       }
     },
     {
@@ -10040,11 +10038,11 @@
       "TypeID": 0,
       "RefID": 60,
       "Id": "lm_switch_P01_EngineThrustCont_EngArm",
-      "DisplayName": "P01_EngineThrustCont_EngArm",
+      "DisplayName": "[1] ENG: ARM",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "ASC",
+        "5": "DES"
       }
     },
     {
@@ -10052,10 +10050,10 @@
       "TypeID": 0,
       "RefID": 61,
       "Id": "lm_switch_P01_EngineThrustCont_BalCpl",
-      "DisplayName": "P01_EngineThrustCont_BalCpl",
+      "DisplayName": "[1] ENG: BAL CPL",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10063,10 +10061,10 @@
       "TypeID": 0,
       "RefID": 62,
       "Id": "lm_switch_P03_DeadBand",
-      "DisplayName": "P03_DeadBand",
+      "DisplayName": "[3] S/C: DBD",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "MAX",
+        "5": "MIN"
       }
     },
     {
@@ -10074,11 +10072,11 @@
       "TypeID": 0,
       "RefID": 63,
       "Id": "lm_switch_P03_GyroTest_Attitude",
-      "DisplayName": "P03_GyroTest_Attitude",
+      "DisplayName": "[3] S/C: GYRO TEST AXIS",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "PITCH",
+        "4": "ROLL",
+        "5": "YAW"
       }
     },
     {
@@ -10086,11 +10084,11 @@
       "TypeID": 0,
       "RefID": 64,
       "Id": "lm_switch_P03_GyroTest_Rate",
-      "DisplayName": "P03_GyroTest_Rate",
+      "DisplayName": "[3] S/C: GYRO TEST RT",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "POS RT",
+        "5": "NEG RT"
       }
     },
     {
@@ -10098,11 +10096,11 @@
       "TypeID": 0,
       "RefID": 65,
       "Id": "lm_switch_P03_AttitudeControl_Roll",
-      "DisplayName": "P03_AttitudeControl_Roll",
+      "DisplayName": "[3] S/C: ATT CONT - ROLL",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "PULSE",
+        "4": "MODE CONT",
+        "5": "DIR"
       }
     },
     {
@@ -10110,11 +10108,11 @@
       "TypeID": 0,
       "RefID": 66,
       "Id": "lm_switch_P03_AttitudeControl_Pitch",
-      "DisplayName": "P03_AttitudeControl_Pitch",
+      "DisplayName": "[3] S/C: ATT CONT - PITCH",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "PULSE",
+        "4": "MODE CONT",
+        "5": "DIR"
       }
     },
     {
@@ -10122,11 +10120,11 @@
       "TypeID": 0,
       "RefID": 67,
       "Id": "lm_switch_P03_AttitudeControl_Yaw",
-      "DisplayName": "P03_AttitudeControl_Yaw",
+      "DisplayName": "[3] S/C: ATT CONT - YAW",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "PULSE",
+        "4": "MODE CONT",
+        "5": "DIR"
       }
     },
     {
@@ -10134,11 +10132,11 @@
       "TypeID": 0,
       "RefID": 68,
       "Id": "lm_switch_P03_ModeControl_PGNS",
-      "DisplayName": "P03_ModeControl_PGNS",
+      "DisplayName": "[3] S/C: PGNS MODE CONT",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "ATT HOLD",
+        "4": "AUTO",
+        "5": "OFF"
       }
     },
     {
@@ -10146,11 +10144,11 @@
       "TypeID": 0,
       "RefID": 69,
       "Id": "lm_switch_P03_ModeControl_AGS",
-      "DisplayName": "P03_ModeControl_AGS",
+      "DisplayName": "[3] S/C: AGS MODE CONT",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "ATT HOLD",
+        "4": "AUTO",
+        "5": "OFF"
       }
     },
     {
@@ -10158,10 +10156,10 @@
       "TypeID": 0,
       "RefID": 70,
       "Id": "lm_switch_P03_IMUCage",
-      "DisplayName": "P03_IMUCage",
+      "DisplayName": "[3] IMU CAGE",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10169,10 +10167,10 @@
       "TypeID": 0,
       "RefID": 71,
       "Id": "lm_switch_P01_GuidCont",
-      "DisplayName": "P01_GuidCont",
+      "DisplayName": "[1] GUID CONT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "PGNS",
+        "5": "AGS"
       }
     },
     {
@@ -10180,11 +10178,11 @@
       "TypeID": 0,
       "RefID": 72,
       "Id": "lm_switch_P01_ModeSel",
-      "DisplayName": "P01_ModeSel",
+      "DisplayName": "[1] MODE SEL",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "PGNS",
+        "4": "LDG RDR",
+        "5": "AGS"
       }
     },
     {
@@ -10192,10 +10190,10 @@
       "TypeID": 0,
       "RefID": 73,
       "Id": "lm_switch_P01_RngAltMon",
-      "DisplayName": "P01_RngAltMon",
+      "DisplayName": "[1] RNG/ALT MON",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "RNG/RNG RT",
+        "5": "ALT/ALT RT"
       }
     },
     {
@@ -10203,10 +10201,10 @@
       "TypeID": 0,
       "RefID": 74,
       "Id": "lm_switch_P01_RateErrMon",
-      "DisplayName": "P01_RateErrMon",
+      "DisplayName": "[1] RATE/ERR MON",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "RR",
+        "5": "LR/CMPTR"
       }
     },
     {
@@ -10214,10 +10212,10 @@
       "TypeID": 0,
       "RefID": 75,
       "Id": "lm_switch_P01_AltitudeMon",
-      "DisplayName": "P01_AltitudeMon",
+      "DisplayName": "[1] ATTITUDE MON",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "PGNS",
+        "5": "AGS"
       }
     },
     {
@@ -10225,10 +10223,10 @@
       "TypeID": 0,
       "RefID": 76,
       "Id": "lm_switch_P01_RateScale",
-      "DisplayName": "P01_RateScale",
+      "DisplayName": "[1] RATE SCALE",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "25",
+        "5": "5"
       }
     },
     {
@@ -10236,10 +10234,10 @@
       "TypeID": 0,
       "RefID": 77,
       "Id": "lm_switch_P01_ACAProp",
-      "DisplayName": "P01_ACAProp",
+      "DisplayName": "[1] ACA PROP",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ENABLE",
+        "5": "DISABLE"
       }
     },
     {
@@ -10247,10 +10245,10 @@
       "TypeID": 0,
       "RefID": 78,
       "Id": "lm_switch_P01_ShfTrun",
-      "DisplayName": "P01_ShfTrun",
+      "DisplayName": "[1] SHFT/TRUN",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "50",
+        "5": "5"
       }
     },
     {
@@ -10258,10 +10256,10 @@
       "TypeID": 0,
       "RefID": 79,
       "Id": "lm_switch_P02_RateErrMon",
-      "DisplayName": "P02_RateErrMon",
+      "DisplayName": "[2] RATE/ERR MON",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "RR",
+        "5": "LR/CMPTR"
       }
     },
     {
@@ -10269,10 +10267,10 @@
       "TypeID": 0,
       "RefID": 80,
       "Id": "lm_switch_P02_AltitudeMon",
-      "DisplayName": "P02_AltitudeMon",
+      "DisplayName": "[2] ATTITUDE MON",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "PGNS",
+        "5": "AGS"
       }
     },
     {
@@ -10280,11 +10278,11 @@
       "TypeID": 0,
       "RefID": 81,
       "Id": "lm_switch_P03_LandingAnt",
-      "DisplayName": "P03_LandingAnt",
+      "DisplayName": "[3] RDR: LDG ANT",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "DES",
+        "4": "AUTO",
+        "5": "HOVER"
       }
     },
     {
@@ -10292,11 +10290,11 @@
       "TypeID": 0,
       "RefID": 82,
       "Id": "lm_switch_P03_RadarTest",
-      "DisplayName": "P03_RadarTest",
+      "DisplayName": "[3] RDR: TEST",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "RNDZ",
+        "5": "LDG"
       }
     },
     {
@@ -10304,10 +10302,10 @@
       "TypeID": 0,
       "RefID": 83,
       "Id": "lm_switch_P03_SlewRate",
-      "DisplayName": "P03_SlewRate",
+      "DisplayName": "[3] RDR: RR SLEW RATE",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "HI",
+        "5": "LO"
       }
     },
     {
@@ -10327,11 +10325,11 @@
       "TypeID": 0,
       "RefID": 85,
       "Id": "lm_switch_P03_EventTimer_CountDir_Reset",
-      "DisplayName": "P03_EventTimer_CountDir_Reset",
+      "DisplayName": "[3] EVNT TMR: RSET/COUNT",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "UP",
+        "4": "RSET",
+        "5": "DOWN"
       }
     },
     {
@@ -10339,10 +10337,10 @@
       "TypeID": 0,
       "RefID": 86,
       "Id": "lm_switch_P03_EventTimer_TimerCount",
-      "DisplayName": "P03_EventTimer_TimerCount",
+      "DisplayName": "[3] EVNT TMR: START",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "START",
+        "5": "STOP"
       }
     },
     {
@@ -10350,7 +10348,7 @@
       "TypeID": 0,
       "RefID": 87,
       "Id": "lm_switch_P03_EventTimer_SlewCountMin",
-      "DisplayName": "P03_EventTimer_SlewCountMin",
+      "DisplayName": "[3] EVNT TMR: SLEW CONT MIN",
       "Labels": {
         "2": "Middle",
         "4": "Up",
@@ -10362,7 +10360,7 @@
       "TypeID": 0,
       "RefID": 88,
       "Id": "lm_switch_P03_EventTimer_SlewCountSec",
-      "DisplayName": "P03_EventTimer_SlewCountSec",
+      "DisplayName": "[3] EVNT TMR: SLEW CONT SEC",
       "Labels": {
         "2": "Middle",
         "4": "Up",
@@ -10374,10 +10372,10 @@
       "TypeID": 0,
       "RefID": 89,
       "Id": "lm_switch_P03_SidePanels",
-      "DisplayName": "P03_SidePanels",
+      "DisplayName": "[3] LTG: SIDE PANELS",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10385,11 +10383,11 @@
       "TypeID": 0,
       "RefID": 90,
       "Id": "lm_switch_P03_Lighting_Flood_OvhdFwd",
-      "DisplayName": "P03_Lighting_Flood_OvhdFwd",
+      "DisplayName": "[3] LTG: FLOOD",
       "Labels": {
         "2": "OFF",
-        "4": "DOCK",
-        "5": "TRACK"
+        "4": "OVHD/FWD",
+        "5": "ALL"
       }
     },
     {
@@ -10409,10 +10407,10 @@
       "TypeID": 0,
       "RefID": 92,
       "Id": "lm_switch_P03_XPointerScale",
-      "DisplayName": "P03_XPointerScale",
+      "DisplayName": "[3] X-POINTER SCALE",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "HI",
+        "5": "LO"
       }
     },
     {
@@ -10420,10 +10418,10 @@
       "TypeID": 0,
       "RefID": 93,
       "Id": "lm_switch_P08_Audio_Replay",
-      "DisplayName": "P08_Audio_Replay",
+      "DisplayName": "[8] AUDIO: RELAY",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10431,11 +10429,11 @@
       "TypeID": 0,
       "RefID": 94,
       "Id": "lm_switch_P08_Coas",
-      "DisplayName": "P08_Coas",
+      "DisplayName": "[8] COAS",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "OVHD",
+        "5": "FWD"
       }
     },
     {
@@ -10443,11 +10441,11 @@
       "TypeID": 0,
       "RefID": 95,
       "Id": "lm_switch_P08_Audio_SBand",
-      "DisplayName": "P08_Audio_SBand",
+      "DisplayName": "[8] AUDIO: S BD",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "S-BAND T/R",
+        "5": "S-BAND RCV"
       }
     },
     {
@@ -10455,11 +10453,11 @@
       "TypeID": 0,
       "RefID": 96,
       "Id": "lm_switch_P08_Audio_ICS",
-      "DisplayName": "P08_Audio_ICS",
+      "DisplayName": "[8] AUDIO: ICS",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "ICS T/R",
+        "5": "ICS RCV"
       }
     },
     {
@@ -10467,11 +10465,11 @@
       "TypeID": 0,
       "RefID": 97,
       "Id": "lm_switch_P08_Audio_VHFA",
-      "DisplayName": "P08_Audio_VHFA",
+      "DisplayName": "[8] AUDIO: VHF A",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "T/R",
+        "5": "RCV"
       }
     },
     {
@@ -10479,11 +10477,11 @@
       "TypeID": 0,
       "RefID": 98,
       "Id": "lm_switch_P08_Audio_VHFB",
-      "DisplayName": "P08_Audio_VHFB",
+      "DisplayName": "[8] AUDIO: VHF B",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "T/R",
+        "5": "RCV"
       }
     },
     {
@@ -10503,10 +10501,10 @@
       "TypeID": 0,
       "RefID": 100,
       "Id": "lm_switch_P08_Audio_AudioCont",
-      "DisplayName": "P08_Audio_AudioCont",
+      "DisplayName": "[8] AUDIO: CONT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "NORM",
+        "5": "BU"
       }
     },
     {
@@ -10514,10 +10512,10 @@
       "TypeID": 0,
       "RefID": 101,
       "Id": "lm_switch_P12_Audio_Replay",
-      "DisplayName": "P12_Audio_Replay",
+      "DisplayName": "[12] AUDIO: RELAY",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10525,11 +10523,11 @@
       "TypeID": 0,
       "RefID": 102,
       "Id": "lm_switch_P12_Audio_SBand",
-      "DisplayName": "P12_Audio_SBand",
+      "DisplayName": "[12] AUDIO: S BD",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "T/R",
+        "5": "RCV"
       }
     },
     {
@@ -10537,11 +10535,11 @@
       "TypeID": 0,
       "RefID": 103,
       "Id": "lm_switch_P12_Audio_ICS",
-      "DisplayName": "P12_Audio_ICS",
+      "DisplayName": "[12] AUDIO: ICS",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "T/R",
+        "5": "RCV"
       }
     },
     {
@@ -10549,10 +10547,10 @@
       "TypeID": 0,
       "RefID": 104,
       "Id": "lm_switch_P12_Audio_AudioCont",
-      "DisplayName": "P12_Audio_AudioCont",
+      "DisplayName": "[12] AUDIO: CONT",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "NORM",
+        "5": "BU"
       }
     },
     {
@@ -10560,11 +10558,11 @@
       "TypeID": 0,
       "RefID": 105,
       "Id": "lm_switch_P12_Audio_CommMode",
-      "DisplayName": "P12_Audio_CommMode",
+      "DisplayName": "[12] AUDIO: MODE",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "ICS/PTT",
+        "4": "VOX",
+        "5": "PTT"
       }
     },
     {
@@ -10572,11 +10570,11 @@
       "TypeID": 0,
       "RefID": 106,
       "Id": "lm_switch_P12_Audio_VHFA",
-      "DisplayName": "P12_Audio_VHFA",
+      "DisplayName": "[12] AUDIO: VHF A",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "T/R",
+        "5": "RCV"
       }
     },
     {
@@ -10584,11 +10582,11 @@
       "TypeID": 0,
       "RefID": 107,
       "Id": "lm_switch_P12_Audio_VHFB",
-      "DisplayName": "P12_Audio_VHFB",
+      "DisplayName": "[12] AUDIO: VHF B",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "T/R",
+        "5": "RCV"
       }
     },
     {
@@ -10596,11 +10594,11 @@
       "TypeID": 0,
       "RefID": 108,
       "Id": "lm_switch_P12_Audio_UpdataLink",
-      "DisplayName": "P12_Audio_UpdataLink",
+      "DisplayName": "[12] UPDATA LINK",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "VOICE BU",
+        "5": "DATA"
       }
     },
     {
@@ -10608,10 +10606,10 @@
       "TypeID": 0,
       "RefID": 109,
       "Id": "lm_switch_P12_Comm_Modulate",
-      "DisplayName": "P12_Comm_Modulate",
+      "DisplayName": "[12] MODULATE",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "PM",
+        "5": "FM"
       }
     },
     {
@@ -10619,11 +10617,11 @@
       "TypeID": 0,
       "RefID": 110,
       "Id": "lm_switch_P12_Comm_XmitRcvr",
-      "DisplayName": "P12_Comm_XmitRcvr",
+      "DisplayName": "[12] D BD: XMTR/RCVR",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "PRIM",
+        "5": "SEC"
       }
     },
     {
@@ -10631,11 +10629,11 @@
       "TypeID": 0,
       "RefID": 111,
       "Id": "lm_switch_P12_Comm_PwrAmpl",
-      "DisplayName": "P12_Comm_PwrAmpl",
+      "DisplayName": "[12] D BD: PWR AMPL",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "PRIM",
+        "5": "SEC"
       }
     },
     {
@@ -10643,11 +10641,11 @@
       "TypeID": 0,
       "RefID": 112,
       "Id": "lm_switch_P12_Comm_FuncVoice",
-      "DisplayName": "P12_Comm_FuncVoice",
+      "DisplayName": "[12] D BD: FUNC VOICE",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "VOICE",
+        "5": "DN BOICE BU"
       }
     },
     {
@@ -10655,11 +10653,11 @@
       "TypeID": 0,
       "RefID": 113,
       "Id": "lm_switch_P12_Comm_FuncPCM",
-      "DisplayName": "P12_Comm_FuncPCM",
+      "DisplayName": "[12] D BD: FUNC PCM",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "PCM",
+        "5": "KEY"
       }
     },
     {
@@ -10667,11 +10665,11 @@
       "TypeID": 0,
       "RefID": 114,
       "Id": "lm_switch_P12_Comm_Range",
-      "DisplayName": "P12_Comm_Range",
+      "DisplayName": "[12] D BD: FUNC RNG",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF/RESET",
+        "4": "RNG",
+        "5": "CWEA ENBL"
       }
     },
     {
@@ -10679,11 +10677,11 @@
       "TypeID": 0,
       "RefID": 115,
       "Id": "lm_switch_P12_Comm_VHF_A_Xmtr",
-      "DisplayName": "P12_Comm_VHF_A_Xmtr",
+      "DisplayName": "[12] VHF A: XMTR",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "VOICE/RNG",
+        "5": "VOICE"
       }
     },
     {
@@ -10691,11 +10689,11 @@
       "TypeID": 0,
       "RefID": 116,
       "Id": "lm_switch_P12_Comm_VHF_A_Rcvr",
-      "DisplayName": "P12_Comm_VHF_A_Rcvr",
+      "DisplayName": "[12] VHF A: RCVR",
       "Labels": {
         "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10703,11 +10701,11 @@
       "TypeID": 0,
       "RefID": 117,
       "Id": "lm_switch_P12_Comm_VHF_B_Xmtr",
-      "DisplayName": "P12_Comm_VHF_B_Xmtr",
+      "DisplayName": "[12] VHF B: XMTR",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "VOICE",
+        "5": "DATA"
       }
     },
     {
@@ -10715,11 +10713,11 @@
       "TypeID": 0,
       "RefID": 118,
       "Id": "lm_switch_P12_Comm_VHF_B_Rcvr",
-      "DisplayName": "P12_Comm_VHF_B_Rcvr",
+      "DisplayName": "[12] VHF B: RCVR",
       "Labels": {
         "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10727,11 +10725,11 @@
       "TypeID": 0,
       "RefID": 119,
       "Id": "lm_switch_P12_Comm_TelemetryBiomed",
-      "DisplayName": "P12_Comm_TelemetryBiomed",
+      "DisplayName": "[12] TLM: BIOMED",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "LEFT",
+        "5": "RIGHT"
       }
     },
     {
@@ -10739,10 +10737,10 @@
       "TypeID": 0,
       "RefID": 120,
       "Id": "lm_switch_P12_Comm_TelemetryPCM",
-      "DisplayName": "P12_Comm_TelemetryPCM",
+      "DisplayName": "[12] TLM: PCM",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "HI",
+        "5": "LO"
       }
     },
     {
@@ -10750,11 +10748,11 @@
       "TypeID": 0,
       "RefID": 121,
       "Id": "lm_switch_P12_Comm_TrackMode",
-      "DisplayName": "P12_Comm_TrackMode",
+      "DisplayName": "[12] ANT: TRACK MODE",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "AUTO",
+        "5": "SLEW"
       }
     },
     {
@@ -10762,10 +10760,10 @@
       "TypeID": 0,
       "RefID": 122,
       "Id": "lm_switch_P12_Comm_Recorder",
-      "DisplayName": "P12_Comm_Recorder",
+      "DisplayName": "[12] RCDR",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10773,11 +10771,11 @@
       "TypeID": 0,
       "RefID": 123,
       "Id": "lm_switch_P06_AGS_Status",
-      "DisplayName": "P06_AGS_Status",
+      "DisplayName": "[6] AGS STATUS",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "STBY",
+        "4": "OPR",
+        "5": "OFF"
       }
     },
     {
@@ -10785,10 +10783,10 @@
       "TypeID": 0,
       "RefID": 124,
       "Id": "lm_switch_P04_CDR_ACA",
-      "DisplayName": "P04_CDR_ACA",
+      "DisplayName": "[4] ACA/4 JETS (CDR)",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ENABLE",
+        "5": "DISABLE"
       }
     },
     {
@@ -10796,7 +10794,7 @@
       "TypeID": 0,
       "RefID": 125,
       "Id": "lm_switch_P04_CDR_TTCA",
-      "DisplayName": "P04_CDR_TTCA",
+      "DisplayName": "[4] TTCA/TRANSLATE (CDR)",
       "Labels": {
         "4": "Up",
         "5": "Down"
@@ -10807,10 +10805,10 @@
       "TypeID": 0,
       "RefID": 126,
       "Id": "lm_switch_P04_LMP_ACA",
-      "DisplayName": "P04_LMP_ACA",
+      "DisplayName": "[4] ACA/4 JETS (LMP)",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ENBALE",
+        "5": "DISABLE"
       }
     },
     {
@@ -10818,7 +10816,7 @@
       "TypeID": 0,
       "RefID": 127,
       "Id": "lm_switch_P04_LMP_TTCA",
-      "DisplayName": "P04_LMP_TTCA",
+      "DisplayName": "[4] TTCA/TRANSLATE (LMP)",
       "Labels": {
         "4": "Up",
         "5": "Down"
@@ -10829,11 +10827,11 @@
       "TypeID": 0,
       "RefID": 128,
       "Id": "lm_switch_P05_MissionTimer_TimerCont",
-      "DisplayName": "P05_MissionTimer_TimerCont",
+      "DisplayName": "[5] MSN TMR: TMR CONT",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "STOP",
+        "4": "START",
+        "5": "RESET"
       }
     },
     {
@@ -10841,7 +10839,7 @@
       "TypeID": 0,
       "RefID": 129,
       "Id": "lm_switch_P05_MissionTimer_Hours",
-      "DisplayName": "P05_MissionTimer_Hours",
+      "DisplayName": "[5] MSN TMR: SLEW HRS",
       "Labels": {
         "2": "Middle",
         "4": "Up",
@@ -10853,7 +10851,7 @@
       "TypeID": 0,
       "RefID": 130,
       "Id": "lm_switch_P05_MissionTimer_Min",
-      "DisplayName": "P05_MissionTimer_Min",
+      "DisplayName": "[5] MSN TMR: SLEW MIN",
       "Labels": {
         "2": "Middle",
         "4": "Up",
@@ -10865,7 +10863,7 @@
       "TypeID": 0,
       "RefID": 131,
       "Id": "lm_switch_P05_MissionTimer_Sec",
-      "DisplayName": "P05_MissionTimer_Sec",
+      "DisplayName": "[5] MSN TMR: SLEW SEC",
       "Labels": {
         "2": "Middle",
         "4": "Up",
@@ -10877,10 +10875,10 @@
       "TypeID": 0,
       "RefID": 132,
       "Id": "lm_switch_P05_Lighting_Sidepanels",
-      "DisplayName": "P05_Lighting_Sidepanels",
+      "DisplayName": "[5] LTG: SIDE PNLS",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10888,10 +10886,10 @@
       "TypeID": 0,
       "RefID": 133,
       "Id": "lm_switch_P05_Lighting_Integral",
-      "DisplayName": "P05_Lighting_Integral",
+      "DisplayName": "[5] LTG OVRD: INTGL",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10899,10 +10897,10 @@
       "TypeID": 0,
       "RefID": 134,
       "Id": "lm_switch_P05_Lighting_Num",
-      "DisplayName": "P05_Lighting_Num",
+      "DisplayName": "[5] LTG OVRD: NUM",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10910,10 +10908,10 @@
       "TypeID": 0,
       "RefID": 135,
       "Id": "lm_switch_P05_Lighting_Anun",
-      "DisplayName": "P05_Lighting_Anun",
+      "DisplayName": "[5] LTG OVRD: ANUN",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -10921,11 +10919,11 @@
       "TypeID": 0,
       "RefID": 136,
       "Id": "lm_switch_P05_DesRate",
-      "DisplayName": "P05_DesRate",
+      "DisplayName": "[5] RATE OF DESCENT sw",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "ctr",
+        "4": "INCR",
+        "5": "DECR"
       }
     },
     {
@@ -10933,10 +10931,10 @@
       "TypeID": 0,
       "RefID": 137,
       "Id": "lm_switch_P01_XPointerScale",
-      "DisplayName": "P01_XPointerScale",
+      "DisplayName": "[1] X-PNTR SCL",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "HI",
+        "5": "LO"
       }
     },
     {
@@ -10944,10 +10942,10 @@
       "TypeID": 0,
       "RefID": 138,
       "Id": "lm_switch_ORDEAL_FDAI1",
-      "DisplayName": "ORDEAL_FDAI1",
+      "DisplayName": "[13] ORDEAL: FDAI 1",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ORB RATE",
+        "5": "INRTL"
       }
     },
     {
@@ -10955,10 +10953,10 @@
       "TypeID": 0,
       "RefID": 139,
       "Id": "lm_switch_ORDEAL_FDAI2",
-      "DisplayName": "ORDEAL_FDAI2",
+      "DisplayName": "[13] ORDEAL: FDAI 2",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "ORB RATE",
+        "5": "INRTL"
       }
     },
     {
@@ -10966,10 +10964,10 @@
       "TypeID": 0,
       "RefID": 140,
       "Id": "lm_switch_ORDEAL_Mode",
-      "DisplayName": "ORDEAL_Mode",
+      "DisplayName": "[13] ORDEAL: MODE",
       "Labels": {
-        "4": "Up",
-        "5": "Down"
+        "4": "OPR/SLOW",
+        "5": "HOLD/FAST"
       }
     },
     {
@@ -10977,11 +10975,11 @@
       "TypeID": 0,
       "RefID": 141,
       "Id": "lm_switch_ORDEAL_Lighting",
-      "DisplayName": "ORDEAL_Lighting",
+      "DisplayName": "[13] ORDEAL: LTG",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "BRT",
+        "5": "DIM"
       }
     },
     {
@@ -10989,7 +10987,7 @@
       "TypeID": 0,
       "RefID": 142,
       "Id": "lm_switch_ORDEAL_Slew",
-      "DisplayName": "ORDEAL_Slew",
+      "DisplayName": "[13] ORDEAL: SLEW",
       "Labels": {
         "4": "Up",
         "5": "Down"
@@ -11000,11 +10998,11 @@
       "TypeID": 0,
       "RefID": 143,
       "Id": "lm_switch_ORDEAL_Location",
-      "DisplayName": "ORDEAL_Location",
+      "DisplayName": "[13] ORDEAL: EARTH/LUNAR",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "PWR OFF",
+        "4": "EARTH",
+        "5": "LUNAR"
       }
     },
     {
@@ -11012,7 +11010,7 @@
       "TypeID": 1,
       "RefID": 1,
       "Id": "lm_fuse_P16_BatFeedTieA",
-      "DisplayName": "P16_BatFeedTieA",
+      "DisplayName": "[16] EPS: BAT FEED TIE A",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11023,7 +11021,7 @@
       "TypeID": 1,
       "RefID": 2,
       "Id": "lm_fuse_P16_BatFeedTieB",
-      "DisplayName": "P16_BatFeedTieB",
+      "DisplayName": "[16] EPS: BAT FEED TIE B",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11034,7 +11032,7 @@
       "TypeID": 1,
       "RefID": 3,
       "Id": "lm_fuse_P16_CrossTieBalLoad",
-      "DisplayName": "P16_CrossTieBalLoad",
+      "DisplayName": "[16] EPS: X-TIE: BAL LOADS",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11045,7 +11043,7 @@
       "TypeID": 1,
       "RefID": 4,
       "Id": "lm_fuse_P16_CrossTieBus",
-      "DisplayName": "P16_CrossTieBus",
+      "DisplayName": "[16] EPS: X-TIE: BUS",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11056,7 +11054,7 @@
       "TypeID": 1,
       "RefID": 5,
       "Id": "lm_fuse_P16_XLunarBusTie",
-      "DisplayName": "P16_XLunarBusTie",
+      "DisplayName": "[16] EPS: X LUNAR BUS TIE",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11067,7 +11065,7 @@
       "TypeID": 1,
       "RefID": 6,
       "Id": "lm_fuse_P16_DesECACont",
-      "DisplayName": "P16_DesECACont",
+      "DisplayName": "[16] EPS: DES ECA CONT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11078,7 +11076,7 @@
       "TypeID": 1,
       "RefID": 7,
       "Id": "lm_fuse_P16_DesECA",
-      "DisplayName": "P16_DesECA",
+      "DisplayName": "[16] EPS: DES ECA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11089,7 +11087,7 @@
       "TypeID": 1,
       "RefID": 8,
       "Id": "lm_fuse_P16_AscECACont",
-      "DisplayName": "P16_AscECACont",
+      "DisplayName": "[16] EPS: ASC ECA CONT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11100,7 +11098,7 @@
       "TypeID": 1,
       "RefID": 9,
       "Id": "lm_fuse_P16_AscECA",
-      "DisplayName": "P16_AscECA",
+      "DisplayName": "[16] EPS: ASC ECA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11111,7 +11109,7 @@
       "TypeID": 1,
       "RefID": 10,
       "Id": "lm_fuse_P16_Inv2",
-      "DisplayName": "P16_Inv2",
+      "DisplayName": "[16] EPS: INV 2",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11122,7 +11120,7 @@
       "TypeID": 1,
       "RefID": 11,
       "Id": "lm_fuse_P16_DCBusVolt",
-      "DisplayName": "P16_DCBusVolt",
+      "DisplayName": "[16] EPS: DC BUS VOLT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11133,7 +11131,7 @@
       "TypeID": 1,
       "RefID": 12,
       "Id": "lm_fuse_P16_Disp",
-      "DisplayName": "P16_Disp",
+      "DisplayName": "[16] EPS: DISP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11144,7 +11142,7 @@
       "TypeID": 1,
       "RefID": 13,
       "Id": "lm_fuse_P11_ACBusBBusTieInv1",
-      "DisplayName": "P11_ACBusBBusTieInv1",
+      "DisplayName": "[11] AC BUS B: BUS TIE INV 1",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11155,7 +11153,7 @@
       "TypeID": 1,
       "RefID": 14,
       "Id": "lm_fuse_P11_ACBusBBusTieInv2",
-      "DisplayName": "P11_ACBusBBusTieInv2",
+      "DisplayName": "[11] AC BUS B: BUS TIE INV 2",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11166,7 +11164,7 @@
       "TypeID": 1,
       "RefID": 15,
       "Id": "lm_fuse_P11_ACBusABusTieInv1",
-      "DisplayName": "P11_ACBusABusTieInv1",
+      "DisplayName": "[11] AC BUS A: BUS TIE INV 1",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11177,7 +11175,7 @@
       "TypeID": 1,
       "RefID": 16,
       "Id": "lm_fuse_P11_ACBusABusTieInv2",
-      "DisplayName": "P11_ACBusABusTieInv2",
+      "DisplayName": "[11] AC BUS A: BUS TIE INV 2",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11188,7 +11186,7 @@
       "TypeID": 1,
       "RefID": 17,
       "Id": "lm_fuse_P11_ACBusAACBusVolt",
-      "DisplayName": "P11_ACBusAACBusVolt",
+      "DisplayName": "[11] AC BUS A: AC BUS VOLT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11199,7 +11197,7 @@
       "TypeID": 1,
       "RefID": 18,
       "Id": "lm_fuse_P11_BatFeedTieA",
-      "DisplayName": "P11_BatFeedTieA",
+      "DisplayName": "[11] EPS: BAT FEED TIE A",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11210,7 +11208,7 @@
       "TypeID": 1,
       "RefID": 19,
       "Id": "lm_fuse_P11_BatFeedTieB",
-      "DisplayName": "P11_BatFeedTieB",
+      "DisplayName": "[11] EPS: BAT FEED TIE B",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11221,7 +11219,7 @@
       "TypeID": 1,
       "RefID": 20,
       "Id": "lm_fuse_P11_CrossTieBalLoad",
-      "DisplayName": "P11_CrossTieBalLoad",
+      "DisplayName": "[11] EPS: X TIE - BAL LOADS",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11232,7 +11230,7 @@
       "TypeID": 1,
       "RefID": 21,
       "Id": "lm_fuse_P11_CrossTieBus",
-      "DisplayName": "P11_CrossTieBus",
+      "DisplayName": "[11] EPS: X TIE - BUS",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11243,7 +11241,7 @@
       "TypeID": 1,
       "RefID": 22,
       "Id": "lm_fuse_P11_XLunarBusTie",
-      "DisplayName": "P11_XLunarBusTie",
+      "DisplayName": "[11] EPS: X LUNAR BUS TIE",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11254,7 +11252,7 @@
       "TypeID": 1,
       "RefID": 23,
       "Id": "lm_fuse_P11_DesECACont",
-      "DisplayName": "P11_DesECACont",
+      "DisplayName": "[11] EPS: DES ECA CONT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11265,7 +11263,7 @@
       "TypeID": 1,
       "RefID": 24,
       "Id": "lm_fuse_P11_DesECA",
-      "DisplayName": "P11_DesECA",
+      "DisplayName": "[11] EPS: DES ECA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11276,7 +11274,7 @@
       "TypeID": 1,
       "RefID": 25,
       "Id": "lm_fuse_P11_AscECACont",
-      "DisplayName": "P11_AscECACont",
+      "DisplayName": "[11] EPS: ASC ECA CONT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11287,7 +11285,7 @@
       "TypeID": 1,
       "RefID": 26,
       "Id": "lm_fuse_P11_AscECA",
-      "DisplayName": "P11_AscECA",
+      "DisplayName": "[11] EPS: ASC ECA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11298,7 +11296,7 @@
       "TypeID": 1,
       "RefID": 27,
       "Id": "lm_fuse_P11_Inv1",
-      "DisplayName": "P11_Inv1",
+      "DisplayName": "[11] EPS: INV 1",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11309,7 +11307,7 @@
       "TypeID": 1,
       "RefID": 28,
       "Id": "lm_fuse_P11_DCBusVolt",
-      "DisplayName": "P11_DCBusVolt",
+      "DisplayName": "[11] EPS: DC BUS VOLT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11320,7 +11318,7 @@
       "TypeID": 1,
       "RefID": 29,
       "Id": "lm_fuse_P16_Heaters_RCSAB2_Q1",
-      "DisplayName": "P16_Heaters_RCSAB2_Q1",
+      "DisplayName": "[16] HTR: SCS SYS A/B-2: Q1",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11331,7 +11329,7 @@
       "TypeID": 1,
       "RefID": 30,
       "Id": "lm_fuse_P16_Heaters_RCSAB2_Q2",
-      "DisplayName": "P16_Heaters_RCSAB2_Q2",
+      "DisplayName": "[16] HTR: SCS SYS A/B-2: Q2",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11342,7 +11340,7 @@
       "TypeID": 1,
       "RefID": 31,
       "Id": "lm_fuse_P16_Heaters_RCSAB2_Q3",
-      "DisplayName": "P16_Heaters_RCSAB2_Q3",
+      "DisplayName": "[16] HTR: SCS SYS A/B-2: Q3",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11353,7 +11351,7 @@
       "TypeID": 1,
       "RefID": 32,
       "Id": "lm_fuse_P16_Heaters_RCSAB2_Q4",
-      "DisplayName": "P16_Heaters_RCSAB2_Q4",
+      "DisplayName": "[16] HTR: SCS SYS A/B-2: Q¤",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11364,7 +11362,7 @@
       "TypeID": 1,
       "RefID": 33,
       "Id": "lm_fuse_P16_Camr_Seq",
-      "DisplayName": "P16_Camr_Seq",
+      "DisplayName": "[16] CAMR: SEQ",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11375,7 +11373,7 @@
       "TypeID": 1,
       "RefID": 34,
       "Id": "lm_fuse_P16_Heaters_SBandAnt",
-      "DisplayName": "P16_Heaters_SBandAnt",
+      "DisplayName": "[16] HTR: S BD ANT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11386,7 +11384,7 @@
       "TypeID": 1,
       "RefID": 35,
       "Id": "lm_fuse_P16_Heaters_Disp",
-      "DisplayName": "P16_Heaters_Disp",
+      "DisplayName": "[16] HTR: DISP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11397,7 +11395,7 @@
       "TypeID": 1,
       "RefID": 36,
       "Id": "lm_fuse_P16_Propul_ASCHe_Reg",
-      "DisplayName": "P16_Propul_ASCHe_Reg",
+      "DisplayName": "[16] PROP: ASC He REG",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11408,7 +11406,7 @@
       "TypeID": 1,
       "RefID": 37,
       "Id": "lm_fuse_P16_Propul_PQGS",
-      "DisplayName": "P16_Propul_PQGS",
+      "DisplayName": "[16] PROP: PQGS",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11419,7 +11417,7 @@
       "TypeID": 1,
       "RefID": 38,
       "Id": "lm_fuse_P16_Propul_Disp",
-      "DisplayName": "P16_Propul_Disp",
+      "DisplayName": "[16] PROP: DISP/ENG OVRD/LOGIC",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11430,7 +11428,7 @@
       "TypeID": 1,
       "RefID": 39,
       "Id": "lm_fuse_P16_RCSSysB_MainSov",
-      "DisplayName": "P16_RCSSysB_MainSov",
+      "DisplayName": "[16] RCS SYS B: MAIN SOV",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11441,7 +11439,7 @@
       "TypeID": 1,
       "RefID": 40,
       "Id": "lm_fuse_P16_RCSSysB_PQGSDisp",
-      "DisplayName": "P16_RCSSysB_PQGSDisp",
+      "DisplayName": "[16] RCS SYS B: PQGS/DISP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11452,7 +11450,7 @@
       "TypeID": 1,
       "RefID": 41,
       "Id": "lm_fuse_P16_RCSSysB_TempPressDispFlags",
-      "DisplayName": "P16_RCSSysB_TempPressDispFlags",
+      "DisplayName": "[16] RCS SYS B: TEMP/PRESS/DISP FLGS",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11463,7 +11461,7 @@
       "TypeID": 1,
       "RefID": 42,
       "Id": "lm_fuse_P16_RCSSysB_Crossfeed",
-      "DisplayName": "P16_RCSSysB_Crossfeed",
+      "DisplayName": "[16] RCS SYS B: CRSFED",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11474,7 +11472,7 @@
       "TypeID": 1,
       "RefID": 43,
       "Id": "lm_fuse_P16_RCSSysB_Q4",
-      "DisplayName": "P16_RCSSysB_Q4",
+      "DisplayName": "[16] RCS SYS B: Q4 TCA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11485,7 +11483,7 @@
       "TypeID": 1,
       "RefID": 44,
       "Id": "lm_fuse_P16_RCSSysB_Q3",
-      "DisplayName": "P16_RCSSysB_Q3",
+      "DisplayName": "[16] RCS SYS B: Q3 TCA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11496,7 +11494,7 @@
       "TypeID": 1,
       "RefID": 45,
       "Id": "lm_fuse_P16_RCSSysB_Q2",
-      "DisplayName": "P16_RCSSysB_Q2",
+      "DisplayName": "[16] RCS SYS B: Q2 TCA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11507,7 +11505,7 @@
       "TypeID": 1,
       "RefID": 46,
       "Id": "lm_fuse_P16_RCSSysB_Q1",
-      "DisplayName": "P16_RCSSysB_Q1",
+      "DisplayName": "[16] RCS SYS B: Q1 TCA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11518,7 +11516,7 @@
       "TypeID": 1,
       "RefID": 47,
       "Id": "lm_fuse_P16_RCSSysB_IsolVlv",
-      "DisplayName": "P16_RCSSysB_IsolVlv",
+      "DisplayName": "[16] RCS SYS B: ISOL VLV",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11529,7 +11527,7 @@
       "TypeID": 1,
       "RefID": 48,
       "Id": "lm_fuse_P16_RCSSysB_ASCFeed2",
-      "DisplayName": "P16_RCSSysB_ASCFeed2",
+      "DisplayName": "[16] RCS SYS B: ASC FEED 2",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11540,7 +11538,7 @@
       "TypeID": 1,
       "RefID": 49,
       "Id": "lm_fuse_P16_RCSSysB_ASCFeed1",
-      "DisplayName": "P16_RCSSysB_ASCFeed1",
+      "DisplayName": "[16] RCS SYS B: ASC FEED 1",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11551,7 +11549,7 @@
       "TypeID": 1,
       "RefID": 50,
       "Id": "lm_fuse_P16_FltDisp_LMP_XPntr",
-      "DisplayName": "P16_FltDisp_LMP_XPntr",
+      "DisplayName": "[16] FD: SE X-PNTR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11562,7 +11560,7 @@
       "TypeID": 1,
       "RefID": 51,
       "Id": "lm_fuse_P16_FltDisp_LMPFDAIAndEventTimer",
-      "DisplayName": "lm_fuse_P16_FltDisp_LMPFDAIAndEventTimer",
+      "DisplayName": "[16] FD: EVENT TIMER / SE FDAI",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11573,7 +11571,7 @@
       "TypeID": 1,
       "RefID": 52,
       "Id": "lm_fuse_P16_LTG_Flood",
-      "DisplayName": "P16_LTG_Flood",
+      "DisplayName": "[16] LTG: FLOOD",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11584,7 +11582,7 @@
       "TypeID": 1,
       "RefID": 53,
       "Id": "lm_fuse_P16_LTG_Track",
-      "DisplayName": "P16_LTG_Track",
+      "DisplayName": "[16] LTG: TRACK",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11595,7 +11593,7 @@
       "TypeID": 1,
       "RefID": 54,
       "Id": "lm_fuse_P16_LTG_AnunDockCompnt",
-      "DisplayName": "P16_LTG_AnunDockCompnt",
+      "DisplayName": "[16] LTG: ANUN/DOCK/COMPNT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11606,7 +11604,7 @@
       "TypeID": 1,
       "RefID": 55,
       "Id": "lm_fuse_P16_LTG_MasterAlarm",
-      "DisplayName": "P16_LTG_MasterAlarm",
+      "DisplayName": "[16] LTG: MASTER ALARM",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11617,7 +11615,7 @@
       "TypeID": 1,
       "RefID": 56,
       "Id": "lm_fuse_P16_ED_LogicPwrB",
-      "DisplayName": "P16_ED_LogicPwrB",
+      "DisplayName": "[16] ED: LOGIC PWR B",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11628,7 +11626,7 @@
       "TypeID": 1,
       "RefID": 57,
       "Id": "lm_fuse_P16_StabCont_AEA",
-      "DisplayName": "P16_StabCont_AEA",
+      "DisplayName": "[16] S/C: AEA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11639,7 +11637,7 @@
       "TypeID": 1,
       "RefID": 58,
       "Id": "lm_fuse_P16_StabCont_EngArm",
-      "DisplayName": "P16_StabCont_EngArm",
+      "DisplayName": "[16] S/C: ENG ARM",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11650,7 +11648,7 @@
       "TypeID": 1,
       "RefID": 59,
       "Id": "lm_fuse_P16_StabCont_ASA",
-      "DisplayName": "P16_StabCont_ASA",
+      "DisplayName": "[16] S/C: ASA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11661,7 +11659,7 @@
       "TypeID": 1,
       "RefID": 60,
       "Id": "lm_fuse_P16_StabCont_AELD",
-      "DisplayName": "P16_StabCont_AELD",
+      "DisplayName": "[16] S/C: AELD",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11672,7 +11670,7 @@
       "TypeID": 1,
       "RefID": 61,
       "Id": "lm_fuse_P16_StabCont_ATCA",
-      "DisplayName": "P16_StabCont_ATCA",
+      "DisplayName": "[16] S/C: ATCA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11683,7 +11681,7 @@
       "TypeID": 1,
       "RefID": 62,
       "Id": "lm_fuse_P16_StabCont_AbortStage",
-      "DisplayName": "P16_StabCont_AbortStage",
+      "DisplayName": "[16] S/C: ABORT STAGE",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11694,7 +11692,7 @@
       "TypeID": 1,
       "RefID": 63,
       "Id": "lm_fuse_P16_StabCont_ATCA_AGS",
-      "DisplayName": "P16_StabCont_ATCA_AGS",
+      "DisplayName": "[16] S/C: ATCA AGS",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11705,7 +11703,7 @@
       "TypeID": 1,
       "RefID": 64,
       "Id": "lm_fuse_P16_StabCont_DesEngOvrd",
-      "DisplayName": "P16_StabCont_DesEngOvrd",
+      "DisplayName": "[16] S/C: DES ENG OVRD",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11716,7 +11714,7 @@
       "TypeID": 1,
       "RefID": 65,
       "Id": "lm_fuse_P16_Inst_CWEA",
-      "DisplayName": "P16_Inst_CWEA",
+      "DisplayName": "[16] INST: CWEA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11727,7 +11725,7 @@
       "TypeID": 1,
       "RefID": 66,
       "Id": "lm_fuse_P16_Inst_SigSensor",
-      "DisplayName": "P16_Inst_SigSensor",
+      "DisplayName": "[16] INST: SIG SENSOR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11738,7 +11736,7 @@
       "TypeID": 1,
       "RefID": 67,
       "Id": "lm_fuse_P16_Inst_PCMTE",
-      "DisplayName": "P16_Inst_PCMTE",
+      "DisplayName": "[16] INST: PCM/TIE",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11749,7 +11747,7 @@
       "TypeID": 1,
       "RefID": 68,
       "Id": "lm_fuse_P16_Inst_SigCondr2",
-      "DisplayName": "P16_Inst_SigCondr2",
+      "DisplayName": "[16] INST: SIG CONDR 2",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11760,7 +11758,7 @@
       "TypeID": 1,
       "RefID": 69,
       "Id": "lm_fuse_P16_ECS_SuitFlowCont",
-      "DisplayName": "P16_ECS_SuitFlowCont",
+      "DisplayName": "[16] ECS: SUIT FLOW CONT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11771,7 +11769,7 @@
       "TypeID": 1,
       "RefID": 70,
       "Id": "lm_fuse_P16_ECS_CO2_Sensor",
-      "DisplayName": "P16_ECS_CO2_Sensor",
+      "DisplayName": "[16] ECS: CO2 SENSOR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11782,7 +11780,7 @@
       "TypeID": 1,
       "RefID": 71,
       "Id": "lm_fuse_P16_ECS_DivertVlv",
-      "DisplayName": "P16_ECS_DivertVlv",
+      "DisplayName": "[16] ECS: DIVERT VLV",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11793,7 +11791,7 @@
       "TypeID": 1,
       "RefID": 72,
       "Id": "lm_fuse_P16_ECS_CabinRepress",
-      "DisplayName": "P16_ECS_CabinRepress",
+      "DisplayName": "[16] ECS: CABIN REPRESS",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11804,7 +11802,7 @@
       "TypeID": 1,
       "RefID": 73,
       "Id": "lm_fuse_P16_ECS_CabinFanCont",
-      "DisplayName": "P16_ECS_CabinFanCont",
+      "DisplayName": "[16] ECS: CABIN FAN CONT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11815,7 +11813,7 @@
       "TypeID": 1,
       "RefID": 74,
       "Id": "lm_fuse_P16_ECS_LCGPump",
-      "DisplayName": "P16_ECS_LCGPump",
+      "DisplayName": "[16] ECS: LCG PUMP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11826,7 +11824,7 @@
       "TypeID": 1,
       "RefID": 75,
       "Id": "lm_fuse_P16_ECS_GlycolPumpSec",
-      "DisplayName": "P16_ECS_GlycolPumpSec",
+      "DisplayName": "[16] ECS: GLYCOL PUMP SEC",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11837,7 +11835,7 @@
       "TypeID": 1,
       "RefID": 76,
       "Id": "lm_fuse_P16_ECS_Disp",
-      "DisplayName": "P16_ECS_Disp",
+      "DisplayName": "[16] ECS: DISP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11848,7 +11846,7 @@
       "TypeID": 1,
       "RefID": 77,
       "Id": "lm_fuse_P16_SuitFan_dP",
-      "DisplayName": "P16_SuitFan_dP",
+      "DisplayName": "[16] ECS: SUIT FAN ΔP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11859,7 +11857,7 @@
       "TypeID": 1,
       "RefID": 78,
       "Id": "lm_fuse_P16_ECS_SuitFan2",
-      "DisplayName": "lm_fuse_P16_ECS_SuitFan2",
+      "DisplayName": "[16] ECS: SUIT FAN 2",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11870,7 +11868,7 @@
       "TypeID": 1,
       "RefID": 79,
       "Id": "lm_fuse_P16_Comm_TV",
-      "DisplayName": "P16_Comm_TV",
+      "DisplayName": "[16] COMM: TV",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11881,7 +11879,7 @@
       "TypeID": 1,
       "RefID": 80,
       "Id": "lm_fuse_P16_Comm_PMP",
-      "DisplayName": "P16_Comm_PMP",
+      "DisplayName": "[16] COMM: PMP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11892,7 +11890,7 @@
       "TypeID": 1,
       "RefID": 81,
       "Id": "lm_fuse_P16_Comm_SBandAnt",
-      "DisplayName": "P16_Comm_SBandAnt",
+      "DisplayName": "[16] COMM: S BD ANT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11903,7 +11901,7 @@
       "TypeID": 1,
       "RefID": 82,
       "Id": "lm_fuse_P16_Comm_PrimSBand_XMTR_RCVR",
-      "DisplayName": "P16_Comm_PrimSBand_XMTR_RCVR",
+      "DisplayName": "[16] COMM: PRIM S BD - XMTR/RCVR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11914,7 +11912,7 @@
       "TypeID": 1,
       "RefID": 83,
       "Id": "lm_fuse_P16_Comm_PrimSBand_PWPAmppl",
-      "DisplayName": "P16_Comm_PrimSBand_PWPAmppl",
+      "DisplayName": "[16] COMM: PRIM S BD - PWR AMPL",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11925,7 +11923,7 @@
       "TypeID": 1,
       "RefID": 84,
       "Id": "lm_fuse_P16_Comm_VHFB_RCVR",
-      "DisplayName": "P16_Comm_VHFB_RCVR",
+      "DisplayName": "[16] COMM: VHF B RCVR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11936,7 +11934,7 @@
       "TypeID": 1,
       "RefID": 85,
       "Id": "lm_fuse_P16_Comm_VHFA_XMTR",
-      "DisplayName": "P16_Comm_VHFA_XMTR",
+      "DisplayName": "[16] COMM: VHF A XMTR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11947,7 +11945,7 @@
       "TypeID": 1,
       "RefID": 86,
       "Id": "lm_fuse_P16_Comm_LMP_Audio",
-      "DisplayName": "P16_Comm_LMP_Audio",
+      "DisplayName": "[16] COMM: SE AUDIO",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11958,7 +11956,7 @@
       "TypeID": 1,
       "RefID": 87,
       "Id": "lm_fuse_P16_Comm_Disp",
-      "DisplayName": "P16_Comm_Disp",
+      "DisplayName": "[16] COMM: DISP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11969,7 +11967,7 @@
       "TypeID": 1,
       "RefID": 88,
       "Id": "lm_fuse_P11_ACBusB_LMPWindHtr",
-      "DisplayName": "P11_ACBusB_LMPWindHtr",
+      "DisplayName": "[11] AC BUS B: SW WIND HTR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11980,7 +11978,7 @@
       "TypeID": 1,
       "RefID": 89,
       "Id": "lm_fuse_P11_ACBusB_HePQGS_PropDisp",
-      "DisplayName": "P11_ACBusB_HePQGS_PropDisp",
+      "DisplayName": "[11] AC BUS B: He PQGS PROP DISP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -11991,7 +11989,7 @@
       "TypeID": 1,
       "RefID": 90,
       "Id": "lm_fuse_P11_ACBusB_SBandAnt",
-      "DisplayName": "P11_ACBusB_SBandAnt",
+      "DisplayName": "[11] AC BUS B: S BD ANT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12002,7 +12000,7 @@
       "TypeID": 1,
       "RefID": 91,
       "Id": "lm_fuse_P11_ACBusB_Ordeal",
-      "DisplayName": "P11_ACBusB_Ordeal",
+      "DisplayName": "[11] AC BUS B: ORDEAL",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12013,7 +12011,7 @@
       "TypeID": 1,
       "RefID": 92,
       "Id": "lm_fuse_P11_ACBusB_AGS",
-      "DisplayName": "P11_ACBusB_AGS",
+      "DisplayName": "[11] AC BUS B: AGS",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12024,7 +12022,7 @@
       "TypeID": 1,
       "RefID": 93,
       "Id": "lm_fuse_P11_ACBusB_LMPFDAI",
-      "DisplayName": "P11_ACBusB_LMPFDAI",
+      "DisplayName": "[11] AC BUS B: SE FDAI",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12035,7 +12033,7 @@
       "TypeID": 1,
       "RefID": 94,
       "Id": "lm_fuse_P11_ACBusB_NumLtg",
-      "DisplayName": "P11_ACBusB_NumLtg",
+      "DisplayName": "[11] AC BUS B: NUM LTG",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12046,7 +12044,7 @@
       "TypeID": 1,
       "RefID": 95,
       "Id": "lm_fuse_P11_ACBusB_AOTLMP",
-      "DisplayName": "P11_ACBusB_AOTLMP",
+      "DisplayName": "[11] AC BUS B: AOT LMP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12057,7 +12055,7 @@
       "TypeID": 1,
       "RefID": 96,
       "Id": "lm_fuse_P11_ACBusA_CDRWindHtr",
-      "DisplayName": "P11_ACBusA_CDRWindHtr",
+      "DisplayName": "[11] AC BUS A: CDR WIND HTR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12068,7 +12066,7 @@
       "TypeID": 1,
       "RefID": 97,
       "Id": "lm_fuse_P11_ACBusA_TapeRcdr",
-      "DisplayName": "P11_ACBusA_TapeRcdr",
+      "DisplayName": "[11] AC BUS A: TAPE RCDR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12079,7 +12077,7 @@
       "TypeID": 1,
       "RefID": 98,
       "Id": "lm_fuse_P11_ACBusA_AOTLAMP",
-      "DisplayName": "P11_ACBusA_AOTLAMP",
+      "DisplayName": "[11] AC BUS A: AOT LAMP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12090,7 +12088,7 @@
       "TypeID": 1,
       "RefID": 99,
       "Id": "lm_fuse_P11_ACBusA_RNDZRdr",
-      "DisplayName": "P11_ACBusA_RNDZRdr",
+      "DisplayName": "[11] AC BUS A: RNDZ RDR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12101,7 +12099,7 @@
       "TypeID": 1,
       "RefID": 100,
       "Id": "lm_fuse_P11_ACBusA_DecaGmbl",
-      "DisplayName": "P11_ACBusA_DecaGmbl",
+      "DisplayName": "[11] AC BUS A: DECA GMBL",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12112,7 +12110,7 @@
       "TypeID": 1,
       "RefID": 101,
       "Id": "lm_fuse_P11_ACBusA_IntglLtg",
-      "DisplayName": "P11_ACBusA_IntglLtg",
+      "DisplayName": "[11] AC BUS A: INTGL LTG",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12123,7 +12121,7 @@
       "TypeID": 1,
       "RefID": 102,
       "Id": "lm_fuse_P11_ACBusA_CDRFDAI",
-      "DisplayName": "P11_ACBusA_CDRFDAI",
+      "DisplayName": "[11] AC BUS A: CDR FDAI",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12134,7 +12132,7 @@
       "TypeID": 1,
       "RefID": 103,
       "Id": "lm_fuse_P11_ACBusA_GASTA",
-      "DisplayName": "P11_ACBusA_GASTA",
+      "DisplayName": "[11] AC BUS A: GASTA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12145,7 +12143,7 @@
       "TypeID": 1,
       "RefID": 104,
       "Id": "lm_fuse_P11_ACBusA_RngRtAltRt",
-      "DisplayName": "P11_ACBusA_RngRtAltRt",
+      "DisplayName": "[11] AC BUS A: RNG/RNG RT - ALT/ALT RT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12156,7 +12154,7 @@
       "TypeID": 1,
       "RefID": 105,
       "Id": "lm_fuse_P11_FlightDisplays_Ordeal",
-      "DisplayName": "P11_FlightDisplays_Ordeal",
+      "DisplayName": "[11] FD: ORDEAL",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12167,7 +12165,7 @@
       "TypeID": 1,
       "RefID": 106,
       "Id": "lm_fuse_P11_FlightDisplays_COAS",
-      "DisplayName": "P11_FlightDisplays_COAS",
+      "DisplayName": "[11] FD: COAS",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12178,7 +12176,7 @@
       "TypeID": 1,
       "RefID": 107,
       "Id": "lm_fuse_P11_FlightDisplays_CDRFDAI",
-      "DisplayName": "P11_FlightDisplays_CDRFDAI",
+      "DisplayName": "[11] FD: CDR FDAI",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12189,7 +12187,7 @@
       "TypeID": 1,
       "RefID": 108,
       "Id": "lm_fuse_P11_FlightDisplays_GASTA",
-      "DisplayName": "P11_FlightDisplays_GASTA",
+      "DisplayName": "[11] FD: GASTA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12200,7 +12198,7 @@
       "TypeID": 1,
       "RefID": 109,
       "Id": "lm_fuse_P11_FlightDisplays_RngRtAltRt",
-      "DisplayName": "P11_FlightDisplays_RngRtAltRt",
+      "DisplayName": "[11] FD: RNG/RNG RT - ALT/ALT RT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12211,7 +12209,7 @@
       "TypeID": 1,
       "RefID": 110,
       "Id": "lm_fuse_P11_FlightDisplays_CNDRXPntr",
-      "DisplayName": "P11_FlightDisplays_CNDRXPntr",
+      "DisplayName": "[11] FD: CMDR X-PNTR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12222,7 +12220,7 @@
       "TypeID": 1,
       "RefID": 111,
       "Id": "lm_fuse_P11_FlightDisplays_MissionTimer",
-      "DisplayName": "P11_FlightDisplays_MissionTimer",
+      "DisplayName": "[11] FD: MISSION TIMER",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12233,7 +12231,7 @@
       "TypeID": 1,
       "RefID": 112,
       "Id": "lm_fuse_P11_FlightDisplays_Thrust",
-      "DisplayName": "P11_FlightDisplays_Thrust",
+      "DisplayName": "[11] FD: THRUST",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12244,7 +12242,7 @@
       "TypeID": 1,
       "RefID": 113,
       "Id": "lm_fuse_P11_RCSSysA_ASCFeed1",
-      "DisplayName": "P11_RCSSysA_ASCFeed1",
+      "DisplayName": "[11] RCS SYS A: ASC FEED 1",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12255,7 +12253,7 @@
       "TypeID": 1,
       "RefID": 114,
       "Id": "lm_fuse_P11_RCSSysA_ASCFeed2",
-      "DisplayName": "P11_RCSSysA_ASCFeed2",
+      "DisplayName": "[11] RCS SYS A: ASC FEED 2",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12266,7 +12264,7 @@
       "TypeID": 1,
       "RefID": 115,
       "Id": "lm_fuse_P11_RCSSysA_ISOLVlv",
-      "DisplayName": "P11_RCSSysA_ISOLVlv",
+      "DisplayName": "[11] RCS SYS A: ISOL VLV",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12277,7 +12275,7 @@
       "TypeID": 1,
       "RefID": 116,
       "Id": "lm_fuse_P11_RCSSysA_Q1TCA",
-      "DisplayName": "P11_RCSSysA_Q1TCA",
+      "DisplayName": "[11] RCS SYS A: QUAD 1 TCA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12288,7 +12286,7 @@
       "TypeID": 1,
       "RefID": 117,
       "Id": "lm_fuse_P11_RCSSysA_Q2TCA",
-      "DisplayName": "P11_RCSSysA_Q2TCA",
+      "DisplayName": "[11] RCS SYS A: QUAD 2 TCA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12299,7 +12297,7 @@
       "TypeID": 1,
       "RefID": 118,
       "Id": "lm_fuse_P11_RCSSysA_Q3TCA",
-      "DisplayName": "P11_RCSSysA_Q3TCA",
+      "DisplayName": "[11] RCS SYS A: QUAD 3 TCA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12310,7 +12308,7 @@
       "TypeID": 1,
       "RefID": 119,
       "Id": "lm_fuse_P11_RCSSysA_Q4TCA",
-      "DisplayName": "P11_RCSSysA_Q4TCA",
+      "DisplayName": "[11] RCS SYS A: QUAD 4 TCA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12321,7 +12319,7 @@
       "TypeID": 1,
       "RefID": 120,
       "Id": "lm_fuse_P11_RCSSysA_MainSov",
-      "DisplayName": "P11_RCSSysA_MainSov",
+      "DisplayName": "[11] RCS SYS A: MAIN SOV",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12332,7 +12330,7 @@
       "TypeID": 1,
       "RefID": 121,
       "Id": "lm_fuse_P11_Prop_DESHeRegVent",
-      "DisplayName": "P11_Prop_DESHeRegVent",
+      "DisplayName": "[11] PROP: DES He REG/VENT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12343,7 +12341,7 @@
       "TypeID": 1,
       "RefID": 122,
       "Id": "lm_fuse_P11_Heaters_RndzRdr_STB",
-      "DisplayName": "P11_Heaters_RndzRdr_STB",
+      "DisplayName": "[11] HTR: RR - STB",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12354,7 +12352,7 @@
       "TypeID": 1,
       "RefID": 123,
       "Id": "lm_fuse_P11_Heaters_RndzRdrOpr",
-      "DisplayName": "P11_Heaters_RndzRdrOpr",
+      "DisplayName": "[11] HTR: RR - OPR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12365,7 +12363,7 @@
       "TypeID": 1,
       "RefID": 124,
       "Id": "lm_fuse_P11_Heaters_LdgRdr",
-      "DisplayName": "P11_Heaters_LdgRdr",
+      "DisplayName": "[11] HTR: LDG RDR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12376,7 +12374,7 @@
       "TypeID": 1,
       "RefID": 125,
       "Id": "lm_fuse_P11_Heaters_DockWindow",
-      "DisplayName": "P11_Heaters_DockWindow",
+      "DisplayName": "[11] HTR: DOCK WINDOW",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12387,7 +12385,7 @@
       "TypeID": 1,
       "RefID": 126,
       "Id": "lm_fuse_P11_Heaters_AOT",
-      "DisplayName": "P11_Heaters_AOT",
+      "DisplayName": "[11] HTR: AOT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12398,7 +12396,7 @@
       "TypeID": 1,
       "RefID": 127,
       "Id": "lm_fuse_P11_Inst_SigCondr1",
-      "DisplayName": "P11_Inst_SigCondr1",
+      "DisplayName": "[11] INST: SIG CONDR 1",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12409,7 +12407,7 @@
       "TypeID": 1,
       "RefID": 128,
       "Id": "lm_fuse_P11_StabCont_AEA",
-      "DisplayName": "P11_StabCont_AEA",
+      "DisplayName": "[11] S/C: AEA",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12420,7 +12418,7 @@
       "TypeID": 1,
       "RefID": 129,
       "Id": "lm_fuse_P11_StabCont_AbortStage",
-      "DisplayName": "P11_StabCont_AbortStage",
+      "DisplayName": "[11] S/C: ABORT STAGE",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12431,7 +12429,7 @@
       "TypeID": 1,
       "RefID": 130,
       "Id": "lm_fuse_P11_StabCont_ATCA_PGNS",
-      "DisplayName": "P11_StabCont_ATCA_PGNS",
+      "DisplayName": "[11] S/C: ATCA(PGNS)",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12442,7 +12440,7 @@
       "TypeID": 1,
       "RefID": 131,
       "Id": "lm_fuse_P11_StabCont_AELD",
-      "DisplayName": "P11_StabCont_AELD",
+      "DisplayName": "[11] S/C: AELD",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12453,7 +12451,7 @@
       "TypeID": 1,
       "RefID": 132,
       "Id": "lm_fuse_P11_StabCont_EngCont",
-      "DisplayName": "P11_StabCont_EngCont",
+      "DisplayName": "[11] S/C: ENG CONT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12464,7 +12462,7 @@
       "TypeID": 1,
       "RefID": 133,
       "Id": "lm_fuse_P11_StabCont_AttDirCont",
-      "DisplayName": "P11_StabCont_AttDirCont",
+      "DisplayName": "[11] S/C: ATT DIR CONT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12475,7 +12473,7 @@
       "TypeID": 1,
       "RefID": 134,
       "Id": "lm_fuse_P11_StabCont_EngStartOvrd",
-      "DisplayName": "P11_StabCont_EngStartOvrd",
+      "DisplayName": "[11] S/C: ENG START OVRD",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12486,7 +12484,7 @@
       "TypeID": 1,
       "RefID": 135,
       "Id": "lm_fuse_P11_StabCont_DecaPWR",
-      "DisplayName": "P11_StabCont_DecaPWR",
+      "DisplayName": "[11] S/C: DECA PWR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12497,7 +12495,7 @@
       "TypeID": 1,
       "RefID": 136,
       "Id": "lm_fuse_P11_ED_LdgGearFlag",
-      "DisplayName": "P11_ED_LdgGearFlag",
+      "DisplayName": "[11] ED: LDG GEAR FLAG",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12508,7 +12506,7 @@
       "TypeID": 1,
       "RefID": 137,
       "Id": "lm_fuse_P11_ED_LogicPWRA",
-      "DisplayName": "P11_ED_LogicPWRA",
+      "DisplayName": "[11] ED: LOGIC PWR A",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12519,7 +12517,7 @@
       "TypeID": 1,
       "RefID": 138,
       "Id": "lm_fuse_P11_LTG_Util",
-      "DisplayName": "P11_LTG_Util",
+      "DisplayName": "[11] LTG: UTIL",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12530,7 +12528,7 @@
       "TypeID": 1,
       "RefID": 139,
       "Id": "lm_fuse_P11_LTG_AnunDockCompnt",
-      "DisplayName": "P11_LTG_AnunDockCompnt",
+      "DisplayName": "[11] LTG: ANUN/DOCK/COMPNT",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12541,7 +12539,7 @@
       "TypeID": 1,
       "RefID": 140,
       "Id": "lm_fuse_P11_PGNS_IMU_OPR",
-      "DisplayName": "P11_PGNS_IMU_OPR",
+      "DisplayName": "[11] PGNS: IMU OPR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12552,7 +12550,7 @@
       "TypeID": 1,
       "RefID": 141,
       "Id": "lm_fuse_P11_PGNS_IMU_STBY",
-      "DisplayName": "P11_PGNS_IMU_STBY",
+      "DisplayName": "[11] PGNS: IMU STBY",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12563,7 +12561,7 @@
       "TypeID": 1,
       "RefID": 142,
       "Id": "lm_fuse_P11_PGNS_LGC_DSKY",
-      "DisplayName": "P11_PGNS_LGC_DSKY",
+      "DisplayName": "[11] PGNS: LGC DSKY",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12574,7 +12572,7 @@
       "TypeID": 1,
       "RefID": 143,
       "Id": "lm_fuse_P11_PGNS_RndzRdr",
-      "DisplayName": "P11_PGNS_RndzRdr",
+      "DisplayName": "[11] PGNS: RNDZ RDR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12585,7 +12583,7 @@
       "TypeID": 1,
       "RefID": 144,
       "Id": "lm_fuse_P11_PGNS_LdgRdr",
-      "DisplayName": "P11_PGNS_LdgRdr",
+      "DisplayName": "[11] PGNS: LDL RDR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12596,7 +12594,7 @@
       "TypeID": 1,
       "RefID": 145,
       "Id": "lm_fuse_P11_PGNS_SigStrDisp",
-      "DisplayName": "P11_PGNS_SigStrDisp",
+      "DisplayName": "[11] PGNS: SIG STR DISP",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12607,7 +12605,7 @@
       "TypeID": 1,
       "RefID": 146,
       "Id": "lm_fuse_P11_COMM_CDRAudio",
-      "DisplayName": "P11_COMM_CDRAudio",
+      "DisplayName": "[11] COMM: CDR AUDIO",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12618,7 +12616,7 @@
       "TypeID": 1,
       "RefID": 147,
       "Id": "lm_fuse_P11_COMM_VHFARcvr",
-      "DisplayName": "P11_COMM_VHFARcvr",
+      "DisplayName": "[11] COMM: VHF A RCVR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12629,7 +12627,7 @@
       "TypeID": 1,
       "RefID": 148,
       "Id": "lm_fuse_P11_COMM_VHFBXMTR",
-      "DisplayName": "P11_COMM_VHFBXMTR",
+      "DisplayName": "[11] COMM: VHF B XMTR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12640,7 +12638,7 @@
       "TypeID": 1,
       "RefID": 149,
       "Id": "lm_fuse_P11_COMM_SecSBand_PWRAmpl",
-      "DisplayName": "P11_COMM_SecSBand_PWRAmpl",
+      "DisplayName": "[11] COMM: SEC S BD - PWR AMPL",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12651,7 +12649,7 @@
       "TypeID": 1,
       "RefID": 150,
       "Id": "lm_fuse_P11_COMM_SecSBand_XMTR_RCVR",
-      "DisplayName": "P11_COMM_SecSBand_XMTR_RCVR",
+      "DisplayName": "[11] COMM: SEC S BD - XMTR/RCVR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12662,7 +12660,7 @@
       "TypeID": 1,
       "RefID": 151,
       "Id": "lm_fuse_P11_COMM_UpDataLink",
-      "DisplayName": "P11_COMM_UpDataLink",
+      "DisplayName": "[11] COMM: UP DATA LINKL",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12673,7 +12671,7 @@
       "TypeID": 1,
       "RefID": 152,
       "Id": "lm_fuse_P11_ECS_GlycolPump_AutoTrnsfr",
-      "DisplayName": "P11_ECS_GlycolPump_AutoTrnsfr",
+      "DisplayName": "[11] ECS: GLY PMP AUTO TRNSFR",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12684,7 +12682,7 @@
       "TypeID": 1,
       "RefID": 153,
       "Id": "lm_fuse_P11_ECS_GlycolPump_1",
-      "DisplayName": "P11_ECS_GlycolPump_1",
+      "DisplayName": "[11] ECS: GLY PMP 1",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12695,7 +12693,7 @@
       "TypeID": 1,
       "RefID": 154,
       "Id": "lm_fuse_P11_ECS_GlycolPump_2",
-      "DisplayName": "P11_ECS_GlycolPump_2",
+      "DisplayName": "[11] ECS: GLY PMP 2",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12706,7 +12704,7 @@
       "TypeID": 1,
       "RefID": 155,
       "Id": "lm_fuse_P11_ECS_CabinFan1",
-      "DisplayName": "P11_ECS_CabinFan1",
+      "DisplayName": "[11] ECS: CABIN FAN 1",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12717,7 +12715,7 @@
       "TypeID": 1,
       "RefID": 156,
       "Id": "lm_fuse_P11_ECS_SuitFan1",
-      "DisplayName": "P11_ECS_SuitFan1",
+      "DisplayName": "[11] ECS: SUIT FAN 1",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12728,7 +12726,7 @@
       "TypeID": 1,
       "RefID": 157,
       "Id": "lm_fuse_P11_Heaters_Q1",
-      "DisplayName": "P11_Heaters_Q1",
+      "DisplayName": "[11] RCS HTR A/B 1: Q1",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12739,7 +12737,7 @@
       "TypeID": 1,
       "RefID": 158,
       "Id": "lm_fuse_P11_Heaters_Q2",
-      "DisplayName": "P11_Heaters_Q2",
+      "DisplayName": "[11] RCS HTR A/B 1: Q2",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12750,7 +12748,7 @@
       "TypeID": 1,
       "RefID": 159,
       "Id": "lm_fuse_P11_Heaters_Q3",
-      "DisplayName": "P11_Heaters_Q3",
+      "DisplayName": "[11] RCS HTR A/B 1: Q3",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12761,7 +12759,7 @@
       "TypeID": 1,
       "RefID": 160,
       "Id": "lm_fuse_P11_Heaters_Q4",
-      "DisplayName": "P11_Heaters_Q4",
+      "DisplayName": "[11] RCS HTR A/B 1: Q4",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -12772,10 +12770,10 @@
       "TypeID": 1,
       "RefID": 161,
       "Id": "lm_fuse_ECS_SuitGasDiverter",
-      "DisplayName": "lm_fuse_ECS_SuitGasDiverter",
+      "DisplayName": "[ECS] SUIT GAS DIVERTER",
       "Labels": {
-        "1": "Open",
-        "2": "Closed"
+        "1": "PULL - EGRESS",
+        "2": "PUSH - CABIN"
       }
     },
     {
@@ -12794,7 +12792,7 @@
       "TypeID": 3,
       "RefID": 1,
       "Id": "lm_button_AGSButton1",
-      "DisplayName": "AGSButton1",
+      "DisplayName": "[AGS] 1",
       "Labels": null
     },
     {
@@ -12802,7 +12800,7 @@
       "TypeID": 3,
       "RefID": 2,
       "Id": "lm_button_P05_StartEngine",
-      "DisplayName": "P05_StartEngine",
+      "DisplayName": "[5] ENG START",
       "Labels": null
     },
     {
@@ -12810,7 +12808,7 @@
       "TypeID": 3,
       "RefID": 3,
       "Id": "lm_button_P06_StopEngine",
-      "DisplayName": "P06_StopEngine",
+      "DisplayName": "[6] ENG STOP",
       "Labels": null
     },
     {
@@ -12818,7 +12816,7 @@
       "TypeID": 3,
       "RefID": 4,
       "Id": "lm_button_P05_StopEngine",
-      "DisplayName": "P05_StopEngine",
+      "DisplayName": "[5] ENG STOP",
       "Labels": null
     },
     {
@@ -12826,7 +12824,7 @@
       "TypeID": 3,
       "RefID": 5,
       "Id": "lm_button_P01_MasterAlarm",
-      "DisplayName": "P01_MasterAlarm",
+      "DisplayName": "[1] MASTER ALARM pb",
       "Labels": null
     },
     {
@@ -12834,7 +12832,7 @@
       "TypeID": 3,
       "RefID": 6,
       "Id": "lm_button_P02_MasterAlarm",
-      "DisplayName": "P02_MasterAlarm",
+      "DisplayName": "[2] MASTER ALARM pb",
       "Labels": null
     },
     {
@@ -12842,7 +12840,7 @@
       "TypeID": 3,
       "RefID": 7,
       "Id": "lm_button_LGCVerb",
-      "DisplayName": "LGCVerb",
+      "DisplayName": "[DSKY] VERB",
       "Labels": null
     },
     {
@@ -12850,7 +12848,7 @@
       "TypeID": 3,
       "RefID": 8,
       "Id": "lm_button_LGCNoun",
-      "DisplayName": "LGCNoun",
+      "DisplayName": "[DSKY] NOUN",
       "Labels": null
     },
     {
@@ -12858,7 +12856,7 @@
       "TypeID": 3,
       "RefID": 9,
       "Id": "lm_button_LGCPlus",
-      "DisplayName": "LGCPlus",
+      "DisplayName": "[DSKY] +",
       "Labels": null
     },
     {
@@ -12866,7 +12864,7 @@
       "TypeID": 3,
       "RefID": 10,
       "Id": "lm_button_LGCNeg",
-      "DisplayName": "LGCNeg",
+      "DisplayName": "[DSKY] -",
       "Labels": null
     },
     {
@@ -12874,7 +12872,7 @@
       "TypeID": 3,
       "RefID": 11,
       "Id": "lm_button_LGC0",
-      "DisplayName": "LGC0",
+      "DisplayName": "[DSKY] 0",
       "Labels": null
     },
     {
@@ -12882,7 +12880,7 @@
       "TypeID": 3,
       "RefID": 12,
       "Id": "lm_button_LGC1",
-      "DisplayName": "LGC1",
+      "DisplayName": "[DSKY] 1",
       "Labels": null
     },
     {
@@ -12890,7 +12888,7 @@
       "TypeID": 3,
       "RefID": 13,
       "Id": "lm_button_LGC2",
-      "DisplayName": "LGC2",
+      "DisplayName": "[DSKY] 2",
       "Labels": null
     },
     {
@@ -12898,7 +12896,7 @@
       "TypeID": 3,
       "RefID": 14,
       "Id": "lm_button_LGC3",
-      "DisplayName": "LGC3",
+      "DisplayName": "[DSKY] 3",
       "Labels": null
     },
     {
@@ -12906,7 +12904,7 @@
       "TypeID": 3,
       "RefID": 15,
       "Id": "lm_button_LGC4",
-      "DisplayName": "LGC4",
+      "DisplayName": "[DSKY] 4",
       "Labels": null
     },
     {
@@ -12914,7 +12912,7 @@
       "TypeID": 3,
       "RefID": 16,
       "Id": "lm_button_LGC5",
-      "DisplayName": "LGC5",
+      "DisplayName": "[DSKY] 5",
       "Labels": null
     },
     {
@@ -12922,7 +12920,7 @@
       "TypeID": 3,
       "RefID": 17,
       "Id": "lm_button_LGC6",
-      "DisplayName": "LGC6",
+      "DisplayName": "[DSKY] 6",
       "Labels": null
     },
     {
@@ -12930,7 +12928,7 @@
       "TypeID": 3,
       "RefID": 18,
       "Id": "lm_button_LGC7",
-      "DisplayName": "LGC7",
+      "DisplayName": "[DSKY] 7",
       "Labels": null
     },
     {
@@ -12938,7 +12936,7 @@
       "TypeID": 3,
       "RefID": 19,
       "Id": "lm_button_LGC8",
-      "DisplayName": "LGC8",
+      "DisplayName": "[DSKY] 8",
       "Labels": null
     },
     {
@@ -12946,7 +12944,7 @@
       "TypeID": 3,
       "RefID": 20,
       "Id": "lm_button_LGC9",
-      "DisplayName": "LGC9",
+      "DisplayName": "[DSKY] 9",
       "Labels": null
     },
     {
@@ -12954,7 +12952,7 @@
       "TypeID": 3,
       "RefID": 21,
       "Id": "lm_button_LGCClr",
-      "DisplayName": "LGCClr",
+      "DisplayName": "[DSKY] CLR",
       "Labels": null
     },
     {
@@ -12962,7 +12960,7 @@
       "TypeID": 3,
       "RefID": 22,
       "Id": "lm_button_LGCPro",
-      "DisplayName": "LGCPro",
+      "DisplayName": "[DSKY] PRO",
       "Labels": null
     },
     {
@@ -12970,7 +12968,7 @@
       "TypeID": 3,
       "RefID": 23,
       "Id": "lm_button_LGCKeyRel",
-      "DisplayName": "LGCKeyRel",
+      "DisplayName": "[DSKY] KEY REL",
       "Labels": null
     },
     {
@@ -12978,7 +12976,7 @@
       "TypeID": 3,
       "RefID": 24,
       "Id": "lm_button_LGCEntr",
-      "DisplayName": "LGCEntr",
+      "DisplayName": "[DSKY] ENTR",
       "Labels": null
     },
     {
@@ -12986,7 +12984,7 @@
       "TypeID": 3,
       "RefID": 25,
       "Id": "lm_button_LGCRset",
-      "DisplayName": "LGCRset",
+      "DisplayName": "[DSKY] RSET",
       "Labels": null
     },
     {
@@ -12994,7 +12992,7 @@
       "TypeID": 3,
       "RefID": 26,
       "Id": "lm_button_P05_Transl",
-      "DisplayName": "P05_Transl",
+      "DisplayName": "[5] TRNSL +X",
       "Labels": null
     },
     {
@@ -13002,7 +13000,7 @@
       "TypeID": 3,
       "RefID": 27,
       "Id": "lm_button_P01_Abort",
-      "DisplayName": "P01_Abort",
+      "DisplayName": "[1] ABORT pb",
       "Labels": null
     },
     {
@@ -13010,7 +13008,7 @@
       "TypeID": 3,
       "RefID": 28,
       "Id": "lm_button_P01_AbortStage",
-      "DisplayName": "P01_AbortStage",
+      "DisplayName": "[1] ABORT STAGE pb",
       "Labels": null
     },
     {
@@ -13018,7 +13016,7 @@
       "TypeID": 3,
       "RefID": 29,
       "Id": "lm_button_AGSButton0",
-      "DisplayName": "AGSButton0",
+      "DisplayName": "[AGS] 0",
       "Labels": null
     },
     {
@@ -13026,7 +13024,7 @@
       "TypeID": 3,
       "RefID": 30,
       "Id": "lm_button_AGSButton2",
-      "DisplayName": "AGSButton2",
+      "DisplayName": "[AGS] 2",
       "Labels": null
     },
     {
@@ -13034,7 +13032,7 @@
       "TypeID": 3,
       "RefID": 31,
       "Id": "lm_button_AGSButton3",
-      "DisplayName": "AGSButton3",
+      "DisplayName": "[AGS] 3",
       "Labels": null
     },
     {
@@ -13042,7 +13040,7 @@
       "TypeID": 3,
       "RefID": 32,
       "Id": "lm_button_AGSButton4",
-      "DisplayName": "AGSButton4",
+      "DisplayName": "[AGS] 4",
       "Labels": null
     },
     {
@@ -13050,7 +13048,7 @@
       "TypeID": 3,
       "RefID": 33,
       "Id": "lm_button_AGSButton5",
-      "DisplayName": "AGSButton5",
+      "DisplayName": "[AGS] 5",
       "Labels": null
     },
     {
@@ -13058,7 +13056,7 @@
       "TypeID": 3,
       "RefID": 34,
       "Id": "lm_button_AGSButton6",
-      "DisplayName": "AGSButton6",
+      "DisplayName": "[AGS] 6",
       "Labels": null
     },
     {
@@ -13066,7 +13064,7 @@
       "TypeID": 3,
       "RefID": 35,
       "Id": "lm_button_AGSButton7",
-      "DisplayName": "AGSButton7",
+      "DisplayName": "[AGS] 7",
       "Labels": null
     },
     {
@@ -13074,7 +13072,7 @@
       "TypeID": 3,
       "RefID": 36,
       "Id": "lm_button_AGSButton8",
-      "DisplayName": "AGSButton8",
+      "DisplayName": "[AGS] 8",
       "Labels": null
     },
     {
@@ -13082,7 +13080,7 @@
       "TypeID": 3,
       "RefID": 37,
       "Id": "lm_button_AGSButton9",
-      "DisplayName": "AGSButton9",
+      "DisplayName": "[AGS] 9",
       "Labels": null
     },
     {
@@ -13090,7 +13088,7 @@
       "TypeID": 3,
       "RefID": 38,
       "Id": "lm_button_AGSButtonHold",
-      "DisplayName": "AGSButtonHold",
+      "DisplayName": "[AGS] HOLD",
       "Labels": null
     },
     {
@@ -13098,7 +13096,7 @@
       "TypeID": 3,
       "RefID": 39,
       "Id": "lm_button_AGSButtonCLR",
-      "DisplayName": "AGSButtonCLR",
+      "DisplayName": "[AGS] CLR",
       "Labels": null
     },
     {
@@ -13106,7 +13104,7 @@
       "TypeID": 3,
       "RefID": 40,
       "Id": "lm_button_AGSButtonReadOut",
-      "DisplayName": "AGSButtonReadOut",
+      "DisplayName": "[AGS] READ OUT",
       "Labels": null
     },
     {
@@ -13114,7 +13112,7 @@
       "TypeID": 3,
       "RefID": 41,
       "Id": "lm_button_AGSButtonEntr",
-      "DisplayName": "AGSButtonEntr",
+      "DisplayName": "[AGS] ENTR",
       "Labels": null
     },
     {
@@ -13122,7 +13120,7 @@
       "TypeID": 3,
       "RefID": 42,
       "Id": "lm_button_AGSButtonPos",
-      "DisplayName": "AGSButtonPos",
+      "DisplayName": "[AGS] +",
       "Labels": null
     },
     {
@@ -13130,7 +13128,7 @@
       "TypeID": 3,
       "RefID": 43,
       "Id": "lm_button_AGSButtonNeg",
-      "DisplayName": "AGSButtonNeg",
+      "DisplayName": "[AGS] -",
       "Labels": null
     },
     {
@@ -13138,7 +13136,7 @@
       "TypeID": 2,
       "RefID": 1,
       "Id": "lm_knob_P14_EPSPowerTempMon",
-      "DisplayName": "[P14] EPS Power/Temp Mon",
+      "DisplayName": "[P14] EPS PWR/TEMP MON",
       "Labels": {
         "0": "ED/OFF",
         "1": "BAT 1",
@@ -13158,12 +13156,12 @@
       "TypeID": 2,
       "RefID": 2,
       "Id": "lm_knob_P02_TempPressMon",
-      "DisplayName": "P02_TempPressMon",
+      "DisplayName": "[2] TEMP/PRESS MON sel",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3"
+        "0": "He",
+        "1": "PRPLNT",
+        "2": "FUEL MANF",
+        "3": "OXID MANF"
       }
     },
     {
@@ -13171,15 +13169,15 @@
       "TypeID": 2,
       "RefID": 3,
       "Id": "lm_knob_P03_TempMonitor",
-      "DisplayName": "P03_TempMonitor",
+      "DisplayName": "[3] TEMP MON sel",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5",
-        "6": "6"
+        "0": "RNDZ RDR",
+        "1": "LDG RDR",
+        "2": "RCS QUAD 1",
+        "3": "RCS QUAD 2",
+        "4": "RCS QUAD 3",
+        "5": "RCS QUAD 4",
+        "6": "S-BAND"
       }
     },
     {
@@ -13187,15 +13185,15 @@
       "TypeID": 2,
       "RefID": 4,
       "Id": "lm_knob_P01_HeliumMon",
-      "DisplayName": "P01_HeliumMon",
+      "DisplayName": "[1] HELIUM MON sel",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5",
-        "6": "6"
+        "0": "OFF",
+        "1": "DES AMB PRESS",
+        "2": "DES SUPCRIT PRESS",
+        "3": "ASC TEMP 1",
+        "4": "ASC TEMP 2",
+        "5": "ASC PRESS 1",
+        "6": "ASC PRESS 2"
       }
     },
     {
@@ -13203,14 +13201,14 @@
       "TypeID": 2,
       "RefID": 5,
       "Id": "lm_knob_P03_TestMonitor",
-      "DisplayName": "P03_TestMonitor",
+      "DisplayName": "[3] TEST MONITOR sel",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5"
+        "0": "LR PWR - ALT XMTR",
+        "1": "LR PWR - VEL XMTR",
+        "2": "RR - AGC",
+        "3": "RR - XMTR PWR",
+        "4": "RR - SHAFT ERR",
+        "5": "RR - TRUN ERR"
       }
     },
     {
@@ -13218,11 +13216,11 @@
       "TypeID": 2,
       "RefID": 6,
       "Id": "lm_knob_P03_RndzRadar_Tracker",
-      "DisplayName": "P03_RndzRadar_Tracker",
+      "DisplayName": "[3] RR TRACK MODE sel",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "AUTO TRACK",
+        "1": "SLEW",
+        "2": "LGC"
       }
     },
     {
@@ -13230,16 +13228,16 @@
       "TypeID": 2,
       "RefID": 7,
       "Id": "lm_knob_P03_LampToneTest",
-      "DisplayName": "P03_LampToneTest",
+      "DisplayName": "[3] LAMP/TINE TEST sel",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4",
-        "5": "5",
-        "6": "6",
-        "7": "7"
+        "0": "OFF",
+        "1": "ALARM TONE",
+        "2": "C/W 1",
+        "3": "C/W 2",
+        "4": "C/W 3",
+        "5": "C/W 4",
+        "6": "COMPNT",
+        "7": "OFF"
       }
     },
     {
@@ -13247,9 +13245,9 @@
       "TypeID": 2,
       "RefID": 8,
       "Id": "lm_knob_P03_FloodLightDimmer",
-      "DisplayName": "P03_FloodLightDimmer",
+      "DisplayName": "[3] FLOOD OVHD/FWD sel",
       "Labels": {
-        "0": "0",
+        "0": "DIM",
         "1": "1",
         "2": "2",
         "3": "3",
@@ -13259,7 +13257,7 @@
         "7": "7",
         "8": "8",
         "9": "9",
-        "10": "10"
+        "10": "BLIGHT"
       }
     },
     {
@@ -13267,11 +13265,11 @@
       "TypeID": 2,
       "RefID": 9,
       "Id": "lm_knob_P02_Glycol",
-      "DisplayName": "P02_Glycol",
+      "DisplayName": "[2] GLYCOL sel",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "INST (SEC)",
+        "1": "PUMP 1",
+        "2": "PUMP 2"
       }
     },
     {
@@ -13279,9 +13277,9 @@
       "TypeID": 2,
       "RefID": 10,
       "Id": "lm_knob_P02_SuitFan",
-      "DisplayName": "P02_SuitFan",
+      "DisplayName": "[2] SUIT FAN sel",
       "Labels": {
-        "0": "0",
+        "0": "OFF",
         "1": "1",
         "2": "2"
       }
@@ -13291,13 +13289,13 @@
       "TypeID": 2,
       "RefID": 11,
       "Id": "lm_knob_P02_O2_H2O_Qty_Mon",
-      "DisplayName": "P02_O2_H2O_Qty_Mon",
+      "DisplayName": "[2] O2/H2O QTY MON sel",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3",
-        "4": "4"
+        "0": "C/W RESET",
+        "1": "DES 1",
+        "2": "DES 2",
+        "3": "ASC 1",
+        "4": "ASC 2"
       }
     },
     {
@@ -13305,9 +13303,9 @@
       "TypeID": 2,
       "RefID": 12,
       "Id": "lm_knob_P05_FloodOvhdFwd",
-      "DisplayName": "P05_FloodOvhdFwd",
+      "DisplayName": "[5] LTG: FLOOD OVHD/FWD",
       "Labels": {
-        "0": "0",
+        "0": "DIM",
         "1": "1",
         "2": "2",
         "3": "3",
@@ -13317,7 +13315,7 @@
         "7": "7",
         "8": "8",
         "9": "9",
-        "10": "10"
+        "10": "BRIGHT"
       }
     },
     {
@@ -13325,9 +13323,9 @@
       "TypeID": 2,
       "RefID": 13,
       "Id": "lm_knob_P05_AnunNum",
-      "DisplayName": "P05_AnunNum",
+      "DisplayName": "[5] LTG: ANUN/NUM",
       "Labels": {
-        "0": "0",
+        "0": "DIM",
         "1": "1",
         "2": "2",
         "3": "3",
@@ -13337,7 +13335,7 @@
         "7": "7",
         "8": "8",
         "9": "9",
-        "10": "10"
+        "10": "BRIGHT"
       }
     },
     {
@@ -13345,9 +13343,9 @@
       "TypeID": 2,
       "RefID": 14,
       "Id": "lm_knob_P05_Integral",
-      "DisplayName": "P05_Integral",
+      "DisplayName": "[5] LTG: INTGL",
       "Labels": {
-        "0": "0",
+        "0": "DIM",
         "1": "1",
         "2": "2",
         "3": "3",
@@ -13357,7 +13355,7 @@
         "7": "7",
         "8": "8",
         "9": "9",
-        "10": "10"
+        "10": "BRIGHT"
       }
     },
     {
@@ -13365,7 +13363,7 @@
       "TypeID": 2,
       "RefID": 15,
       "Id": "lm_knob_P12_Pitch",
-      "DisplayName": "P12_Pitch",
+      "DisplayName": "[12] ANT: PITCH",
       "Labels": {
         "0": "0",
         "1": "1",
@@ -13387,7 +13385,7 @@
       "TypeID": 2,
       "RefID": 16,
       "Id": "lm_knob_P12_Yaw",
-      "DisplayName": "P12_Yaw",
+      "DisplayName": "[12] ANT: YAW",
       "Labels": {
         "0": "0",
         "1": "1",
@@ -13405,12 +13403,12 @@
       "TypeID": 2,
       "RefID": 17,
       "Id": "lm_knob_P12_SBand",
-      "DisplayName": "P12_SBand",
+      "DisplayName": "[12] ANT: S BD",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3"
+        "0": "FWD",
+        "1": "AFT",
+        "2": "SLEW",
+        "3": "LUNAR STAY"
       }
     },
     {
@@ -13418,11 +13416,11 @@
       "TypeID": 2,
       "RefID": 18,
       "Id": "lm_knob_P12_VHF",
-      "DisplayName": "P12_VHF",
+      "DisplayName": "[12] ANT: VHF",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "AFT",
+        "1": "FWD",
+        "2": "EVA"
       }
     },
     {
@@ -13430,11 +13428,11 @@
       "TypeID": 2,
       "RefID": 19,
       "Id": "lm_knob_ECS_CabinRepress",
-      "DisplayName": "ECS_CabinRepress",
+      "DisplayName": "[ECS] CABIN REPRESS",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "CLOSE",
+        "1": "AUTO",
+        "2": "MANUAL"
       }
     },
     {
@@ -13442,10 +13440,10 @@
       "TypeID": 2,
       "RefID": 20,
       "Id": "lm_knob_ECS_PLSS_Fill",
-      "DisplayName": "ECS_PLSS_Fill",
+      "DisplayName": "[ECS] PLSS FILL",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "CLOSE",
+        "1": "OPEN"
       }
     },
     {
@@ -13453,12 +13451,12 @@
       "TypeID": 2,
       "RefID": 21,
       "Id": "lm_knob_ECS_PressRegA",
-      "DisplayName": "ECS_PressRegA",
+      "DisplayName": "[ECS] PRESS REG A",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3"
+        "0": "CLOSE",
+        "1": "DIRECT O2",
+        "2": "CABIN",
+        "3": "EGRESS"
       }
     },
     {
@@ -13466,12 +13464,12 @@
       "TypeID": 2,
       "RefID": 22,
       "Id": "lm_knob_ECS_PressRegB",
-      "DisplayName": "ECS_PressRegB",
+      "DisplayName": "[ECS] PRESS REG B",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2",
-        "3": "3"
+        "0": "CLOSE",
+        "1": "DIRECT O2",
+        "2": "CABIN",
+        "3": "EGRESS"
       }
     },
     {
@@ -13479,10 +13477,10 @@
       "TypeID": 2,
       "RefID": 23,
       "Id": "lm_knob_ECS_O2_Des",
-      "DisplayName": "ECS_O2_Des",
+      "DisplayName": "[ECS] DES O2",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "CLOSE",
+        "1": "OPEN"
       }
     },
     {
@@ -13490,10 +13488,10 @@
       "TypeID": 2,
       "RefID": 24,
       "Id": "lm_knob_ECS_O2_Asc1",
-      "DisplayName": "ECS_O2_Asc1",
+      "DisplayName": "[ECS] ASC O2 1",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "CLOSE",
+        "1": "OPEN"
       }
     },
     {
@@ -13501,10 +13499,10 @@
       "TypeID": 2,
       "RefID": 25,
       "Id": "lm_knob_ECS_O2_Asc2",
-      "DisplayName": "ECS_O2_Asc2",
+      "DisplayName": "[ECS] ASC O2 2",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "OPEN",
+        "1": "CLOSE"
       }
     },
     {
@@ -13512,10 +13510,10 @@
       "TypeID": 2,
       "RefID": 26,
       "Id": "lm_knob_ECS_SuitIsol_CDR",
-      "DisplayName": "lm_knob_ECS_SuitIsol_CDR",
+      "DisplayName": "[ECS] CDR SUIT ISOL",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "SUIT FLOW",
+        "1": "SUIT DISC"
       }
     },
     {
@@ -13523,10 +13521,10 @@
       "TypeID": 2,
       "RefID": 27,
       "Id": "lm_knob_ECS_SuitIsol_LMP",
-      "DisplayName": "ECS_SuitIsol_LMP",
+      "DisplayName": "[ECS] LMP SUIT ISOL",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "SUIT DISC",
+        "1": "SUIT FLOW"
       }
     },
     {
@@ -13534,10 +13532,10 @@
       "TypeID": 2,
       "RefID": 28,
       "Id": "lm_knob_ECS_SecEvapFlow",
-      "DisplayName": "ECS_SecEvapFlow",
+      "DisplayName": "[ECS] SEC EVAP FLOW",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "CLOSE",
+        "1": "OPEN"
       }
     },
     {
@@ -13545,10 +13543,10 @@
       "TypeID": 2,
       "RefID": 29,
       "Id": "lm_knob_ECS_PriEvapFlowNo2",
-      "DisplayName": "ECS_PriEvapFlowNo2",
+      "DisplayName": "[ECS] PRI EVAP FLOW NO. 2",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "CLOSE",
+        "1": "OPEN"
       }
     },
     {
@@ -13556,10 +13554,10 @@
       "TypeID": 2,
       "RefID": 30,
       "Id": "lm_knob_ECS_DesH2O",
-      "DisplayName": "ECS_DesH2O",
+      "DisplayName": "[ECS] DES H2O",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "CLOSE",
+        "1": "OPEN"
       }
     },
     {
@@ -13567,10 +13565,10 @@
       "TypeID": 2,
       "RefID": 31,
       "Id": "lm_knob_ECS_PriEvapFlowNo1",
-      "DisplayName": "ECS_PriEvapFlowNo1",
+      "DisplayName": "[ECS] PRI EVAP FLOW NO. 1",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "CLOSE",
+        "1": "OPEN"
       }
     },
     {
@@ -13578,9 +13576,9 @@
       "TypeID": 2,
       "RefID": 32,
       "Id": "lm_knob_ECS_SuitTemp",
-      "DisplayName": "ECS_SuitTemp",
+      "DisplayName": "[ECS] SUIT TEMP",
       "Labels": {
-        "0": "0",
+        "0": "COLD",
         "1": "1",
         "2": "2",
         "3": "3",
@@ -13590,7 +13588,7 @@
         "7": "7",
         "8": "8",
         "9": "9",
-        "10": "10"
+        "10": "HOT"
       }
     },
     {
@@ -13598,10 +13596,10 @@
       "TypeID": 2,
       "RefID": 33,
       "Id": "lm_knob_ECS_ASC_H2O",
-      "DisplayName": "ECS_ASC_H2O",
+      "DisplayName": "[ECS] ASC H2O",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "CLOSE",
+        "1": "OPEN"
       }
     },
     {
@@ -13609,10 +13607,10 @@
       "TypeID": 2,
       "RefID": 34,
       "Id": "lm_knob_ECS_LiquidGarmentCooling",
-      "DisplayName": "ECS_LiquidGarmentCooling",
+      "DisplayName": "[ECS] LIQUID COOL",
       "Labels": {
-        "0": "0",
-        "1": "1"
+        "0": "COLD",
+        "1": "HOT"
       }
     },
     {
@@ -13620,11 +13618,11 @@
       "TypeID": 2,
       "RefID": 35,
       "Id": "lm_knob_ECS_SuitCircuitRelief",
-      "DisplayName": "ECS_SuitCircuitRelief",
+      "DisplayName": "[ECS] AUIT CIRCUIT RELIEF",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "CLOSE",
+        "1": "AUTO",
+        "2": "OPEN"
       }
     },
     {
@@ -13632,11 +13630,11 @@
       "TypeID": 2,
       "RefID": 36,
       "Id": "lm_knob_ECS_CabinGasReturn",
-      "DisplayName": "ECS_CabinGasReturn",
+      "DisplayName": "[ECS] CABIN GAS RETURN",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "CLOSE",
+        "1": "AUTO",
+        "2": "OPEN"
       }
     },
     {
@@ -13644,11 +13642,11 @@
       "TypeID": 2,
       "RefID": 37,
       "Id": "lm_knob_ECS_WaterTankSelector",
-      "DisplayName": "ECS_WaterTankSelector",
+      "DisplayName": "[ECS] WATER TANK sel",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "DES",
+        "1": "ASC",
+        "2": "SEC"
       }
     },
     {
@@ -13656,7 +13654,7 @@
       "TypeID": 2,
       "RefID": 38,
       "Id": "lm_knob_TTCAThrottleJets",
-      "DisplayName": "TTCAThrottleJets",
+      "DisplayName": "[TTCA] THR/JETTS",
       "Labels": {
         "0": "0",
         "1": "1"
@@ -13667,11 +13665,11 @@
       "TypeID": 2,
       "RefID": 39,
       "Id": "lm_knob_ForwardHatch_CabinReliefVentValve",
-      "DisplayName": "lm_knob_ForwardHatch_CabinReliefVentValve",
+      "DisplayName": "[FWD HATCH] CABIN RELIEF VENT",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "CLOSE",
+        "1": "AUTO",
+        "2": "OPEN"
       }
     },
     {
@@ -13679,11 +13677,11 @@
       "TypeID": 2,
       "RefID": 40,
       "Id": "lm_knob_OverheadHatch_CabinReliefVentValve",
-      "DisplayName": "lm_knob_OverheadHatch_CabinReliefVentValve",
+      "DisplayName": "[OVHD HATCH] CABIN RELIEF VENT",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "CLOSE",
+        "1": "AUTO",
+        "2": "OPEN"
       }
     },
     {
@@ -13691,11 +13689,11 @@
       "TypeID": 2,
       "RefID": 41,
       "Id": "lm_knob_ECS_CO2CanisterSelect",
-      "DisplayName": "lm_knob_ECS_CO2CanisterSelect",
+      "DisplayName": "[ECS] CO2 CANISTER sel",
       "Labels": {
-        "0": "0",
-        "1": "1",
-        "2": "2"
+        "0": "PRIM",
+        "1": "OFF",
+        "2": "SEC"
       }
     },
     {
