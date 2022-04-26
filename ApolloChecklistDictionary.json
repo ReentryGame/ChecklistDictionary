@@ -836,8 +836,8 @@
       "Id": "switch_RotCntlPWR_Direct1",
       "DisplayName": "[1] RHC PWR DIR 1",
       "Labels": {
-        "2": "MNA/MNB",
-        "4": "OFF",
+        "2": "OFF",
+        "4": "MNA/MNB",
         "5": "MNA"
       }
     },
