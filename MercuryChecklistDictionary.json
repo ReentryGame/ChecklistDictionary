@@ -47,8 +47,8 @@
       "Id": "switch_IsolBtry",
       "DisplayName": "[MIP] Isol Btry",
       "Labels": {
-        "1": "ON",
-        "3": "OFF"
+        "1": "STBY",
+        "3": "NORM"
       }
     },
     {
