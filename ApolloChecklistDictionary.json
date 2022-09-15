@@ -1460,8 +1460,8 @@
       "Id": "switch_SPSdVThrustA",
       "DisplayName": "[1] ΔV THRUST A",
       "Labels": {
-        "4": "ARM",
-        "5": "NORM"
+        "4": "NORMAL",
+        "5": "OFF"
       }
     },
     {
@@ -1471,8 +1471,8 @@
       "Id": "switch_SPSdVThrustB",
       "DisplayName": "[1] ΔV THRUST B",
       "Labels": {
-        "4": "ARM",
-        "5": "NORM"
+        "4": "NORMAL",
+        "5": "OFF"
       }
     },
     {
@@ -12783,8 +12783,8 @@
       "Id": "lm_fuse_ECS_WaterSepSel",
       "DisplayName": "lm_fuse_ECS_WaterSepSel",
       "Labels": {
-        "1": "Open",
-        "2": "Closed"
+        "1": "SEP 2",
+        "2": "SEP 1"
       }
     },
     {
@@ -13512,8 +13512,8 @@
       "Id": "lm_knob_ECS_SuitIsol_CDR",
       "DisplayName": "[ECS] CDR SUIT ISOL",
       "Labels": {
-        "0": "SUIT FLOW",
-        "1": "SUIT DISC"
+        "0": "SUIT DISC",
+        "1": "SUIT FLOW"
       }
     },
     {
@@ -13632,7 +13632,7 @@
       "Id": "lm_knob_ECS_CabinGasReturn",
       "DisplayName": "[ECS] CABIN GAS RETURN",
       "Labels": {
-        "0": "CLOSE",
+        "0": "EGRESS",
         "1": "AUTO",
         "2": "OPEN"
       }
