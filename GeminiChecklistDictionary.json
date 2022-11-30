@@ -473,8 +473,8 @@
       "Id": "switch_CoolSecPumpA",
       "DisplayName": "[MC] Cool Sec Pump A",
       "Labels": {
-        "4": "On",
-        "5": "Off"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
@@ -483,8 +483,8 @@
       "Id": "switch_CoolSecPumpB",
       "DisplayName": "[MC] Cool Sec Pump B",
       "Labels": {
-        "4": "On",
-        "5": "Off"
+        "4": "ON",
+        "5": "OFF"
       }
     },
     {
