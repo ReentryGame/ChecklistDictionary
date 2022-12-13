@@ -2529,8 +2529,8 @@
       "Id": "switch_UpTlmCmd",
       "DisplayName": "[3] UP TLM CMD",
       "Labels": {
-        "2": "RSET",
-        "4": "NORM",
+        "2": "NORM",
+        "4": "RSET",
         "5": "OFF"
       }
     },
