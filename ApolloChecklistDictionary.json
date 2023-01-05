@@ -11351,7 +11351,7 @@
       "TypeID": 1,
       "RefID": 32,
       "Id": "lm_fuse_P16_Heaters_RCSAB2_Q4",
-      "DisplayName": "[16] HTR: SCS SYS A/B-2: Q¤",
+      "DisplayName": "[16] HTR: SCS SYS A/B-2: Q4",
       "Labels": {
         "1": "Open",
         "2": "Closed"
@@ -13228,7 +13228,7 @@
       "TypeID": 2,
       "RefID": 7,
       "Id": "lm_knob_P03_LampToneTest",
-      "DisplayName": "[3] LAMP/TINE TEST sel",
+      "DisplayName": "[3] LAMP/TONE TEST sel",
       "Labels": {
         "0": "OFF",
         "1": "ALARM TONE",
