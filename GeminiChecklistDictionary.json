@@ -2171,6 +2171,20 @@
     },
     {
       "TypeID": 3,
+      "RefID": 31,
+      "Id": "button_Para",
+      "DisplayName": "[LC] Parachute",
+      "Labels": null
+    },
+    {
+      "TypeID": 3,
+      "RefID": 33,
+      "Id": "ParaJett",
+      "DisplayName": "[LC] Parachute Jettison",
+      "Labels": null
+    },
+    {
+      "TypeID": 3,
       "RefID": 29,
       "Id": "button_IMUReset",
       "DisplayName": "[LC] IMU Reset?",
