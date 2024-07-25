@@ -7743,7 +7743,7 @@
       "TypeID": 2,
       "RefID": 57,
       "Id": "knob_P375_OxygenSurgeVlv",
-      "DisplayName": "[352] SRG TK RELF vlv",
+      "DisplayName": "[375] SRG TK RELF vlv",
       "Labels": {
         "0": "CLOSED",
         "1": "OPEN"
