@@ -320,7 +320,7 @@
       "TypeID": 0,
       "RefID": 34,
       "Id": "switch_FC1Purge",
-      "DisplayName": "[3] FC 1 PURG",
+      "DisplayName": "[3] FC 1 PURGE",
       "Labels": {
         "2": "OFF",
         "4": "H2",
@@ -332,7 +332,7 @@
       "TypeID": 0,
       "RefID": 35,
       "Id": "switch_FC2Purge",
-      "DisplayName": "[3] FC 2 PURG",
+      "DisplayName": "[3] FC 2 PURGE",
       "Labels": {
         "2": "OFF",
         "4": "H2",
@@ -344,7 +344,7 @@
       "TypeID": 0,
       "RefID": 36,
       "Id": "switch_FC3Purge",
-      "DisplayName": "[3] FC 3 PURG",
+      "DisplayName": "[3] FC 3 PURGE",
       "Labels": {
         "2": "OFF",
         "4": "H2",
@@ -668,9 +668,9 @@
       "Id": "switch_AutoRCSB4",
       "DisplayName": "[8] AUTO RCS YAW B4",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "MNA",
+        "5": "MNB"
       }
     },
     {
@@ -680,9 +680,9 @@
       "Id": "switch_AutoRCSC1",
       "DisplayName": "[8] AUTO RCS A/C ROLL C1",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "MNA",
+        "5": "MNB"
       }
     },
     {
@@ -692,9 +692,9 @@
       "Id": "switch_AutoRCSC2",
       "DisplayName": "[8] AUTO RCS A/C ROLL C2",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "MNA",
+        "5": "MNB"
       }
     },
     {
@@ -704,9 +704,9 @@
       "Id": "switch_AutoRCSC3",
       "DisplayName": "[8] AUTO RCS PITCH C3",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "MNA",
+        "5": "MNB"
       }
     },
     {
@@ -716,9 +716,9 @@
       "Id": "switch_AutoRCSC4",
       "DisplayName": "[8] AUTO RCS PITCH C4",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "MNA",
+        "5": "MNB"
       }
     },
     {
@@ -728,9 +728,9 @@
       "Id": "switch_AutoRCSD1",
       "DisplayName": "[8] AUTO RCS B/D ROLL D1",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "MNA",
+        "5": "MNB"
       }
     },
     {
@@ -740,9 +740,9 @@
       "Id": "switch_AutoRCSD2",
       "DisplayName": "[8] AUTO RCS B/D ROLL D2",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "MNA",
+        "5": "MNB"
       }
     },
     {
@@ -752,9 +752,9 @@
       "Id": "switch_AutoRCSD3",
       "DisplayName": "[8] AUTO RCS YAW D3",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "MNA",
+        "5": "MNB"
       }
     },
     {
@@ -764,9 +764,9 @@
       "Id": "switch_AutoRCSD4",
       "DisplayName": "[8] AUTO RCS YAW D4",
       "Labels": {
-        "2": "Middle",
-        "4": "Up",
-        "5": "Down"
+        "2": "OFF",
+        "4": "MNA",
+        "5": "MNB"
       }
     },
     {
@@ -2437,6 +2437,7 @@
       "Id": "switch_SBandNormalPwrAmplSel",
       "DisplayName": "[3] S BD PWR AMPL PRIM",
       "Labels": {
+        "2": "Middle",
         "4": "PRIM",
         "5": "SEC"
       }
@@ -2553,6 +2554,7 @@
       "Id": "switch_SBandAntennaOmniDHiG",
       "DisplayName": "[3] S BD ANT OMNI",
       "Labels": {
+        "2": "Middle",
         "4": "OMNI",
         "5": "HI GAIN"
       }
@@ -3176,9 +3178,8 @@
       "Id": "switch_P122_OpticsMode",
       "DisplayName": "[122] OPT MODE",
       "Labels": {
-        "2": "MAN",
         "4": "CMC",
-        "5": "ZERO"
+        "5": "MAN"
       }
     },
     {
@@ -3209,11 +3210,11 @@
       "TypeID": 0,
       "RefID": 276,
       "Id": "switch_P122_Tracker",
-      "DisplayName": "[122] TRACKER",
+      "DisplayName": "[122] OPT ZERO",
       "Labels": {
-        "2": "ACQ",
-        "4": "TRACK",
-        "5": "OFF"
+        "2": "OFF",
+        "4": "ZERO",
+        "5": "nop"
       }
     },
     {
@@ -3225,7 +3226,7 @@
       "Labels": {
         "2": "0",
         "4": "SLAVE TO SXT",
-        "5": "OFFSET 23"
+        "5": "OFFSET 25"
       }
     },
     {
@@ -7153,7 +7154,7 @@
       "DisplayName": "[4] GLY PUMPS",
       "Labels": {
         "0": "1 AC2",
-        "1": "1 AC2",
+        "1": "1 AC1",
         "2": "OFF",
         "3": "2 AC1",
         "4": "2 AC2"
@@ -7300,7 +7301,25 @@
         "13": "13",
         "14": "14",
         "15": "15",
-        "16": "16"
+        "16": "16",
+        "17": "17",
+        "18": "18",
+        "19": "19",
+        "20": "20",
+        "21": "21",
+        "22": "22",
+        "23": "23",
+        "24": "24",
+        "25": "25",
+        "26": "26",
+        "27": "27",
+        "28": "28",
+        "29": "29",
+        "30": "30",
+        "31": "31",
+        "32": "32",
+        "33": "33",
+        "34": "34"
       }
     },
     {
@@ -7326,7 +7345,25 @@
         "13": "13",
         "14": "14",
         "15": "15",
-        "16": "16"
+        "16": "16",
+        "17": "17",
+        "18": "18",
+        "19": "19",
+        "20": "20",
+        "21": "21",
+        "22": "22",
+        "23": "23",
+        "24": "24",
+        "25": "25",
+        "26": "26",
+        "27": "27",
+        "28": "28",
+        "29": "29",
+        "30": "30",
+        "31": "31",
+        "32": "32",
+        "33": "33",
+        "34": "34"
       }
     },
     {
@@ -7743,7 +7780,7 @@
       "TypeID": 2,
       "RefID": 57,
       "Id": "knob_P375_OxygenSurgeVlv",
-      "DisplayName": "[352] SRG TK RELF vlv",
+      "DisplayName": "[375] SRG TK RELF vlv",
       "Labels": {
         "0": "CLOSED",
         "1": "OPEN"
@@ -8433,6 +8470,14 @@
     },
     {
       "SpacecraftID": 0,
+      "TypeID": 5,
+      "RefID": 59,
+      "Id": "gauge_P101_DCVoltSysTest",
+      "DisplayName": "gauge_P101_DCVoltSysTest",
+      "Labels": null
+    },
+    {
+      "SpacecraftID": 0,
       "TypeID": 6,
       "RefID": 1,
       "Id": "light_WarnCryoPress",
@@ -9021,6 +9066,86 @@
       "RefID": 74,
       "Id": "light_SIB_LVStatus_LVGuid",
       "DisplayName": "light_SIB_LVStatus_LVGuid",
+      "Labels": null
+    },
+    {
+      "SpacecraftID": 0,
+      "TypeID": 6,
+      "RefID": 75,
+      "Id": "light_AGC2UplinkActy",
+      "DisplayName": "light_AGC2UplinkActy",
+      "Labels": null
+    },
+    {
+      "SpacecraftID": 0,
+      "TypeID": 6,
+      "RefID": 76,
+      "Id": "light_AGC2Temp",
+      "DisplayName": "light_AGC2Temp",
+      "Labels": null
+    },
+    {
+      "SpacecraftID": 0,
+      "TypeID": 6,
+      "RefID": 77,
+      "Id": "light_AGC2NoAtt",
+      "DisplayName": "light_AGC2NoAtt",
+      "Labels": null
+    },
+    {
+      "SpacecraftID": 0,
+      "TypeID": 6,
+      "RefID": 78,
+      "Id": "light_AGC2GimbalLock",
+      "DisplayName": "light_AGC2GimbalLock",
+      "Labels": null
+    },
+    {
+      "SpacecraftID": 0,
+      "TypeID": 6,
+      "RefID": 79,
+      "Id": "light_AGC2Stby",
+      "DisplayName": "light_AGC2Stby",
+      "Labels": null
+    },
+    {
+      "SpacecraftID": 0,
+      "TypeID": 6,
+      "RefID": 80,
+      "Id": "light_AGC2Prog",
+      "DisplayName": "light_AGC2Prog",
+      "Labels": null
+    },
+    {
+      "SpacecraftID": 0,
+      "TypeID": 6,
+      "RefID": 81,
+      "Id": "light_AGC2KeyRel",
+      "DisplayName": "light_AGC2KeyRel",
+      "Labels": null
+    },
+    {
+      "SpacecraftID": 0,
+      "TypeID": 6,
+      "RefID": 82,
+      "Id": "light_AGC2Restart",
+      "DisplayName": "light_AGC2Restart",
+      "Labels": null
+    },
+    {
+      "SpacecraftID": 0,
+      "TypeID": 6,
+      "RefID": 83,
+      "Id": "light_AGC2OprErr",
+      "DisplayName": "light_AGC2OprErr",
+      "Labels": null
+    },
+    {
+      "SpacecraftID": 0,
+      "TypeID": 6,
+      "RefID": 84,
+      "Id": "light_AGC2Tracker",
+      "DisplayName": "light_AGC2Tracker",
       "Labels": null
     },
     {
@@ -10211,11 +10336,11 @@
       "SpacecraftID": 1,
       "TypeID": 0,
       "RefID": 75,
-      "Id": "lm_switch_P01_AltitudeMon",
-      "DisplayName": "[1] ATTITUDE MON",
+      "Id": "lm_switch_P01_AttitudeMon",
+      "DisplayName": "lm_switch_P01_AttitudeMon",
       "Labels": {
-        "4": "PGNS",
-        "5": "AGS"
+        "4": "Up",
+        "5": "Down"
       }
     },
     {
@@ -10266,11 +10391,11 @@
       "SpacecraftID": 1,
       "TypeID": 0,
       "RefID": 80,
-      "Id": "lm_switch_P02_AltitudeMon",
-      "DisplayName": "[2] ATTITUDE MON",
+      "Id": "lm_switch_P02_AttitudeMon",
+      "DisplayName": "lm_switch_P02_AttitudeMon",
       "Labels": {
-        "4": "PGNS",
-        "5": "AGS"
+        "4": "Up",
+        "5": "Down"
       }
     },
     {
@@ -10691,7 +10816,6 @@
       "Id": "lm_switch_P12_Comm_VHF_A_Rcvr",
       "DisplayName": "[12] VHF A: RCVR",
       "Labels": {
-        "2": "Middle",
         "4": "ON",
         "5": "OFF"
       }
@@ -10715,7 +10839,6 @@
       "Id": "lm_switch_P12_Comm_VHF_B_Rcvr",
       "DisplayName": "[12] VHF B: RCVR",
       "Labels": {
-        "2": "Middle",
         "4": "ON",
         "5": "OFF"
       }
@@ -13257,7 +13380,7 @@
         "7": "7",
         "8": "8",
         "9": "9",
-        "10": "BLIGHT"
+        "10": "BRIGHT"
       }
     },
     {

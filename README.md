@@ -14,4 +14,4 @@ The Display Name should show what panel the switch/control is in, and the name o
 - [MDC-1] GDC Align
 - [MDC-2] EDS Auto
 
-Any contributions are on a volunteer basis, and is freely given to the Reentry - An Orbital Simulator and Wilhelmsen Studios. If your contributions make it into the project, feel free to reach out on petriw@gmail.com and I will be happy to add you to the credits list.
+If your contributions make it into the project, feel free to reach out and let me know and I will be happy to add you to the credits list.
