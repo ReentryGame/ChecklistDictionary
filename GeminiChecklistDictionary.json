@@ -229,7 +229,7 @@
       "Labels": {
         "2": "WARMUP",
         "4": "ON",
-        "5": "ÖFF"
+        "5": "OFF"
       }
     },
     {
@@ -2171,20 +2171,6 @@
     },
     {
       "TypeID": 3,
-      "RefID": 31,
-      "Id": "button_Para",
-      "DisplayName": "[LC] Parachute",
-      "Labels": null
-    },
-    {
-      "TypeID": 3,
-      "RefID": 33,
-      "Id": "ParaJett",
-      "DisplayName": "[LC] Parachute Jettison",
-      "Labels": null
-    },
-    {
-      "TypeID": 3,
       "RefID": 29,
       "Id": "button_IMUReset",
       "DisplayName": "[LC] IMU Reset?",
@@ -2698,6 +2684,38 @@
         "8": "7",
         "9": "8",
         "10": "MAX"
+      }
+    },
+    {
+      "TypeID": 2,
+      "RefID": 32,
+      "Id": "knob_TempCabin",
+      "DisplayName": "knob_TempCabin",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7"
+      }
+    },
+    {
+      "TypeID": 2,
+      "RefID": 33,
+      "Id": "knob_TempSuit",
+      "DisplayName": "knob_TempSuit",
+      "Labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7"
       }
     },
     {
