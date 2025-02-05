@@ -1648,7 +1648,7 @@
       "DisplayName": "[2] CM/SM SEP 1",
       "Labels": {
         "4": "ON",
-        "5": "OFF"
+        "5": "AUTO"
       }
     },
     {
@@ -1659,7 +1659,7 @@
       "DisplayName": "[2] CM/SM SEP 2",
       "Labels": {
         "4": "ON",
-        "5": "OFF"
+        "5": "AUTO"
       }
     },
     {
