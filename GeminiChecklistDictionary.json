@@ -2303,6 +2303,41 @@
       "Labels": null
     },
     {
+      "TypeID": 3,
+      "RefID": 31,
+      "Id": "button_Para",
+      "DisplayName": "[LC] Para",
+      "Labels": null
+    },
+    {
+      "TypeID": 3,
+      "RefID": 33,
+      "Id": "button_ParaJett",
+      "DisplayName": "[LC] Para Jett",
+      "Labels": null
+    },
+    {
+      "TypeID": 3,
+      "RefID": 26,
+      "Id": "button_PlatformReset",
+      "DisplayName": "Platform Reset",
+      "Labels": null
+    },
+    {
+      "TypeID": 3,
+      "RefID": 34,
+      "Id": "button_EjectDRingCDR",
+      "DisplayName": "Eject D-Ring CDR",
+      "Labels": null
+    },
+    {
+      "TypeID": 3,
+      "RefID": 35,
+      "Id": "button_EjectDRingPLT",
+      "DisplayName": "Eject D-Ring PLT",
+      "Labels": null
+    },
+    {
       "TypeID": 2,
       "RefID": 1,
       "Id": "knob_VoltMeterSelector",
