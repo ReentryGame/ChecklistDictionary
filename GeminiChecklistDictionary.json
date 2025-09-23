@@ -337,7 +337,7 @@
       "TypeID": 0,
       "RefID": 33,
       "Id": "switch_ControllerPWRRCSB",
-      "DisplayName": "[LC] Controller PW RCS B",
+      "DisplayName": "[LC] Controller PWR RCS B",
       "Labels": {
         "2": "OFF",
         "4": "ACME",

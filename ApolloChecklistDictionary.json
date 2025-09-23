@@ -12904,7 +12904,7 @@
       "TypeID": 1,
       "RefID": 162,
       "Id": "lm_fuse_ECS_WaterSepSel",
-      "DisplayName": "lm_fuse_ECS_WaterSepSel",
+      "DisplayName": "[ECS] WATER SEP SEL",
       "Labels": {
         "1": "SEP 2",
         "2": "SEP 1"
@@ -13741,7 +13741,7 @@
       "TypeID": 2,
       "RefID": 35,
       "Id": "lm_knob_ECS_SuitCircuitRelief",
-      "DisplayName": "[ECS] AUIT CIRCUIT RELIEF",
+      "DisplayName": "[ECS] SUIT CIRCUIT RELIEF",
       "Labels": {
         "0": "CLOSE",
         "1": "AUTO",
