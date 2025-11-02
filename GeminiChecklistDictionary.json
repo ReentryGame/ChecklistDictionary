@@ -2075,7 +2075,7 @@
       "TypeID": 0,
       "RefID": 204,
       "Id": "switch_ABORTHandle",
-      "DisplayName": "switch_ABORTHandle",
+      "DisplayName": "[LHP] Abort handle",
       "Labels": {
         "2": "SHUTDOWN",
         "4": "ABORT",
@@ -2086,7 +2086,7 @@
       "TypeID": 0,
       "RefID": 205,
       "Id": "switch_XOver",
-      "DisplayName": "switch_XOver",
+      "DisplayName": "[PMP] X OVER",
       "Labels": {
         "4": "ON",
         "5": "OFF"
@@ -2725,7 +2725,7 @@
       "TypeID": 2,
       "RefID": 32,
       "Id": "knob_TempCabin",
-      "DisplayName": "knob_TempCabin",
+      "DisplayName": "[LC] TEMP CONTROL CABIN",
       "Labels": {
         "0": "0",
         "1": "1",
@@ -2741,7 +2741,7 @@
       "TypeID": 2,
       "RefID": 33,
       "Id": "knob_TempSuit",
-      "DisplayName": "knob_TempSuit",
+      "DisplayName": "[LC] TEMP CONTROL SUIT",
       "Labels": {
         "0": "0",
         "1": "1",
@@ -3002,7 +3002,7 @@
       "TypeID": 4,
       "RefID": 36,
       "Id": "gauge_RangeRate5",
-      "DisplayName": "gauge_RangeRate5",
+      "DisplayName": "[MC] Range rate",
       "Labels": null
     },
     {

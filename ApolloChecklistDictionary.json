@@ -10337,7 +10337,7 @@
       "TypeID": 0,
       "RefID": 75,
       "Id": "lm_switch_P01_AttitudeMon",
-      "DisplayName": "lm_switch_P01_AttitudeMon",
+      "DisplayName": "[1] Attitude mon",
       "Labels": {
         "4": "Up",
         "5": "Down"
@@ -10392,7 +10392,7 @@
       "TypeID": 0,
       "RefID": 80,
       "Id": "lm_switch_P02_AttitudeMon",
-      "DisplayName": "lm_switch_P02_AttitudeMon",
+      "DisplayName": "[2] Attitude mon",
       "Labels": {
         "4": "Up",
         "5": "Down"
