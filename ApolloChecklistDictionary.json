@@ -6548,6 +6548,17 @@
     },
     {
       "SpacecraftID": 0,
+      "TypeID": 1,
+      "RefID": 263,
+      "Id": "fuse_P2_PostLdgVentValve",
+      "DisplayName": "[2] POST LDG VENT VALVE",
+      "Labels": {
+        "1": "Open",
+        "2": "Closed"
+      }
+    },
+    {
+      "SpacecraftID": 0,
       "TypeID": 3,
       "RefID": 1,
       "Id": "button_AGCVerb",
