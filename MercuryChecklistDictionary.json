@@ -455,7 +455,7 @@
       "TypeID": 0,
       "RefID": 45,
       "Id": "switch_IsolatedBattery",
-      "DisplayName": "[MIP] Isolated Battery",
+      "DisplayName": "[Rear] Isolated Battery",
       "Labels": {
         "4": "OFF",
         "5": "ON"
