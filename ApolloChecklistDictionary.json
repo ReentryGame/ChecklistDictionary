@@ -10941,7 +10941,7 @@
       "Id": "lm_switch_P04_LMP_ACA",
       "DisplayName": "[4] ACA/4 JETS (LMP)",
       "Labels": {
-        "4": "ENBALE",
+        "4": "ENABLE",
         "5": "DISABLE"
       }
     },
@@ -12919,6 +12919,17 @@
       "Labels": {
         "1": "SEP 2",
         "2": "SEP 1"
+      }
+    },
+    {
+      "SpacecraftID": 1,
+      "TypeID": 1,
+      "RefID": 163,
+      "Id": "lm_fuse_P11_UrineLineHeater",
+      "DisplayName": "[11] Urine Line Heater",
+      "Labels": {
+        "1": "Open",
+        "2": "Closed"
       }
     },
     {
